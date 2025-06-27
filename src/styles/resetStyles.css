@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* ==============
+ ========= css documentation =========
+
+ * Template Name: Tradexy
+ * Version: 1.0
+ * Author: pixelaxis
+ * Author URI: https://themeforest.net/user/pixelaxis
+ * Description: Forex & Stock Broker Trading Signals, Review, Tutorial Website Template
+
+ 01. abstracts
+     1.1 --> mixins
+     1.2 --> variables
+
+ 02. base
+     2.1 --> reset
+     2.2 --> typography
+     2.3 --> global
+
+ 03. components
+     3.1 --> buttons
+     3.2 --> forms
+     3.3 --> preloader
+     3.4 --> faq-section
+     3.5 --> custom-animation
+
+ 04. layout
+     4.1 --> header
+     4.2 --> banner
+     4.3 --> footer
+
+ 05. sections
+
+
+ 06. responsive
+
+    =========================
+ --------- (2.1) reset styles start ---------
+ ==== */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*::-moz-selection {
+    color: #ffffff;
+    background-color: #1770c8;
+}
+*::selection {
+    color: #ffffff;
+    background-color: #1770c8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    line-height: 0;
+    font-weight: 400;
+    color: #404A60;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 0.4vw;
+}
+body::-webkit-scrollbar-track {
+    background-color: #cae6f7;
+}
+body::-webkit-scrollbar-button, body::-webkit-scrollbar-thumb {
+    background-color: #2660B5;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+section, footer {
+    overflow-x: hidden;
+}
+
+a,
+button {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 0px;
+    outline: 0;
+    transition: all 0.35s ease-in-out;
+    letter-spacing: 1px;
+}
+a i,
+button i {
+    transition: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+a:hover,
+button:hover {
+    text-decoration: none;
+    border: 0px;
+    outline: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+button:focus {
+    box-shadow: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+input,
+textarea {
+    border: 0px;
+    outline: 0px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #6A7283 !important;
+    opacity: 1;
+    font-size: 16px;
+}
+input::placeholder,
+textarea::placeholder {
+    color: #6A7283 !important;
+    opacity: 1;
+    font-size: 16px;
+}
+input:focus,
+textarea:focus {
+    box-shadow: none;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0px;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=checkbox] {
+    width: initial;
+    height: initial;
+}
+
+textarea {
+    min-height: 150px;
+    resize: none;
+}
+
+.form-select:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+}
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li,
+table,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* ====
+ --------- (2.1) reset styles end ---------
+ ==== */

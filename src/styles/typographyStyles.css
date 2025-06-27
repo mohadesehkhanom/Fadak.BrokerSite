@@ -1,0 +1,551 @@
+/* ====
+ --------- (2.2) typography styles start ---------
+ ==== */
+a,
+button {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #222E48;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    cursor: pointer;
+    letter-spacing: inherit;
+}
+a:hover,
+button:hover {
+    color: #2660B5;
+}
+
+p,
+th,
+td,
+li,
+input,
+textarea,
+select,
+label,
+blockquote,
+span {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: var(--font-yekanbakh), sans-serif;
+}
+
+p span {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+.cmn-display {
+    font-size: 55px;
+    font-weight: 600;
+}
+@media screen and (max-width: 1399px) {
+    .cmn-display {
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .cmn-display {
+        font-size: 39px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .cmn-display {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .cmn-display {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .cmn-display {
+        font-size: 28px;
+    }
+}
+
+.display-1,
+.display-1 > a,
+.display-2,
+.display-2 > a,
+.display-3,
+.display-3 > a,
+.display-4,
+.display-4 > a,
+h1,
+h1 > a,
+h2,
+h2 > a,
+h3,
+h3 > a,
+h4,
+h4 > a,
+h5,
+h5 > a,
+h6,
+h6 > a {
+    line-height: 1.2;
+    font-family: var(--font-yekanbakh), sans-serif;
+    color: #222E48;
+    letter-spacing: inherit;
+}
+.display-1 span,
+.display-1 > a span,
+.display-2 span,
+.display-2 > a span,
+.display-3 span,
+.display-3 > a span,
+.display-4 span,
+.display-4 > a span,
+h1 span,
+h1 > a span,
+h2 span,
+h2 > a span,
+h3 span,
+h3 > a span,
+h4 span,
+h4 > a span,
+h5 span,
+h5 > a span,
+h6 span,
+h6 > a span {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+}
+
+.display-1,
+.display-1 > a,
+.display-2,
+.display-2 > a {
+    font-weight: 600;
+}
+
+.display-3,
+.display-3 > a,
+.display-4,
+.display-4 > a {
+    font-weight: 600;
+}
+
+h1,
+h1 > a {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+h2,
+h2 > a {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h3,
+h3 > a {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+h4,
+h4 > a {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+h5,
+h5 > a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h6,
+h6 > a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.fs-small {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.headingTwo,
+.headingThree,
+.headingFour,
+.headingFive,
+.headingSix {
+    font-family: var(--font-yekanbakh), sans-serif;
+    line-height: 1.2;
+    color: #222E48;
+    font-weight: 600;
+}
+
+.headingTwo {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.headingThree {
+    font-size: 32px;
+}
+
+.headingFour {
+    font-size: 24px;
+}
+
+.headingFive {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.headingSix {
+    font-size: 18px;
+}
+
+.headingSeven {
+    font-size: 16px;
+}
+
+.headingeight {
+    font-size: 14px;
+}
+
+.font_primary {
+    font-family: var(--font-yekanbakh), sans-serif;
+}
+
+.font_600 {
+    font-weight: 600;
+}
+
+.font_500 {
+    font-weight: 500;
+}
+
+.font_400 {
+    font-weight: 400;
+}
+
+@media (max-width: 1399px) {
+    .display-2 {
+        font-size: 60px;
+    }
+    .display-3 {
+        font-size: 55px;
+    }
+    .display-4 {
+        font-size: 50px;
+    }
+    h4,
+    h4 > a {
+        font-size: 22px;
+    }
+    .headingFive {
+        font-size: 18px;
+        line-height: 150%;
+    }
+}
+@media (max-width: 1199px) {
+    .display-3 {
+        font-size: 50px;
+    }
+    .display-4 {
+        font-size: 47px;
+    }
+    h1,
+    h1 > a {
+        font-size: 43px;
+    }
+    h2,
+    h2 > a {
+        font-size: 32px;
+    }
+    .headingTwo {
+        font-size: 32px;
+    }
+    .headingFour {
+        font-size: 22px;
+    }
+    .headingFive {
+        font-size: 17px;
+        line-height: 150%;
+    }
+}
+@media (max-width: 991px) {
+    h1,
+    h1 > a {
+        font-size: 32px;
+    }
+    h2,
+    h2 > a {
+        font-size: 26px;
+    }
+    h3,
+    h3 > a {
+        font-size: 22px;
+    }
+    h4,
+    h4 > a {
+        font-size: 20px;
+    }
+    h5,
+    h5 > a {
+        font-size: 18px;
+    }
+    h6,
+    h6 > a {
+        font-size: 16px;
+    }
+    .headingTwo {
+        font-size: 26px;
+    }
+    .headingThree {
+        font-size: 22px;
+    }
+    .headingFour {
+        font-size: 20px;
+    }
+    .headingFive {
+        font-size: 16px;
+    }
+    .headingSix {
+        font-size: 16px;
+    }
+    .display-2 {
+        font-size: 44px;
+    }
+    .display-4 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .display-4 {
+        font-size: 32px;
+    }
+}
+@media (max-width: 575px) {
+    h1,
+    h1 > a {
+        font-size: 28px;
+    }
+    h2,
+    h2 > a {
+        font-size: 24px;
+    }
+    .display-2 {
+        font-size: 40px;
+    }
+    .display-3 {
+        font-size: 36px;
+    }
+}
+@media (max-width: 479px) {
+    .display-2 {
+        font-size: 30px;
+    }
+    .display-3 {
+        font-size: 30px;
+    }
+    .display-4 {
+        font-size: 30px;
+    }
+}
+.section_pt60 {
+    padding-top: 60px;
+}
+
+.mb_12 {
+    margin-bottom: 12px;
+}
+
+.mt_12 {
+    margin-top: 12px;
+}
+
+.pt_12 {
+    padding-top: 12px;
+}
+
+.pb_12 {
+    padding-bottom: 12px;
+}
+
+.mb_16 {
+    margin-bottom: 16px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mt_24 {
+    margin-top: 24px;
+}
+
+.mt_32 {
+    margin-top: 32px;
+}
+
+.mb_32 {
+    margin-bottom: 32px;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+.mb_60 {
+    margin-bottom: 60px;
+}
+
+.mt_60 {
+    margin-top: 60px !important;
+}
+
+.pt_70 {
+    padding-top: 70px;
+}
+
+.pt_80 {
+    padding-top: 80px;
+}
+
+.pt_32 {
+    padding-top: 32px;
+}
+
+.py_32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.py_60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.py_80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+@media screen and (max-width: 1199) {
+    .pb-120 {
+        padding-bottom: 90px;
+    }
+}
+@media screen and (max-width: 991) {
+    .pb-120 {
+        padding-bottom: 75px;
+    }
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+@media screen and (max-width: 1199) {
+    .pt-120 {
+        padding-top: 90px;
+    }
+}
+@media screen and (max-width: 991) {
+    .pt-120 {
+        padding-top: 75px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .section_md_pt {
+        padding-top: 60px;
+    }
+    .part_md_pt {
+        margin-top: 60px;
+    }
+    .part_md_pt40 {
+        margin-top: 40px;
+    }
+    .mb_40 {
+        margin-bottom: 30px;
+    }
+    .mt_40 {
+        margin-top: 30px;
+    }
+    .mb_60 {
+        margin-bottom: 48px;
+    }
+    .mt_60 {
+        margin-top: 48px !important;
+    }
+    .pt_70 {
+        padding-top: 52px;
+    }
+    .pt_80 {
+        padding-top: 60px;
+    }
+    .py_60 {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
+@media (max-width: 991px) {
+    .section_md_pt {
+        padding-top: 60px;
+    }
+    .part_md_pt {
+        margin-top: 60px;
+    }
+    .part_md_pt40 {
+        margin-top: 40px;
+    }
+    .mb_40 {
+        margin-bottom: 30px;
+    }
+    .mt_40 {
+        margin-top: 30px;
+    }
+    .mb_60 {
+        margin-bottom: 48px;
+    }
+    .mt_60 {
+        margin-top: 48px !important;
+    }
+    .pt_70 {
+        padding-top: 52px;
+    }
+    .pt_80 {
+        padding-top: 60px;
+    }
+    .py_60 {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
+@media (max-width: 767px) {
+    .mb_40 {
+        margin-bottom: 28px;
+    }
+    .mt_40 {
+        margin-top: 28px;
+    }
+}
+/* ====
+  --------- (2.2) typography styles end ---------
+  ==== */

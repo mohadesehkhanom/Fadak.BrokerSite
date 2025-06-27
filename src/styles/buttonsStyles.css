@@ -1,0 +1,296 @@
+
+/* ====
+ --------- (3.1) buttons styles start ---------
+ ==== */
+.btn-group {
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+a.conditions_apply {
+    position: relative;
+    margin: auto;
+    font-size: 12px;
+}
+a.conditions_apply::after {
+    content: "";
+    position: absolute;
+    left: -8px;
+    display: flex;
+    align-items: center;
+    width: 3px;
+    height: 3px;
+    background: #2660B5;
+    border-radius: 50%;
+}
+
+.btn_theme {
+    color: #2660B5;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    text-transform: capitalize;
+    border: 1px solid #2660B5;
+    font-size: 16px;
+    border-radius: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    transition: all 0.35s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+.btn_theme span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #2660B5;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.btn_theme i {
+    transition: 0s;
+}
+.btn_theme svg path {
+    transition: all 0.35s ease-in-out;
+}
+.btn_theme:hover, .btn_theme:focus {
+    border: 1px solid #2660B5;
+    color: #fff;
+}
+.btn_theme:hover svg path, .btn_theme:focus svg path {
+    fill: #fff;
+}
+.btn_theme:hover[disabled=disabled], .btn_theme:focus[disabled=disabled] {
+    color: #2660B5;
+    cursor: not-allowed;
+}
+.btn_theme:hover span, .btn_theme:focus span {
+    width: 225%;
+    height: 220px;
+}
+.btn_theme.style2 {
+    background: #EB7A23;
+    border-color: #EB7A23;
+}
+.btn_theme.style2::after {
+    background: #EB7A23;
+}
+.btn_theme.style2:hover {
+    background: transparent;
+}
+
+.btn_theme_active {
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+.btn_theme_active::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #2660B5;
+    z-index: -3;
+}
+.btn_theme_active span {
+    background-color: #fff;
+}
+.btn_theme_active:hover, .btn_theme_active:focus {
+    color: #2660B5;
+}
+
+.icon_box,
+.social_box {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+}
+.icon_box::after,
+.social_box::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -2;
+}
+.icon_box i,
+.social_box i {
+    transition: all 0.35s ease-in-out;
+    font-size: 18px;
+    color: white;
+}
+.icon_box:hover, .icon_box:focus,
+.social_box:hover,
+.social_box:focus {
+    background: #2660B5;
+}
+.icon_box:hover span, .icon_box:focus span,
+.social_box:hover span,
+.social_box:focus span {
+    width: 150px;
+    height: 150px;
+}
+.icon_box:hover i, .icon_box:focus i,
+.social_box:hover i,
+.social_box:focus i {
+    color: white;
+}
+
+.social_box {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_box::after {
+    z-index: -2;
+}
+.social_box i {
+    font-size: 16px;
+}
+
+.btn_bg_white::after {
+    background: white;
+}
+.btn_bg_white i {
+    color: #2660B5;
+}
+.btn_bg_white:hover, .btn_bg_white:focus {
+    background: #2660B5;
+}
+.btn_bg_white:hover i, .btn_bg_white:focus i {
+    color: white;
+}
+
+.scrollToTop {
+    position: fixed;
+    right: 30px;
+    bottom: -10px;
+    width: 45px;
+    height: 45px;
+    line-height: var(--body-line-height);
+    border-radius: 5px;
+    background-color: #2660B5;
+    box-shadow: 0px 1px 13px rgba(7, 76, 62, 0.5);
+    font-size: 20px;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    color: #ffffff !important;
+    transition: 0.3s;
+    transform: translateY(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scrollToTop:hover {
+    color: #ffffff !important;
+}
+.scrollToTop:focus {
+    color: #ffffff !important;
+}
+
+.topActive {
+    bottom: 30px;
+    transform: translateY(0%);
+}
+.topActive i {
+    animation: 4s previewUp infinite;
+}
+
+@media (max-width: 1599px) {
+    .topActive {
+        bottom: 60px;
+    }
+}
+@media (max-width: 1399px) {
+    .sidebar-xxl-fixed {
+        position: absolute;
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    .sidebar-xxl-fixed.show {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@media (max-width: 1199px) {
+    .btn_theme {
+        padding: 14px 20px;
+    }
+    .btn_theme i {
+        font-size: 14px;
+    }
+    .sidebar-xl-fixed {
+        position: absolute;
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    .sidebar-xl-fixed.show {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@media (max-width: 991px) {
+    .sidebar-lg-fixed {
+        position: absolute;
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    .sidebar-lg-fixed.show {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@media (max-width: 767px) {
+    .social_box {
+        width: 32px;
+        min-width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 575px) {
+    .btn-group {
+        gap: 20px;
+    }
+}
+@media (max-width: 479px) {
+    .btn-group {
+        gap: 16px;
+    }
+    .btn_theme {
+        padding: 14px 20px;
+    }
+    .btn_theme i {
+        font-size: 13px;
+    }
+}
+/* ====
+ --------- (3.1) buttons styles end ---------
+ ==== */
