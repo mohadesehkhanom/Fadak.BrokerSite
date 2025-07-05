@@ -768,7 +768,7 @@
 }
 .broker-review-wrap .custom-line {
     width: 1px;
-    height: 150px;
+    height: 120px;
     background: #DFE0E4;
 }
 @media screen and (max-width: 1399px) {
@@ -1680,7 +1680,7 @@
     top: 0;
     height: 100%;
     width: calc(100% - 320px);
-    /*background: url(../images/element/common-bg.png) no-repeat center center;*/
+    background: url(/assets/images/element/common-bg.png) no-repeat center center;
     background-size: cover;
     border-radius: 16px;
     z-index: -1;
@@ -2841,50 +2841,6 @@
     }
 }
 
-.aitable-sponsor {
-    padding: 60px 0;
-}
-.aitable-sponsor.style1 {
-    background: rgba(19, 47, 89, 0.05);
-}
-.aitable-sponsor.style2 {
-    background: #FFF;
-}
-@media screen and (max-width: 1199px) {
-    .aitable-sponsor {
-        padding: 40px 0;
-    }
-}
-@media screen and (max-width: 991px) {
-    .aitable-sponsor {
-        padding: 20px 0;
-    }
-    .aitable-sponsor .aitable-sponsor-item {
-        margin: 0 25px;
-    }
-}
-@media screen and (max-width: 575px) {
-    .aitable-sponsor {
-        padding: 20px 0;
-    }
-    .aitable-sponsor .aitable-sponsor-item {
-        margin: 0 16px;
-    }
-}
-
-.aitable-sponsor-item {
-    max-width: 155px;
-    height: 31px;
-    margin: 0 35px;
-    text-align: center;
-}
-.aitable-sponsor-item img {
-    margin: 0 auto;
-    height: 100%;
-    max-width: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;
-}
 
 .error-page {
     width: 100%;

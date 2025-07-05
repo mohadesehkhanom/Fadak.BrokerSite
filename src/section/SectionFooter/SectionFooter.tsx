@@ -1,7 +1,8 @@
-import "./footerStyles.css"
+import "./SectionFooter.css"
+import Image from "next/image";
 
 
-export default function Footer() {
+export default function SectionFooter() {
     return <>
         <footer className="footer footer-section5 position-relative">
             <div className="container">
@@ -50,21 +51,20 @@ export default function Footer() {
                             <div className="footer5-widget">
                                 <h4 className="footer__title text-white mb-xl-4 mb-3">More Link</h4>
                                 <ul className="page-linking d-grid gap-xxl-3 gap-2">
-                                    <li><a href="contact.html" className="text-white fs-seven">Contact Us</a></li>
-                                    <li><a href="faq.html" className="text-white fs-seven">FAQs</a></li>
-                                    <li><a href="sign-up.html" className="text-white fs-seven">Sign Up</a></li>
-                                    <li><a href="sign-in.html" className="text-white fs-seven">Sign In</a></li>
-                                    <li><a href="error.html" className="text-white fs-seven">404 Error</a></li>
+                                    <li><a href="faq" className="text-white fs-seven">سوالات متداول</a></li>
+                                    <li><a href="faq.html" className="text-white fs-seven">شعب و دفاتر</a></li>
+                                    <li><a href="sign-up.html" className="text-white fs-seven">ارتباط با ما</a></li>
+                                    <li><a href="sign-in.html" className="text-white fs-seven">درباره فدک</a></li>
+                                    <li><a href="error.html" className="text-white fs-seven">شماره حساب</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="Tradexy5-logo-area mb-md-0 mb-3">
-                                <a href="#" className="flogo mb-md-4 mb-3">
-                                    <img src="assets/images/logo/logo-light.png" alt="img"/>
+                                <a href="https://trustseal.enamad.ir/?id=576835&Code=3kNB3rg8dKlDvvd7RJuKzQdCvDUaNyai" className="flogo mb-md-4 mb-3">
+                                    <img src="/assets/images/certificate/enamad.png" alt="img"/>
                                 </a>
-                                <p className="text-white">از طریق شبکه های اجتماعی با ما در ارتباط باشید و همچنین نظرات
-                                    خود را از طریق فرم زیر برای ما ارسال نمایید.</p>
+                                <p className="text-white">از طریق شبکه های اجتماعی با ما در ارتباط باشید.</p>
                                 <div className="social-area mt_20">
                                     <div className="social flex-wrap">
                                         <a href="https://www.instagram.com/rahnamabrokerage"
