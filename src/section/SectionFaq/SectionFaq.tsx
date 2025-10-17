@@ -6,7 +6,7 @@ export default function SectionFaq() {
 
 
     return <>
-        <section className="video-tutorial-section white-bg section">
+        <section className="video-tutorial-section white-bg section" style={{backgroundColor:"#e9eff7 !important"}}>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-5">

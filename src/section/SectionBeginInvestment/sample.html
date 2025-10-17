@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>درباره ما - کارگزاری بورس ایران</title>
+
+    <!-- Bootstrap 5 RTL -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #3b82f6;
+            --accent-color: #10b981;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f9fafb;
+        }
+
+        * {
+            font-family: 'Vazirmatn', sans-serif;
+        }
+
+        body {
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+
+        /* Global Styles */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            right: 0;
+            width: 60px;
+            height: 4px;
+            background-color: var(--accent-color);
+            border-radius: 2px;
+        }
+
+        .section-subtitle {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+        }
+
+        /* Navbar Component */
+        .nav-navbar {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+        }
+
+        .nav-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--primary-color) !important;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: var(--text-dark) !important;
+            margin: 0 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--secondary-color) !important;
+        }
+
+
+
+
+        /* Values Component */
+        .values-section {
+            background-color: var(--bg-light);
+        }
+
+        .value-item {
+            text-align: center;
+            padding: 2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .value-item:hover {
+            transform: scale(1.05);
+        }
+
+        .value-icon {
+            width: 100px;
+            height: 100px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Timeline Component */
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 50%;
+            width: 2px;
+            height: 100%;
+            background-color: var(--secondary-color);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 3rem;
+        }
+
+        .timeline-content {
+            width: 45%;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-right: auto;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: auto;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            top: 1.5rem;
+            right: 50%;
+            width: 20px;
+            height: 20px;
+            background-color: var(--secondary-color);
+            border-radius: 50%;
+            transform: translateX(50%);
+            border: 4px solid white;
+            box-shadow: 0 0 0 4px var(--bg-light);
+        }
+
+        .timeline-year {
+            font-weight: 700;
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+
+        /* Stats Component */
+        .stats-section {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 80px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 0.5rem;
+            counter-reset: number;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+
+
+
+
+        /* Footer Component */
+        .footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+
+        .footer-widget h5 {
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            text-align: center;
+            opacity: 0.8;
+        }
+
+
+    </style>
+</head>
+<body>
+<!-- Navbar Component -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top nav-navbar">
+    <div class="container">
+        <a class="navbar-brand nav-brand" href="#">
+            <i class="fas fa-chart-line ms-2"></i>
+            کارگزاری بورس ایران
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">صفحه اصلی</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">درباره ما</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">خدمات</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">تماس با ما</a>
+                </li>
+            </ul>
+            <button class="btn btn-primary">ورود / ثبت نام</button>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Component -->
+
+<!-- Mission Component -->
+
+
+<!-- Values Component -->
+<section class="section values-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">ارزش‌های بنیادین ما</h2>
+            <p class="section-subtitle">اصولی که راهنمای ما در تمامی تصمیم‌گیری‌ها هستند</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-3 col-6">
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>امنیت</h4>
+                    <p>حفاظت از دارایی‌های شما اولویت اصلی ماست</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h4>تخصص</h4>
+                    <p>تیم متخصص و مجرب در خدمت شماست</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h4>نوآوری</h4>
+                    <p>استفاده از جدیدترین فناوری‌ها برای بهبود خدمات</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>مشتری‌محوری</h4>
+                    <p>رضایت شما، موفقیت ماست</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Timeline Component -->
+<section class="section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">سیر تحول ما</h2>
+            <p class="section-subtitle">مسیر رشد و توسعه کارگزاری بورس ایران</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">۱۳۸۰</div>
+                    <h4>تأسیس کارگزاری</h4>
+                    <p>شروع فعالیت با مجوز سازمان بورس و اوراق بهادار</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">۱۳۸۵</div>
+                    <h4>گسترش خدمات</h4>
+                    <p>افزودن خدمات آنلاین و معرفی پلتفرم معاملاتی</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">۱۳۹۰</div>
+                    <h4>دریافت گواهینامه‌ها</h4>
+                    <p>کسب گواهینامه‌های بین‌المللی و استانداردهای کیفیت</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">۱۳۹۵</div>
+                    <h4>تحول دیجیتال</h4>
+                    <p>راه‌اندازی اپلیکیشن موبایل و خدمات هوشمند</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">۱۴۰۰</div>
+                    <h4>رهبری بازار</h4>
+                    <p>تبدیل شدن به یکی از بزرگترین کارگزاری‌های کشور</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Component -->
+
+<!-- Stats Component -->
+<section class="stats-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50000">0</div>
+                    <div class="stat-label">مشتری فعال</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="20">0</div>
+                    <div class="stat-label">سال سابقه</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">تیم متخصص</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="98">0</div>
+                    <div class="stat-label">درصد رضایت مشتریان</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Component -->
+
+
+<!-- CTA Component -->
+
+<!-- Footer Component -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-widget">
+                    <h5>درباره کارگزاری</h5>
+                    <p>کارگزاری بورس ایران با بیش از دو دهه سابقه، ارائه‌دهنده خدمات حرفه‌ای در بازار سرمایه ایران است.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <div class="footer-widget">
+                    <h5>لینک‌های سریع</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">صفحه اصلی</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">خدمات</a></li>
+                        <li><a href="#">تماس با ما</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <div class="footer-widget">
+                    <h5>خدمات</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">معاملات آنلاین</a></li>
+                        <li><a href="#">صندوق‌ها</a></li>
+                        <li><a href="#">آموزش</a></li>
+                        <li><a href="#">تحلیل بازار</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-widget">
+                    <h5>تماس با ما</h5>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt ms-2"></i> تهران، خیابان ولیعصر، پلاک ۱۰۰</li>
+                        <li><i class="fas fa-phone ms-2"></i> ۰۲۱-۸۸۸۸۸۸۸۸</li>
+                        <li><i class="fas fa-envelope ms-2"></i> info@brokerage.ir</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; ۱۴۰۳ تمامی حقوق برای کارگزاری بورس ایران محفوظ است.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script>
+    // Counter Animation
+    const counters = document.querySelectorAll('.stat-number');
+    const speed = 200;
+
+    const countUp = () => {
+        counters.forEach(counter => {
+            const updateCount = () => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+                const inc = target / speed;
+
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + inc);
+                    setTimeout(updateCount, 1);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+
+            updateCount();
+        });
+    };
+
+    // Intersection Observer for counter animation
+    const observerOptions = {
+        threshold: 0.5
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                countUp();
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    const statsSection = document.querySelector('.stats-section');
+    if (statsSection) {
+        observer.observe(statsSection);
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Add animation on scroll
+    const animateOnScroll = () => {
+        const elements = document.querySelectorAll('.mission-card, .value-item, .team-member, .service-card');
+
+        elements.forEach(element => {
+            const elementTop = element.getBoundingClientRect().top;
+            const elementBottom = element.getBoundingClientRect().bottom;
+
+            if (elementTop < window.innerHeight && elementBottom > 0) {
+                element.style.opacity = '1';
+                element.style.transform = 'translateY(0)';
+            }
+        });
+    };
+
+    // Set initial styles
+    document.querySelectorAll('.mission-card, .value-item, .team-member, .service-card').forEach(element => {
+        element.style.opacity = '0';
+        element.style.transform = 'translateY(30px)';
+        element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    });
+
+    // Trigger animation on scroll
+    window.addEventListener('scroll', animateOnScroll);
+    animateOnScroll(); // Trigger on load
+</script>
+</body>
+</html>

@@ -1,13 +1,20 @@
 'use client'
-import SectionFooter from "@/section/SectionFooter/SectionFooter";
-import SectionHeader from "@/section/SectionHeader/SectionHeader";
 import BankAccount from "@/components/ui/BankAccount/BankAccount";
 import 'animate.css';
-import { useEffect } from 'react';
-import WOW from 'wowjs';
-import {Accordion} from "react-bootstrap";
+import './bank-accounts.css';
+import SectionFooter from "@/section/SectionFooter/SectionFooter";
+import SectionNavbarMenu from "@/section/SectionHeader/SectionNavbarMenu";
+import {Metadata} from "next";
+import {useEffect} from "react";
 
-export default function Home() {
+
+
+export default function Page() {
+
+    useEffect(() => {
+        document.title = 'About Us | My Website';
+    }, []);
+
 
     const EnergyBankAccounts = [
         {
@@ -254,57 +261,76 @@ export default function Home() {
     ];
 
 
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            new WOW.WOW().init();
-        }
-    }, []);
-
     return (
         <>
-            <SectionHeader></SectionHeader>
 
-            {/*<Accordion>*/}
-            {/*        <Accordion.Item eventKey="0">*/}
-            {/*            <Accordion.Header>اوراق بهادار</Accordion.Header>*/}
-            {/*            <Accordion.Body>*/}
-            {/*                <BankAccount bankList={OraghBahadarBankAccounts}></BankAccount>*/}
-            {/*            </Accordion.Body>*/}
-            {/*        </Accordion.Item>*/}
-            {/*        <Accordion.Item eventKey="1">*/}
-            {/*            <Accordion.Header>کالا</Accordion.Header>*/}
-            {/*            <Accordion.Body>*/}
-            {/*                <BankAccount bankList={KalaBankAccounts}></BankAccount>*/}
-            {/*            </Accordion.Body>*/}
-            {/*        </Accordion.Item>*/}
-            {/*        <Accordion.Item eventKey="2">*/}
-            {/*            <Accordion.Header>انرژی</Accordion.Header>*/}
-            {/*            <Accordion.Body>*/}
-            {/*                <BankAccount bankList={EnergyBankAccounts}></BankAccount>*/}
-            {/*            </Accordion.Body>*/}
-            {/*        </Accordion.Item>*/}
-            {/*    </Accordion>*/}
+            <SectionNavbarMenu/>
 
-
-
-            <section className="broker-review-section overflow-hidden section cmn-bg2">
+            <section className="broker-review-section overflow-hidden section cmn-bg2 ">
                 <div className="container">
-                    <h2 className="section__header-title wow fadeInUp" data-wow-duration="0.8s"></h2>
-                    <BankAccount bankList={OraghBahadarBankAccounts}></BankAccount>
 
-                    <h2 className="section__header-title wow fadeInUp" data-wow-duration="0.8s">کالا</h2>
-                    <BankAccount bankList={KalaBankAccounts}></BankAccount>
+                    <div className="section-card securities-section ">
+                        <div className="section-content">
+                            <div className="section-header">
+                                <div className="section-icon">
+                                    <i className="bi icon bi-graph-up"></i>
+                                </div>
+                                <h2 className="section-title section__header-title">اوراق بهادار</h2>
+                            </div>
 
-                    <h2 className="section__header-title wow fadeInUp" data-wow-duration="0.8s">انرژی</h2>
-                    <BankAccount bankList={EnergyBankAccounts}></BankAccount>
+                            <p className="section-description">
+                                حساب‌های مربوط به معاملات بورس اوراق بهادار شامل سهام، اوراق مشارکت و سایر اوراق مالی
+                            </p>
+
+                            <div className="account-container scroll-section">
+                                <BankAccount bankList={OraghBahadarBankAccounts}></BankAccount>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="section-card commodity-section">
+                        <div className="section-content">
+                            <div className="section-header">
+                                <div className="section-icon">
+                                    <i className="bi icon bi-coin"></i>
+                                </div>
+                                <h2 className="section-title section__header-title">کالا</h2>
+                            </div>
+
+                            <p className="section-description">
+                                حساب‌های مربوط به معاملات بورس کالا شامل فلزات، محصولات کشاورزی و سایر کالاهای قابل
+                                معامله
+                            </p>
+
+                            <div className="account-container scroll-section">
+                                <BankAccount bankList={KalaBankAccounts}></BankAccount>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="section-card energy-section">
+                        <div className="section-content">
+                            <div className="section-header">
+                                <div className="section-icon">
+                                    <i className="bi icon bi-lightning-fill"></i>
+                                </div>
+                                <h2 className="section-title section__header-title">انرژی</h2>
+                            </div>
+
+                            <p className="section-description">
+                                حساب‌های مربوط به معاملات بورس انرژی شامل برق، نفت، گاز و سایر حامل‌های انرژی
+                            </p>
+
+                            <div className="account-container scroll-section">
+                                <BankAccount bankList={EnergyBankAccounts}></BankAccount>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </section>
 
-
-
-            {/*<Organization></Organization>*/}
-            <SectionHeader></SectionHeader>
+            <SectionFooter/>
         </>
 
     );

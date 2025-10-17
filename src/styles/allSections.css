@@ -686,31 +686,7 @@
     color: white;
 }
 
-@media screen and (max-width: 490px) {
-    .attain-financial-wrap {
-        flex-wrap: wrap;
-        gap: 14px;
-    }
-    .attain-financial-wrap .attain-financial-inner {
-        display: grid;
-        gap: 14px;
-    }
-}
-@media screen and (min-width: 490px) {
-    .attain-financial-wrap .attain-financial-inner .card:first-child {
-        border-bottom: unset !important;
-    }
-}
-@media screen and (min-width: 490px) {
-    .attain-financial-wrap .attain-financial-inner1 .card:last-child {
-        border-right: unset;
-    }
-}
-@media screen and (min-width: 490px) {
-    .attain-financial-wrap .attain-financial-inner2 {
-        margin-top: 60px;
-    }
-}
+
 
 .broker-review-wrap {
     display: grid;
@@ -798,7 +774,7 @@
 }
 
 .broker-review-item {
-    gap: 40px;
+    gap: 10px;
     position: relative;
 }
 .broker-review-item .broker-thumb-area {
@@ -1080,7 +1056,6 @@
     gap: 6px 18px;
 }
 .weekly-review-item .card--secondary__content .card--secondary__time span {
-    color: 16px;
     font-weight: 500;
     color: #404A60;
 }
@@ -1680,7 +1655,7 @@
     top: 0;
     height: 100%;
     width: calc(100% - 320px);
-    background: url(/assets/images/element/common-bg.png) no-repeat center center;
+    /*background: url(/assets/images/element/common-bg.png) no-repeat center center;*/
     background-size: cover;
     border-radius: 16px;
     z-index: -1;
@@ -3051,8 +3026,8 @@
     transition: all 0.35s ease-in-out;
 }
 .graphic-tutorial-leftwrap .curriculum-wrapper .accordion-item .accordion-header .accordion-button:not(.collapsed) {
-    --bs-accordion-active-color: $head-color;
-    --bs-accordion-active-bg:$tertiary-color;
+    /*--bs-accordion-active-color: $head-color;*/
+    /*--bs-accordion-active-bg:$tertiary-color;*/
     --bs-accordion-btn-icon-transform: rotate(180deg);
     background: #2660B5;
     color: #FFF;

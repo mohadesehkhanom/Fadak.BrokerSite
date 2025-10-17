@@ -5,12 +5,15 @@ body {
 
 h1 {
     font-weight: 800; /* ExtraBold */
+    color: var(--bs-primary);
 }
 
 h2 {
     font-weight: 700; /* Bold */
+    color: var(--bs-primary);
 }
 
 p {
     font-weight: 300; /* Light */
+    color: var(--bs-primary);
 }

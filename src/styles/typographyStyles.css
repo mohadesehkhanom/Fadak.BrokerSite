@@ -7,7 +7,7 @@ button {
     line-height: 1.2;
     color: #222E48;
     font-weight: 400;
-    font-family: "Jost", sans-serif;
+    font-family: var(--font-yekanbakh), sans-serif;
     cursor: pointer;
     letter-spacing: inherit;
 }
@@ -91,7 +91,7 @@ h6,
 h6 > a {
     line-height: 1.2;
     font-family: var(--font-yekanbakh), sans-serif;
-    color: #222E48;
+    color: var(--bs-primary);
     letter-spacing: inherit;
 }
 .display-1 span,

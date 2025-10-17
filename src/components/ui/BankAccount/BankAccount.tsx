@@ -3,7 +3,6 @@
 import CopyText from "@/components/ui/CopyNumber/CopyNumber";
 import Image from "next/image";
 import { useEffect } from 'react';
-import WOW from 'wowjs';
 
 
 class BankAccountItem {
@@ -24,17 +23,17 @@ type BankAccountProps = {
 
 export default function BankAccount ({ bankList = []}: BankAccountProps) {
 
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            new WOW.WOW().init();
-        }
-    }, []);
+    // useEffect(() => {
+    //     if (typeof window !== 'undefined') {
+    //         new WOW.WOW().init();
+    //     }
+    // }, []);
 
     return <>
         <div className="broker-review-wrap">
             {bankList.map((item, index) => (
-                <div  key={index} className="broker-review-inner white-bg">
-                    <div className="broker-review-item style1 style02 d-flex align-items-center justify-content-around position-relative wow fadeInUp" data-wow-duration="0.8s">
+                <div  key={index} className="broker-review-inner white-bg p-2">
+                    <div className="broker-review-item style1 style02 d-flex align-items-center justify-content-around position-relative">
                         <div className="broker-thumb-area">
                             <div className="thumb rounded-circle">
                                 <Image
@@ -46,8 +45,8 @@ export default function BankAccount ({ bankList = []}: BankAccountProps) {
                                 />
                             </div>
                             <div className="cont">
-                                <h4 className="mb-1 black-clr">{item.name}</h4>
-                                <p className="black-clr">{item.address}</p>
+                                <p className="h4 mb-1 black-clr">{item.name}</p>
+                                <p className="black-clr"><small>{item.address}</small></p>
                             </div>
                         </div>
                         <div className="custom-line d-xl-block d-none"></div>
