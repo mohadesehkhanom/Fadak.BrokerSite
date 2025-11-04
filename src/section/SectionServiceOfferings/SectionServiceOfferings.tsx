@@ -24,7 +24,7 @@ export default function SectionServiceOfferings (){
                             <div className="service-ServiceOfferings-icon">
                                 <i className="bi bi-piggy-bank"></i>
                             </div>
-                            <h4>صندوق‌های سرمایه‌گذاری</h4>
+                            <h4>مشاور پذیرش</h4>
                             <p>مدیریت حرفه‌ای دارایی‌ها با بهترین بازدهی</p>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ export default function SectionServiceOfferings (){
                             <div className="service-ServiceOfferings-icon">
                                 <i className="bi bi-mortarboard-fill"></i>
                             </div>
-                            <h4>آموزش بورس</h4>
+                            <h4>مشاور عرضه</h4>
                             <p>دوره‌های تخصصی برای حرفه‌ای شدن در بازار سرمایه</p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default function SectionServiceOfferings (){
                             <div className="service-ServiceOfferings-icon">
                                 <i className="bi bi-briefcase-fill"></i>
                             </div>
-                            <h4>مشاوره سرمایه‌گذاری</h4>
+                            <h4>بورس کالا و انرژی</h4>
                             <p>راهنمایی تخصصی برای انتخاب بهترین فرصت‌های سرمایه‌گذاری</p>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default function SectionServiceOfferings (){
                             <div className="service-ServiceOfferings-icon">
                                 <i className="bi bi-phone"></i>
                             </div>
-                            <h4>اپلیکیشن موبایل</h4>
+                            <h4>مشتقه</h4>
                             <p>دسترسی آسان به بازار سرمایه از طریق موبایل</p>
                         </div>
                     </div>
@@ -60,7 +60,34 @@ export default function SectionServiceOfferings (){
                             <div className="service-ServiceOfferings-icon">
                                 <i className="bi bi-newspaper"></i>
                             </div>
-                            <h4>تحلیل بازار</h4>
+                            <h4>صندوق اختصاصی بازارگردانی فدک</h4>
+                            <p>بررسی‌های تخصصی و اخبار به‌روز بازار سرمایه</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="service-ServiceOfferings-card">
+                            <div className="service-ServiceOfferings-icon">
+                                <i className="bi bi-newspaper"></i>
+                            </div>
+                            <h4>تأمین مالی جمعی (به زودی)</h4>
+                            <p>بررسی‌های تخصصی و اخبار به‌روز بازار سرمایه</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="service-ServiceOfferings-card">
+                            <div className="service-ServiceOfferings-icon">
+                                <i className="bi bi-newspaper"></i>
+                            </div>
+                            <h4>مشاوره سرمایه‌گذاری (به زودی)</h4>
+                            <p>بررسی‌های تخصصی و اخبار به‌روز بازار سرمایه</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="service-ServiceOfferings-card">
+                            <div className="service-ServiceOfferings-icon">
+                                <i className="bi bi-newspaper"></i>
+                            </div>
+                            <h4>سبدگردانی (به زودی)</h4>
                             <p>بررسی‌های تخصصی و اخبار به‌روز بازار سرمایه</p>
                         </div>
                     </div>
