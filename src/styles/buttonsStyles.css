@@ -106,9 +106,6 @@ a.conditions_apply::after {
 .btn_theme_active span {
     background-color: #fff;
 }
-.btn_theme_active:hover, .btn_theme_active:focus {
-    color: #2660B5;
-}
 
 .icon_box,
 .social_box {
