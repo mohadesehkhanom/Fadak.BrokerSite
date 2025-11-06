@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function SectionCapitalMarketServices(){
     return <>
@@ -18,7 +19,12 @@ export default function SectionCapitalMarketServices(){
                         <div className="step-process-item text-center position-relative">
                             <div className="icon-area d-center">
                                 <div className="icon d-center">
-                                    <img src="assets/images/icon/customer-support.png" alt="icon"/>
+                                    <Image
+                                        src="/assets/images/icon/customer-support.png"
+                                        width={64}
+                                        height={64}
+                                        alt="icon"
+                                    />
                                 </div>
                             </div>
                             <div className="cont">
@@ -33,7 +39,12 @@ export default function SectionCapitalMarketServices(){
                         <div className="step-process-item text-center position-relative mt-lg-5">
                             <div className="icon-area d-center">
                                 <div className="icon d-center">
-                                    <img src="assets/images/icon/select-account.png" alt="icon"/>
+                                    <Image
+                                        src="/assets/images/icon/select-account.png"
+                                        width={64}
+                                        height={64}
+                                        alt="icon"
+                                    />
                                 </div>
                             </div>
                             <div className="cont">
@@ -48,7 +59,12 @@ export default function SectionCapitalMarketServices(){
                         <div className="step-process-item text-center position-relative">
                             <div className="icon-area d-center">
                                 <div className="icon d-center">
-                                    <img src="assets/images/icon/profit-sharing.png" alt="icon"/>
+                                    <Image
+                                        src="/assets/images/icon/profit-sharing.png"
+                                        width={64}
+                                        height={64}
+                                        alt="icon"
+                                    />
                                 </div>
                             </div>
                             <div className="cont">
