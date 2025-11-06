@@ -67,7 +67,7 @@ export default function SectionServiceOfferings (){
                     <div className="col-md-4">
                         <div className="service-ServiceOfferings-card">
                             <div className="service-ServiceOfferings-icon">
-                                <i className="bi bi-newspaper"></i>
+                                <i className="bi bi-people"></i>
                             </div>
                             <h4>تأمین مالی جمعی (به زودی)</h4>
                             <p>بررسی‌های تخصصی و اخبار به‌روز بازار سرمایه</p>
@@ -76,16 +76,16 @@ export default function SectionServiceOfferings (){
                     <div className="col-md-4">
                         <div className="service-ServiceOfferings-card">
                             <div className="service-ServiceOfferings-icon">
-                                <i className="bi bi-newspaper"></i>
+                                <i className="bi bi-lightbulb"></i>
                             </div>
                             <h4>مشاوره سرمایه‌گذاری (به زودی)</h4>
                             <p>بررسی‌های تخصصی و اخبار به‌روز بازار سرمایه</p>
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="service-ServiceOfferings-card">
+                        <div className="service-ServiceOfferings-card blur">
                             <div className="service-ServiceOfferings-icon">
-                                <i className="bi bi-newspaper"></i>
+                                <i className="bi bi-graph-up-arrow"></i>
                             </div>
                             <h4>سبدگردانی (به زودی)</h4>
                             <p>بررسی‌های تخصصی و اخبار به‌روز بازار سرمایه</p>
