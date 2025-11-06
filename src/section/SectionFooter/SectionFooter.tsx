@@ -1,4 +1,5 @@
 import "./SectionFooter.css"
+import Image from "next/image";
 
 
 export default function SectionFooter() {
@@ -8,7 +9,7 @@ export default function SectionFooter() {
                 <div className="footer-top section">
                     <div className="row g-4 justify-content-between">
                         <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="footer__contact wow fadeInDown" data-wow-duration="0.8s">
+                            <div className="footer__contact">
                                 <h4 className="footer__title text-white mb-4">راه های ارتباطی</h4>
                                 <div className="footer__content d-grid gap-3">
                                     <a href="tel:+982163479000">
@@ -35,7 +36,7 @@ export default function SectionFooter() {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="footer5-widget wow fadeInDown" data-wow-duration="0.8s">
+                            <div className="footer5-widget">
                                 <h4 className="footer__title text-white mb-xl-4 mb-3">معاملات</h4>
                                 <ul className="d-grid gap-xxl-3 gap-2">
                                     <li><a href="#" className="text-white">معاملات بر خط</a></li>
@@ -47,7 +48,7 @@ export default function SectionFooter() {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="footer5-widget wow fadeInDown" data-wow-duration="0.8s">
+                            <div className="footer5-widget">
                                 <h4 className="footer__title text-white mb-xl-4 mb-3">دسترسی سریع</h4>
                                 <ul className="page-linking d-grid gap-xxl-3 gap-2">
                                     <li><a href="/faq" className="text-white fs-seven">سوالات متداول</a></li>
@@ -59,9 +60,15 @@ export default function SectionFooter() {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="Tradexy5-logo-area mb-md-0 mb-3 wow fadeInDown" data-wow-duration="0.8s">
+                            <div className="Tradexy5-logo-area mb-md-0 mb-3">
                                 <a href="https://trustseal.enamad.ir/?id=576835&Code=3kNB3rg8dKlDvvd7RJuKzQdCvDUaNyai" className="flogo mb-md-4 mb-3">
-                                    <img src="/assets/images/certificate/enamad.png" alt="img"/>
+                                    <Image
+                                        src="/assets/images/certificate/enamad.png"
+                                        alt=""
+                                        width="120"
+                                        height="130"
+                                    />
+
                                 </a>
                                 <p className="text-white">از طریق شبکه های اجتماعی با ما در ارتباط باشید.</p>
                                 <div className="social-area mt_20">
