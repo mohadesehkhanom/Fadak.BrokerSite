@@ -60,7 +60,7 @@ export default function SectionFooter() {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="Tradexy5-logo-area mb-md-0 mb-3">
+                            <div className=" mb-md-0 mb-3">
                                 <a href="https://trustseal.enamad.ir/?id=576835&Code=3kNB3rg8dKlDvvd7RJuKzQdCvDUaNyai" className="flogo mb-md-4 mb-3">
                                     <Image
                                         src="/assets/images/certificate/enamad.png"
