@@ -1,5 +1,3 @@
-import _default from "chart.js/dist/plugins/plugin.tooltip";
-import backgroundColor = _default.defaults.backgroundColor;
 
 export default function SectionCapitalMarketServices(){
     return <>
@@ -8,9 +6,7 @@ export default function SectionCapitalMarketServices(){
                 <div className="row justify-content-center">
                     <div className="col-lg-6">
                         <div className="section__header section-header2 text-center mb-xxl-4 mb-4 pb-2">
-                            {/*<span className="section__header-sub-title headingFour wow fadeInDown"*/}
-                            {/*      data-wow-duration="0.8s">Step-by-Step Process</span>*/}
-                            <h2 className="section__header-title mb-3 wow fadeInUp" data-wow-duration="0.8s">چرا کارگزاری فدک</h2>
+                            <h2 className="section__header-title mb-3">چرا کارگزاری فدک</h2>
                             <p>
                                 برای خرید و فروش در بازار سهام از قابلیت‌های متنوع فدک به صورت رایگان استفاده کن.
                             </p>
@@ -18,7 +14,7 @@ export default function SectionCapitalMarketServices(){
                     </div>
                 </div>
                 <div className="row flex-row-reverse justify-content-center g-4">
-                    <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="0.5s">
+                    <div className="col-lg-4 col-md-6">
                         <div className="step-process-item text-center position-relative">
                             <div className="icon-area d-center">
                                 <div className="icon d-center">
@@ -33,7 +29,7 @@ export default function SectionCapitalMarketServices(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 mt-lg-5 wow fadeInUp" data-wow-duration="0.9s">
+                    <div className="col-lg-4 col-md-6 mt-lg-5">
                         <div className="step-process-item text-center position-relative mt-lg-5">
                             <div className="icon-area d-center">
                                 <div className="icon d-center">
@@ -48,7 +44,7 @@ export default function SectionCapitalMarketServices(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1.2s">
+                    <div className="col-lg-4 col-md-6">
                         <div className="step-process-item text-center position-relative">
                             <div className="icon-area d-center">
                                 <div className="icon d-center">
