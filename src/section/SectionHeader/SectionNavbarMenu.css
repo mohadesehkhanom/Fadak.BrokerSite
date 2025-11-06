@@ -7,7 +7,7 @@
 }
 
 .nav-item, .custom-nav-item, .nav-link {
-    color: #003d69 !important;
+    color: var(--fadak-primary) !important;
     font-weight: 100 !important;
 }
 
@@ -20,7 +20,7 @@
 
 
 .nav-link:hover {
-    color: #003d69 !important;
+    color: var(--fadak-primary) !important;
 }
 
 .dropdown-item.active, .dropdown-item:active {
