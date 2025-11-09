@@ -41,8 +41,8 @@ export default function SectionBeginInvestment() {
         <section className="cta-section">
             <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '480px' }}>
                 <div className="d-flex flex-column justify-content-center text-center">
-                    <h2 className="cta-section-title">جای پاتو محکم کن</h2>
-                    <h2 className="cta-section-subtitle mt-3">مشتقه ابزار مدیریت ریسک شما</h2>
+                    <h2 className="cta-section-title">بورس کالا و انرژی</h2>
+                    <h2 className="cta-section-subtitle mt-3">نقطه اتصال تولید، تجارت و سرمایه</h2>
                 </div>
 
             </div>
