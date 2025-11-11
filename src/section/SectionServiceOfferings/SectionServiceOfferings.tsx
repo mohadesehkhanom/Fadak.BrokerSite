@@ -22,19 +22,10 @@ export default function SectionServiceOfferings (){
                     <div className="col-md-4">
                         <div className="service-ServiceOfferings-card">
                             <div className="service-ServiceOfferings-icon">
-                                <i className="bi bi-piggy-bank"></i>
+                                <i className="bi bi-phone"></i>
                             </div>
-                            <h4>مشاور پذیرش</h4>
-                            <p>همراهی تخصصی در مسیر ورود شرکت‌ها به بازار سرمایه با رویکردی حرفه‌ای و مبتنی بر تجربه.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="service-ServiceOfferings-card">
-                            <div className="service-ServiceOfferings-icon">
-                                <i className="bi bi-mortarboard-fill"></i>
-                            </div>
-                            <h4>مشاور عرضه</h4>
-                            <p>برنامه‌ریزی، مدیریت و اجرای فرآیند عرضه اولیه با هدف بیشترین شفافیت و موفقیت.</p>
+                            <h4>مشتقه</h4>
+                            <p>راهکارهای هوشمند برای مدیریت ریسک و کسب بازدهی در بازار ابزارهای مشتقه.</p>
                         </div>
                     </div>
                     <div className="col-md-4">
@@ -49,10 +40,10 @@ export default function SectionServiceOfferings (){
                     <div className="col-md-4">
                         <div className="service-ServiceOfferings-card">
                             <div className="service-ServiceOfferings-icon">
-                                <i className="bi bi-phone"></i>
+                                <i className="bi bi-piggy-bank"></i>
                             </div>
-                            <h4>مشتقه</h4>
-                            <p>راهکارهای هوشمند برای مدیریت ریسک و کسب بازدهی در بازار ابزارهای مشتقه.</p>
+                            <h4>مشاور پذیرش</h4>
+                            <p>همراهی تخصصی در مسیر ورود شرکت‌ها به بازار سرمایه با رویکردی حرفه‌ای و مبتنی بر تجربه.</p>
                         </div>
                     </div>
                     <div className="col-md-4">
@@ -60,8 +51,26 @@ export default function SectionServiceOfferings (){
                             <div className="service-ServiceOfferings-icon">
                                 <i className="bi bi-newspaper"></i>
                             </div>
-                            <h4>صندوق اختصاصی بازارگردانی فدک</h4>
+                            <h4>بازارگردانی</h4>
                             <p>پشتیبان نقدشوندگی و ثبات بازار با تیمی متخصص و تحلیل‌محور.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="service-ServiceOfferings-card">
+                            <div className="service-ServiceOfferings-icon">
+                                <i className="bi bi-mortarboard-fill"></i>
+                            </div>
+                            <h4>مشاور عرضه</h4>
+                            <p>برنامه‌ریزی، مدیریت و اجرای فرآیند عرضه اولیه با هدف بیشترین شفافیت و موفقیت.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="service-ServiceOfferings-card blur">
+                            <div className="service-ServiceOfferings-icon">
+                                <i className="bi bi-graph-up-arrow"></i>
+                            </div>
+                            <h4>سبدگردانی (به زودی)</h4>
+                            <p>مدیریت حرفه‌ای سبد سرمایه‌گذاری شما با تمرکز بر بازدهی پایدار و کنترل ریسک.</p>
                         </div>
                     </div>
                     <div className="col-md-4">
@@ -80,15 +89,6 @@ export default function SectionServiceOfferings (){
                             </div>
                             <h4>مشاوره سرمایه‌گذاری (به زودی)</h4>
                             <p>تحلیل جامع، راهبردهای هوشمند و پیشنهادهای دقیق برای تصمیم‌گیری بهتر در بازار.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="service-ServiceOfferings-card blur">
-                            <div className="service-ServiceOfferings-icon">
-                                <i className="bi bi-graph-up-arrow"></i>
-                            </div>
-                            <h4>سبدگردانی (به زودی)</h4>
-                            <p>مدیریت حرفه‌ای سبد سرمایه‌گذاری شما با تمرکز بر بازدهی پایدار و کنترل ریسک.</p>
                         </div>
                     </div>
                 </div>
