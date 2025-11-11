@@ -23,52 +23,54 @@ export default function Page() {
             <section>
                 <div className="container my-5">
                     <div className="row g-4">
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-6 col-lg-3">
                             <div className="card principle-card h-100 shadow-sm">
-                                <div className="card-body text-center p-4"
-                                >
+                                <div className="card-body text-center p-4">
                                     <div className="icon-circle bg-primary bg-opacity-10 text-primary">
                                         <i className="bi bi-shield-check fs-2"></i>
                                     </div>
-                                    <h4 className="card-title">رعایت قوانین کارگزاری</h4>
-                                    <p className="card-text mt-4">پایبندی دقیق به تمام قوانین و مقررات کارگزاری برای تضمین
-                                        عملیات
-                                        اخلاقی و قانونی در تمام فعالیت‌های تجاری ما.</p>
+                                    <h4 className="card-title">مسئولیت پذیری و پاسخگویی</h4>
+                                    <p className="card-text mt-4">در کارگزاری ما، اعتماد مشتریان سرمایه‌ای گران‌بهاست. با شفافیت در عملکرد و پاسخگویی در همه مراحل، همواره در کنار شما هستیم.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-6 col-lg-3">
                             <div className="card principle-card h-100 shadow-sm">
-                                <div className="card-body text-center p-4"
-                                >
+                                <div className="card-body text-center p-4" >
                                     <div className="icon-circle bg-success bg-opacity-10 text-success">
                                         <i className="bi bi-cash-stack fs-2"></i>
                                     </div>
-                                    <h4 className="card-title">مقررات مالی</h4>
-                                    <p className="card-text mt-4">حفظ کنترل‌های مالی دقیق و پیروی از تمام مقررات قابل اجرا
-                                        برای
-                                        تضمین
-                                        شفافیت و یکپارچگی در تمام امور مالی.</p>
+                                    <h4 className="card-title">عدالت در رویه‌ها و خدمات</h4>
+                                    <p className="card-text mt-4">ما به اصول انصاف و بی‌طرفی پایبندیم؛ همه مشتریان ما از فرصت‌ها و خدمات یکسان در بازار سرمایه برخوردارند.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-6 col-lg-3">
                             <div className="card principle-card h-100 shadow-sm">
-                                <div className="card-body text-center p-4"
-                                >
+                                <div className="card-body text-center p-4">
                                     <div className="icon-circle bg-info bg-opacity-10 text-info">
                                         <i className="bi bi-lock fs-2"></i>
                                     </div>
-                                    <h4 className="card-title">محرمانگی اطلاعات مشتریان</h4>
-                                    <p className="card-text mt-4">محافظت از اطلاعات مشتریان با بالاترین سطح امنیت و حفظ
-                                        محرمانگی
-                                        دقیق
-                                        در تمام تعاملات با مشتریان.</p>
+                                    <h4 className="card-title">تقویت فرهنگ نوآوری</h4>
+                                    <p className="card-text mt-4">با تکیه بر فناوری‌های روز و نگاه خلاقانه، همواره به‌دنبال ارائه راهکارهای نو برای تسهیل و بهبود تجربه سرمایه‌گذاری هستیم.</p>
                                 </div>
                             </div>
                         </div>
+
+                        <div className="col-md-6 col-lg-3">
+                            <div className="card principle-card h-100 shadow-sm">
+                                <div className="card-body text-center p-4">
+                                    <div className="icon-circle bg-info bg-opacity-10 text-info">
+                                        <i className="bi bi-lock fs-2"></i>
+                                    </div>
+                                    <h4 className="card-title">صیانت از اطلاعات مشتری</h4>
+                                    <p className="card-text mt-4">منیت اطلاعات مشتریان برای ما خط قرمز است؛ با بهره‌گیری از زیرساخت‌های پیشرفته، از داده‌های شما با دقت و اطمینان حفاظت می‌کنیم.</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -78,87 +80,16 @@ export default function Page() {
                     <div className="row">
                         <div className="col-12">
                             <h2 className="ethics-title">اصول اخلاقی و معیارهای رفتار حرفه‌ای</h2>
-                            <p className="ethics-paragraph">
-                                اصول اخلاقی و معیارهای رفتار حرفه‌ای به عنوان یکی از نیازهای بنیادیِ حرفه‌ای کارگزاری با
-                                الهام از اصول و معیارهای حرفه‌ایِ موسسه CFA و با توجه به ویژگی‌های بازار سرمایه کشور
-                                تدوین شده و بارها مورد بررسی و تجدید نظر قرار گرفته است. در میانه راه از نظرات شرکت‌های
-                                فعال در بازار سرمایه نیز بهره گرفته شد. همچنین نظرات برخی مشاوران متخصص در حوزه‌های
-                                اخلاق، اخلاق حرفه‌ای، حقوق، مالی، سرمایه‌گذاری و دارندگان گواهینامه CFA در بهبود این
-                                اصول و معیارها تأثیرگذار بوده است.
-                            </p>
-                            <p className="ethics-paragraph">
-                                تبعیت شاغلان حرفه کارگزاری از اصول اخلاقی، تمامیِ فعالان بازار سرمایه را منتفع ساخته و
-                                اطمینان سرمایه‌گذاران را به بازارهای مالی ارتقا می‌بخشد. اصول اخلاقی به تدریج موجب
-                                اطمینان عمومی به بازار می‌شود و از گسترش و توسعه بازارها حمایت می‌کند. اخلاقیات صحیح و
-                                دقیق برای بازار سرمایه و حرفه کارگزاری یک امر اساسی است. اطمینان، امری است که به سختی به
-                                دست می‌آید و به راحتی از دست می‌رود. شرکت‌ها و افراد می‌توانند از طریق تعهد به بالاترین
-                                استانداردهای اخلاقی و رفتار حرفه‌ای، این اطمینان را به وجود آورده و آن را حفظ نمایند.
-                                اصول اخلاقی صرفاً یک صفت عالی نیست که تنها توسط برخی شاغلان رعایت گردد، بلکه باید در
-                                تمام سطوح بازار سرمایه نفوذ کند و بهترین منافع مشتریان و کارفرمایان را حفظ نماید. گام
-                                اصلی دستیابی به چنین هدف والایی باید از محل کار شاغلان آغاز شود. ضروری است که مدیران
-                                ارشد شرکت‌های فعال در بازار سرمایه، فرهنگی قوی از اخلاقیات را نه تنها در میان تحلیل‌گران
-                                و معامله‌گران بلکه در میان تمامیِ افرادی که به طور مستقیم یا غیرمستقیم با مشتریان،
-                                فرآیند سرمایه‌گذاری، امور مالی و سایر فعالیت‌های حرفه‌ای ارتباط دارند اشاعه دهند.
-                            </p>
+                            <p className="ethics-paragraph">در کارگزاری فدک، پایبندی به اصول اخلاقی و رفتار حرفه‌ای، سنگ‌بنای اعتماد در بازار سرمایه است. این اصول با الهام از استانداردهای بین‌المللی مؤسسه CFA و با در نظر گرفتن ویژگی‌های بازار سرمایه ایران تدوین و به مرور زمان بازنگری شده‌اند.</p>
+                            <p className="ethics-paragraph">رعایت اخلاق حرفه‌ای توسط فعالان بازار، نه تنها منافع سرمایه‌گذاران را حفظ می‌کند، بلکه موجب رشد اعتماد عمومی و توسعه پایدار بازارهای مالی می‌شود.</p>
+                            <p className="ethics-paragraph">اعتماد، سرمایه‌ای گران‌بهاست که به‌سختی به دست می‌آید و به‌راحتی از بین می‌رود. از این رو، شرکت‌ها و کارکنان باید با پایبندی به بالاترین استانداردهای اخلاقی، در حفظ این اعتماد بکوشند.</p>
+                            <p className="ethics-paragraph">ما در  فدک باور داریم که فرهنگ اخلاق‌مدار باید از درون سازمان آغاز شود. مدیران و کارکنان در همه سطوح، از تحلیل‌گران و معامله‌گران گرفته تا نیروهای پشتیبانی، موظف به رعایت این اصول هستند تا منافع مشتریان و کارفرمایان در بالاترین سطح حفظ شود.</p>
                         </div>
                     </div>
                 </div>
 
                 <i className="bi ethics-icon ethics-icon-left bi-shield-check"></i>
                 <i className="bi ethics-icon ethics-icon-right bi-balance-scale"></i>
-            </section>
-            <section>
-                <div className="container my-5"> 
-                    <div className="row g-4">
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="card principle-card h-100 shadow-sm">
-                                <div className="card-body text-center p-4"
-                                >
-                                    <div className="icon-circle bg-warning bg-opacity-10 text-warning">
-                                        <i className="bi bi-star fs-2"></i>
-                                    </div>
-                                    <h4 className="card-title">کیفیت خدمات</h4>
-                                    <p className="card-text mt-4">ارائه خدمات با <strong>بالاترین استانداردهای کیفیت</strong>،
-                                        بهبود
-                                        مستمر خدمات برای فراتر رفتن از انتظارات مشتریان.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="card principle-card h-100 shadow-sm">
-                                <div className="card-body text-center p-4"
-                                >
-                                    <div className="icon-circle bg-danger bg-opacity-10 text-danger">
-                                        <i className="bi bi-people fs-2"></i>
-                                    </div>
-                                    <h4 className="card-title">حقوق مشتریان</h4>
-                                    <p className="card-text mt-4">احترام به حقوق مشتریان و جمع‌آوری فعال بازخورد برای بهبود
-                                        خدمات
-                                        و
-                                        پاسخگویی موثر به نیازهای مشتریان.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="card principle-card h-100 shadow-sm">
-                                <div className="card-body text-center p-4"
-                                >
-                                    <div className="icon-circle bg-secondary bg-opacity-10 text-secondary">
-                                        <i className="bi bi-exclamation-triangle fs-2"></i>
-                                    </div>
-                                    <h4 className="card-title">تصمیم‌گیری بی‌طرفانه</h4>
-                                    <p className="card-text mt-4"><strong>پرهیز از منافع شخصی</strong> در فرآیندهای
-                                        تصمیم‌گیری
-                                        برای
-                                        تضمین نتایج منصفانه و عینی برای تمام ذینفعان.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
             <SectionOrganization/>
 
