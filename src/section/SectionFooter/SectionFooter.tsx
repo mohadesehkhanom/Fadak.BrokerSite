@@ -1,12 +1,13 @@
 import "./SectionFooter.css"
 import Image from "next/image";
+import {NavDropdown} from "react-bootstrap";
 
 
 export default function SectionFooter() {
     return <>
         <footer className="footer footer-section5 position-relative">
             <div className="container">
-                <div className="footer-top section">
+                <div className="footer-top section py-5">
                     <div className="row g-4 justify-content-between">
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="footer__contact">
@@ -39,10 +40,10 @@ export default function SectionFooter() {
                             <div className="footer5-widget">
                                 <h4 className="footer__title text-white mb-xl-4 mb-3">معاملات</h4>
                                 <ul className="d-grid gap-xxl-3 gap-2">
-                                    <li><a href="#" className="text-white">معاملات بر خط</a></li>
-                                    <li><a href="#" className="text-white">معاملات اینترنتی</a></li>
-                                    <li><a href="#" className="text-white">سامانه سهام عدالت</a></li>
-                                    <li><a href="#" className="text-white">خدمات مشتریان</a></li>
+                                    <li><a href="https://fadak.exirbroker.com/exir/" className="text-white">آنلاین سهام</a></li>
+                                    <li><a href="https://fadak.tsetab.ir/" className="text-white">آنلاین مشتقه </a></li>
+                                    <li><a href="https://fadak.irbrokersite.ir/" className="text-white">آفلاین سهام </a></li>
+                                    <li><a href="https://fadak.ebgo.ir/Login" className="text-white">بورس کالا</a></li>
                                     <li><a href="#" className="text-white">ثبت نام غیر حضوری</a></li>
                                 </ul>
                             </div>
