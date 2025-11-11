@@ -28,7 +28,7 @@ export default function SectionCapitalMarketServices(){
                                 </div>
                             </div>
                             <div className="cont">
-                                <h4 className="mb-xxl-3 mb-2">تنوع ابزارهای معاملاتی</h4>
+                                <h4 className="mb-xxl-3 mb-2">تنوع خدمات</h4>
                                 <p>
                                     امکان معامله سهام، صندوق‌های قابل معامله، اوراق مشتقه، اوراق بدهی، معاملات در بورس کالا و سایر اوراق بهادار برات فراهمه!
                                 </p>
@@ -48,7 +48,7 @@ export default function SectionCapitalMarketServices(){
                                 </div>
                             </div>
                             <div className="cont">
-                                <h4 className="mb-xxl-3 mb-2">هر یک ریال سرمایه‌ت برای ما مهم است</h4>
+                                <h4 className="mb-xxl-3 mb-2">پشتیبانی تخصصی و سریع</h4>
                                 <p>
                                     در کارگزاری حتی پول‌های راکد سرمایه‌گذاری می‌شن. ما این مبلغ رو در یک صندوق با درآمد ثابت سرمایه‌گذاری می‌کنیم و پایان هر ماه سودش رو به حسابت می‌ریزیم. سودی بیشتر از بانک!
                                 </p>
@@ -68,7 +68,7 @@ export default function SectionCapitalMarketServices(){
                                 </div>
                             </div>
                             <div className="cont">
-                                <h4 className="mb-xxl-3 mb-2">معامله کن، اعتبار بگیر، دوباره معامله کن!</h4>
+                                <h4 className="mb-xxl-3 mb-2">ارائه خدمات بدون پیش نیاز </h4>
                                 <p>
                                     دیگه محدود به حسابت در کارگزاری نیستی؛ چون می‌تونی درخواست اعتبار بدی و در لحظه دریافت کنی. با خیال راحت معامله کن و از بازار جا نمون!
                                 </p>
