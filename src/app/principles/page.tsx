@@ -99,11 +99,11 @@ export default function Page() {
                     </div>
                     <a
                         href="/assets/doc/12.pdf"
-                        className="btn_theme btn_theme_active mt_40"
+                        className="btn_theme btn_theme_active mt_40 float-end"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        مشاوره رایگان
+                        کدهای اخلاقی
                     </a>
 
 
