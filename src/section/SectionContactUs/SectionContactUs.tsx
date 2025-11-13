@@ -58,8 +58,8 @@ export default function SectionContactUs() {
 
                     <div className="col-12 col-lg-7 col-xxl-8">
                         <form method="POST" autoComplete="off" id="frmContactus"
-                              className="sign-up__form white-bg rounded-4 wow fadeInDown h-100" data-wow-duration="0.8s">
-                            <h5 className="contact__title wow fadeInDown" data-wow-duration="0.8s">با ما در تماس باشید</h5>
+                              className="sign-up__form white-bg rounded-4 h-100">
+                            <h5 className="contact__title">با ما در تماس باشید</h5>
                             <div className="sign-up__form-part">
                                 <div className="input-group mb-xxl-4 mb-3">
                                     <div className="input-single">
