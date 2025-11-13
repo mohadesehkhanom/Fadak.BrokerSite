@@ -5,7 +5,8 @@ import {useState} from "react";
 
 export default function SectionFaq() {
 
-    const [key, setKey] = useState("energy");
+    type DataKeys = 'energy' | 'registration' | 'goods' | 'funds';
+    const [key, setKey] = useState<DataKeys>("energy");
 
     const data = {
         energy: [
@@ -140,7 +141,7 @@ export default function SectionFaq() {
                                 <Tabs
                                     id="faq-tabs"
                                     activeKey={key}
-                                    onSelect={(k) => setKey(k)}
+                                    onSelect={(k) => setKey((k ?? 'energy') as DataKeys)}
                                     className="mb-0"
                                     justify>
                                     <Tab eventKey="energy" title="پذیرش و ثبت نام "/>
