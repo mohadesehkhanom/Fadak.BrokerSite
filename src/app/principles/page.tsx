@@ -12,7 +12,7 @@ export default function Page() {
 
             <section className="principles-header-section">
                 <div className="container principles-header-content">
-                    <div className="row">
+                    <div className="row minHeight480 d-flex align-items-center justify-content-center">
                         <div className="col-12 text-center">
                             <h1 className="display-4 fw-bold text-white">اصول و ارزش‌های حرفه‌ای</h1>
                             <p className="lead text-white-50">تعهد ما به برتری در هر جنبه‌ای از کسب‌وکارمان</p>
@@ -23,7 +23,7 @@ export default function Page() {
             <section>
                 <div className="container my-5">
                     <div className="row g-4">
-                        <div className="col-md-6 col-lg-3">
+                        <div className="col-md-6 ">
                             <div className="card principle-card h-100 shadow-sm">
                                 <div className="card-body text-center p-4">
                                     <div className="icon-circle bg-primary bg-opacity-10 text-primary">
@@ -35,7 +35,7 @@ export default function Page() {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-3">
+                        <div className="col-md-6 ">
                             <div className="card principle-card h-100 shadow-sm">
                                 <div className="card-body text-center p-4" >
                                     <div className="icon-circle bg-success bg-opacity-10 text-success">
@@ -47,7 +47,7 @@ export default function Page() {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-3">
+                        <div className="col-md-6 ">
                             <div className="card principle-card h-100 shadow-sm">
                                 <div className="card-body text-center p-4">
                                     <div className="icon-circle bg-info bg-opacity-10 text-info">
@@ -59,7 +59,7 @@ export default function Page() {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-3">
+                        <div className="col-md-6 ">
                             <div className="card principle-card h-100 shadow-sm">
                                 <div className="card-body text-center p-4">
                                     <div className="icon-circle bg-info bg-opacity-10 text-info">
