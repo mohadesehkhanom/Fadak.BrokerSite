@@ -145,7 +145,7 @@ export default function Page() {
                                                         <div className="d-flex align-items-center">
                                                             <i className="bi bi-building text-primary me-2"></i>
                                                             <div>
-                                                                <span className="text-muted d-block d-md-none">نام شعبه</span>
+                                                                {/*<span className="text-muted d-block d-md-none">نام شعبه</span>*/}
                                                                 <span className="fw-bold">{b.name}</span>
                                                             </div>
                                                         </div>
@@ -156,7 +156,7 @@ export default function Page() {
                                                             <div className="d-flex align-items-center">
                                                                 <i className="bi bi-telephone-fill text-success me-2"></i>
                                                                 <div>
-                                                                    <small className="text-muted d-block d-md-none">تلفن</small>
+                                                                    {/*<small className="text-muted d-block d-md-none">تلفن</small>*/}
                                                                     <a href={`tel:${b.phone}`} className="text-decoration-none">{b.phone}</a>
                                                                 </div>
                                                             </div>
@@ -179,7 +179,7 @@ export default function Page() {
                                                         <div className="d-flex align-items-center">
                                                             <i className="bi bi-geo-alt-fill text-danger me-2"></i>
                                                             <div>
-                                                                <small className="text-muted d-block d-md-none">آدرس</small>
+                                                                {/*<small className="text-muted d-block d-md-none">آدرس</small>*/}
                                                                 <span>{b.address}</span>
                                                             </div>
                                                         </div>
