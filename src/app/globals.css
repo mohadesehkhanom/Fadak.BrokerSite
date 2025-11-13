@@ -535,7 +535,7 @@
   line-height: 1.2;
   font-size: 16px;
   font-weight: 500;
-  font-family: var(--font-yekanbakh), sans-serif;
+  font-family: var(--font-Modam), sans-serif;
   color: #ffffff;
   padding: 24px 8px;
   text-transform: capitalize;
@@ -1075,7 +1075,7 @@
 }
 .about-progress .test {
   color: #222E48;
-  font-family: var(--font-yekanbakh), sans-serif;
+  font-family: var(--font-Modam), sans-serif;
   font-weight: 500;
 }
 @media screen and (max-width: 1399px) {
@@ -1447,7 +1447,7 @@
   font-size: 12px;
   color: #13203B;
   font-weight: 500;
-  font-family: var(--font-yekanbakh), sans-serif;
+  font-family: var(--font-Modam), sans-serif;
   background: #FCB650;
   padding: 1px 40px;
   -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 100%, 7% 50%, 0% 0%);
