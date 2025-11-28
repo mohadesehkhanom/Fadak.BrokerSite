@@ -1,6 +1,11 @@
 :root {
-    --bs-primary: #1a3a5f; /* آبی تیره و حرفه‌ای */
-    --bs-secondary: #f39c12; /* طلایی برای تاکید */
+    --fadak-primary: #003d6a; /* آبی تیره و حرفه‌ای */
+    --bs-secondary: #ac923e; /* طلایی برای تاکید */
+    --fadak-keremi: #f3ecd9;
+
+
     --bs-primary-rgb: 26, 58, 95;
     --bs-secondary-rgb: 243, 156, 18;
+
+
 }
