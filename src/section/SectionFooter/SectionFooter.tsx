@@ -1,6 +1,5 @@
 import "./SectionFooter.css"
 import Image from "next/image";
-import {NavDropdown} from "react-bootstrap";
 
 
 export default function SectionFooter() {
