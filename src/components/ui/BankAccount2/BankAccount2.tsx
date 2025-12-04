@@ -260,7 +260,7 @@ export default function BankAccount2() {
     const copyToClipboard = (text: string) => {
         if (!text?.trim()) return;
         navigator.clipboard.writeText(text.trim()).catch((err) => {
-            // console.warn('کپی ناموفق:', err);
+            console.warn('کپی ناموفق:', err);
             alert('کپی متن با خطا مواجه شد.');
         });
     };
