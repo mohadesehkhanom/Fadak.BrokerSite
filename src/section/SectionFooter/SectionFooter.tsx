@@ -74,12 +74,15 @@ export default function SectionFooter() {
                                 <p className="text-white">از طریق شبکه های اجتماعی با ما در ارتباط باشید.</p>
                                 <div className="social-area mt_20">
                                     <div className="social flex-wrap">
-                                        <a href="https://www.instagram.com/rahnamabrokerage"
-                                           className="btn_theme social_box"><i className="bi bi-instagram"></i></a>
-                                        <a href="https://rhpayment1.fadakbrokerage.ir/hamrah-trader#"
-                                           className="btn_theme social_box"><i className="bi bi-linkedin"></i></a>
-                                        <a href="http://telegram.me/rahnamabroker" className="btn_theme social_box"><i
-                                            className="bi bi-telegram"></i></a>
+                                        <a href="https://www.instagram.com/fadakwealthmanagement/" className="btn_theme social_box">
+                                            <i className="bi bi-instagram"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/fadak-wealth-management" className="btn_theme social_box">
+                                            <i className="bi bi-linkedin"></i>
+                                        </a>
+                                        {/*<a href="http://telegram.me/rahnamabroker" className="btn_theme social_box">*/}
+                                        {/*    <i className="bi bi-telegram"></i>*/}
+                                        {/*</a>*/}
                                     </div>
                                 </div>
                             </div>
