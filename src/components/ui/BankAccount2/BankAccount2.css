@@ -1,0 +1,31 @@
+.table-fadak th {
+    background-color: var(--fadak-navy) !Important;
+    color: white !important;
+}
+
+.fadak-striped tbody tr:nth-of-type(odd) {
+    background-color: var(--fadak-cream) !important; /* رنگ دلخواه */
+}
+
+
+.bg-navy{
+    background-color: var(--fadak-navy) !important;
+}
+.color-navy{
+    color: var(--fadak-navy) !important;
+}
+
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: var(--fadak-cream) !important;
+}
+
+
+.nav-link{
+    color: var(--fadak-navy) !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    font-weight: bold;
+}
