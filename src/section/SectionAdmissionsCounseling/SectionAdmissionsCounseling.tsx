@@ -13,8 +13,8 @@ export default function SectionAdmissionsCounseling() {
         slidesToScroll: 1,
         speed: 1500,
         autoplaySpeed: 4000,
-        arrows: false,
-        dots: false
+        arrows: true,
+        dots: true
     };
 
 
