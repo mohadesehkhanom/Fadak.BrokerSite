@@ -1,0 +1,127 @@
+
+.section-kala {
+    /* Using a grayscale factory image similar to your screenshot */
+    background: url('https://picsum.photos/2000/500');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    filter: grayscale(100%); /* Makes the image black and white */
+}
+
+.section-kala h1, .section-kala p.lead {
+    color: var(--fadak-navy) !important; /* Use Navy on the Hero section text */
+    text-shadow: 0 2px 4px rgba(255,255,255,0.8);
+}
+
+@media (max-width: 768px) {
+    .section-kala {
+        height: 350px;
+    }
+}
+
+/* Navbar Branding and Button Update */
+.navbar-brand {
+    color: var(--fadak-navy) !important;
+}
+.btn-outline-success {
+    color: var(--fadak-navy);
+    border-color: var(--fadak-navy);
+}
+.btn-outline-success:hover {
+    background-color: var(--fadak-navy);
+    border-color: var(--fadak-navy);
+    color: white;
+}
+
+
+/* --- Section 2: Commodity Content (From Image) --- */
+.commodity-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.custom-btn-green {
+    /* CHANGE: Green to Navy */
+    background-color: var(--fadak-navy);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.custom-btn-green:hover {
+    /* CHANGE: Darker Green to Darker Navy */
+    background-color: #002d50;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.metal-img {
+    max-width: 100%;
+    height: auto;
+    /* Simple shadow to pop like the render in image */
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.2));
+}
+
+/* --- Section 3: Centered Text (Requested) --- */
+.vision-section {
+    /* CHANGE: Light Gray to Cream */
+    background-color: var(--fadak-cream);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.vision-title {
+    font-weight: 700;
+    color: var(--fadak-navy); /* Headings should use Navy */
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Small underline decoration */
+.vision-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    /* CHANGE: Green to Gold */
+    background: var(--fadak-gold);
+    margin: 10px auto 0;
+}
+
+/* --- Section 4: Services/Cards (Requested) --- */
+.services-section {
+    padding: 80px 0;
+}
+
+.service-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+    height: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-box {
+    font-size: 2.5rem;
+    /* CHANGE: Green to Navy */
+    color: var(--fadak-navy);
+    margin-bottom: 15px;
+}
+
+/* Overriding Bootstrap text-success for gold links in cards */
+.text-success {
+    color: var(--fadak-gold) !important;
+}
+
