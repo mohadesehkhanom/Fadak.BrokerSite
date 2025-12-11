@@ -39,8 +39,8 @@ export default function SectionDerivative() {
                 </div>
             </section>
 
-            <section id="services" className="services-section">
-                <div className="container">
+            <section id="services" className="p-5 fadak-bg-cream">
+                <div className="container my-5">
                     <h4 className="section-title text-center w-100 my-0 py-3">خدمات ما در بازار مشتقه</h4>
                     {/*<p className="mt-2">*/}
                     {/*    تیم مشتقه کارگزاری فدک مجموعه‌ای از خدمات تحلیلی، آموزشی و اجرایی را برای*/}
@@ -246,8 +246,8 @@ export default function SectionDerivative() {
                 </div>
             </section>
 
-            <section className="trading-platform">
-                <div className="container">
+            <section className="p-5 bg-white">
+                <div className="container my-5">
                     <h4 className="section-title w-100 text-center">سامانه معاملاتی در بازار مشتقه امکس</h4>
 
                     <div className="row">
@@ -255,28 +255,42 @@ export default function SectionDerivative() {
                             <img className="d-sm-none d-md-flex mb-sm-2 mb-lg-0 rounded" src="https://picsum.photos/420/320"/>
                         </div>
                         <div className="col-lg-8 mt-0 mx-auto">
-                            <div className="platform-card">
-                                <h5 className="mb-4">سامانه معاملات امکس </h5>
-                                <p className="mb-4">
-                                    محیطی پیشرفته برای معامله قراردادهای اختیار و آتی با سرعت، پایداری و دقت بالا. این
-                                    سامانه امکان مدیریت کامل موقعیت‌ها، مشاهده لحظه‌ای وجه تضمین، اجرای سفارش‌های ترکیبی
-                                    و پایش سود و زیان را به‌صورت یکپارچه در اختیار کاربران قرار می‌دهد.
-                                </p>
-                                <p className="mb-4">
-                                    در Omex، معامله‌گران می‌توانند تمام استراتژی‌های معاملاتی تعریف‌شده در بازار مشتقه
-                                    را بدون نیاز به تماس یا هماهنگی با کارگزاری به‌صورت مستقیم در سامانه ایجاد و مدیریت
-                                    کنند. همچنین قابلیت شبیه‌سازی استراتژی‌ها در این سامانه به کاربران کمک می‌کند تا پیش
-                                    از اجرای واقعی معامله، بازده و ریسک احتمالی هر استراتژی را ارزیابی و مقایسه کنند.
-                                </p>
-                                <a href="#" className="btn fadak-button">ورود به سامانه امکس</a>
+                            <div className="card p-4" dir="rtl">
+                                <div className="card-body">
+
+                                    <h5 className="card-title mb-4">سامانه معاملات امکس</h5>
+
+                                    <p className="card-text mb-4">
+                                        محیطی پیشرفته برای معامله قراردادهای اختیار و آتی با سرعت، پایداری و دقت بالا.
+                                        این
+                                        سامانه امکان مدیریت کامل موقعیت‌ها، مشاهده لحظه‌ای وجه تضمین، اجرای سفارش‌های
+                                        ترکیبی
+                                        و پایش سود و زیان را به‌صورت یکپارچه در اختیار کاربران قرار می‌دهد.
+                                    </p>
+
+                                    <p className="card-text mb-4">
+                                        در Omex، معامله‌گران می‌توانند تمام استراتژی‌های معاملاتی تعریف‌شده در بازار
+                                        مشتقه
+                                        را بدون نیاز به تماس یا هماهنگی با کارگزاری به‌صورت مستقیم در سامانه ایجاد و
+                                        مدیریت
+                                        کنند. همچنین قابلیت شبیه‌سازی استراتژی‌ها در این سامانه به کاربران کمک می‌کند تا
+                                        پیش
+                                        از اجرای واقعی معامله، بازده و ریسک احتمالی هر استراتژی را ارزیابی و مقایسه
+                                        کنند.
+                                    </p>
+
+                                    <a href="#" className="btn fadak-button float-end">ورود به سامانه امکس</a>
+
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
 
-            <section id="onboarding" className="onboarding-section">
-                <div className="container">
+            <section id="onboarding" className="onboarding-section fadak-bg-cream p-5">
+                <div className="container my-5">
                     <h4 className="section-title">مراحل ثبت نام تا معامله</h4>
 
                     <div className="row mt-4">
