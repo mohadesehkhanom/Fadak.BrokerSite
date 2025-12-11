@@ -10,7 +10,7 @@
 }
 
 
-.header-banner {
+.header-derivative {
     background: url("https://picsum.photos/2000/500");
 }
 
@@ -157,11 +157,11 @@
 
 /* ریسپانسیو */
 @media (max-width: 768px) {
-    .header-banner h1 {
+    .header-derivative h1 {
         font-size: 2rem;
     }
 
-    .header-banner {
+    .header-derivative {
         padding: 80px 0 50px;
         background: url("https://picsum.photos/2600/500");
     }

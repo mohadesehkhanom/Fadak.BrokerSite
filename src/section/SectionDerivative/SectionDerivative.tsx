@@ -21,7 +21,7 @@ export default function SectionDerivative() {
 
     return (
         < >
-            <section className="header-banner">
+            <section className="header-derivative">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 d-flex flex-column align-items-center justify-content-center" style={{minHeight: "500px"}}>
