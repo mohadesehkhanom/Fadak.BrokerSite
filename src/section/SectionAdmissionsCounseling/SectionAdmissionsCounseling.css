@@ -1,0 +1,66 @@
+
+/* Header */
+.Section-Admissions-Counseling {
+    background: url('https://picsum.photos/2000/500') center/cover no-repeat;
+    min-height: 500px;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Section-Admissions-Counseling p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.gold-underline {
+    width: 80px;
+    height: 4px;
+    background-color: var(--fadak-gold);
+    margin: 1.5rem auto;
+}
+
+/* Intro Section */
+.intro-section {
+    padding: 60px 0;
+}
+.intro-section .lead {
+    font-size: 1.2rem;
+    line-height: 2;
+    text-align: justify;
+}
+
+
+.section-title {
+    /*color: var(--fadak-navy);*/
+    border-bottom: 3px solid var(--fadak-gold);
+    margin-bottom: 1rem;
+    /*text-align: center;*/
+}
+/*.section-subtitle {*/
+/*    !*font-size: 1.1rem;*!*/
+
+/*    !*text-align: center;*!*/
+/*    !*margin-bottom: 3rem;*!*/
+/*}*/
+
+
+/* CTA Section */
+/*.cta-section {*/
+/*    background-color: var(--fadak-navy);*/
+/*    color: white;*/
+/*    padding: 60px 0;*/
+/*    text-align: center;*/
+/*}*/
+/*.cta-section h2 {*/
+/*    font-size: 2.2rem;*/
+/*    margin-bottom: 1.5rem;*/
+/*}*/
+/*.cta-section p {*/
+/*    font-size: 1.1rem;*/
+/*    max-width: 700px;*/
+/*    margin: 0 auto 2.5rem auto;*/
+/*    line-height: 1.9;*/
+/*}*/
+
+
+
