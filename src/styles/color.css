@@ -1,11 +1,36 @@
 :root {
-    --fadak-primary: #003d6a; /* آبی تیره و حرفه‌ای */
-    --bs-secondary: #ac923e; /* طلایی برای تاکید */
-    --fadak-keremi: #f3ecd9;
+    --fadak-navy: #003d6a; /* آبی تیره و حرفه‌ای */
+    --fadak-gold: #ac923e; /* طلایی برای تاکید */
+    --fadak-cream: #f3ecd9;
 
 
     --bs-primary-rgb: 26, 58, 95;
     --bs-secondary-rgb: 243, 156, 18;
-
-
 }
+
+
+
+.fadak-bg-navy{
+    background-color : var(--fadak-navy)
+}
+.fadak-bg-gold{
+    background-color : var(--fadak-gold)
+}
+.fadak-bg-cream{
+    background-color : var(--fadak-cream)
+}
+
+
+.fadak-color-navy{
+    color : var(--fadak-navy)
+}
+.fadak-color-gold{
+    color : var(--fadak-gold)
+}
+.fadak-color-cream{
+    color : var(--fadak-cream)
+}
+
+
+
+
