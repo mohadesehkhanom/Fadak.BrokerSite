@@ -22,20 +22,6 @@
     }
 }
 
-/* Navbar Branding and Button Update */
-.navbar-brand {
-    color: var(--fadak-navy) !important;
-}
-.btn-outline-success {
-    color: var(--fadak-navy);
-    border-color: var(--fadak-navy);
-}
-.btn-outline-success:hover {
-    background-color: var(--fadak-navy);
-    border-color: var(--fadak-navy);
-    color: white;
-}
-
 
 /* --- Section 2: Commodity Content (From Image) --- */
 .commodity-section {
@@ -99,20 +85,6 @@
     padding: 80px 0;
 }
 
-.service-card {
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-    transition: transform 0.3s;
-    height: 100%;
-    text-align: center;
-    padding: 30px;
-}
-
-.service-card:hover {
-    transform: translateY(-5px);
-}
-
 .icon-box {
     font-size: 2.5rem;
     /* CHANGE: Green to Navy */
@@ -120,8 +92,4 @@
     margin-bottom: 15px;
 }
 
-/* Overriding Bootstrap text-success for gold links in cards */
-.text-success {
-    color: var(--fadak-gold) !important;
-}
 
