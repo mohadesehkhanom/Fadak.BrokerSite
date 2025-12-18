@@ -44,6 +44,15 @@ export default function SectionNavbarMenu() {
                             </NavDropdown>
                             {/*<Nav.Link className="nav-item" href="/learning">آموزش</Nav.Link>*/}
                         </Nav>
+                        <div className="d-flex align-items-center gap-3 ms-auto header-actions">
+                            <a href="tel:+982163479000">
+                                <span dir={'ltr'}>021 63479000</span>
+                            </a>
+
+                            <a href="/online-registration" className="btn fadak-button open-account-btn">
+                                افتتاح حساب
+                            </a>
+                        </div>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
