@@ -29,7 +29,7 @@
     background-color: #fff;
 }
 
-.custom-btn-green {
+.custom-btn-navy {
     /* CHANGE: Green to Navy */
     background-color: var(--fadak-navy);
     color: white;
@@ -39,7 +39,7 @@
     transition: all 0.3s;
 }
 
-.custom-btn-green:hover {
+.custom-btn-navy:hover {
     /* CHANGE: Darker Green to Darker Navy */
     background-color: #002d50;
     color: white;
@@ -73,7 +73,7 @@
 .vision-title::after {
     content: '';
     display: block;
-    width: 50px;
+    width: 100px;
     height: 3px;
     /* CHANGE: Green to Gold */
     background: var(--fadak-gold);
@@ -92,4 +92,18 @@
     margin-bottom: 15px;
 }
 
+.doc-list li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-right: 25px;
+}
 
+.doc-list li::before {
+    content: "\F26E";       /* آیکون check */
+    font-family: "bootstrap-icons";
+    font-weight: 900;
+    color: var(--fadak-gold);
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
