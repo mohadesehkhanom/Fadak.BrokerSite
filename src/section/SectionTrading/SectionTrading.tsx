@@ -11,15 +11,37 @@ export default function SectionTrading() {
                         <div className="section__content">
                             <h3 className="section__content-title wow fadeInUp" data-wow-duration="0.8s">دریافت کد بورسی
                                 و مشاوره سرمایه‌گذاری</h3>
-                            <p className="section__content-text wow fadeInDown" data-wow-duration="0.8s">
+                            <p style={{textAlign:'justify'}} className="section__content-text wow fadeInDown" data-wow-duration="0.8s">
                                 شما می‌توانید به صورت کاملا رایگان و بدون نیاز به مراجعه حضوری کد بورسی خود را از
-                                کارگزاری مفید دریافت کنید. همینطور در صورت نیاز می‌توانید با ثبت درخواست مشاوره رایگان،
+                                کارگزاری فدک دریافت کنید. همینطور در صورت نیاز می‌توانید با ثبت درخواست مشاوره رایگان،
                                 از کارشناسان سرمایه‌گذاری مفید راهنمایی بگیرید.
                             </p>
-                            <div className="d-flex flex-row-reverse justify-content-around">
-                                <a href="" className="btn_theme btn_theme_active mt_40" data-wow-duration="0.8s">دریافت کد بورسی </a>
-                                <a href="" className="btn_theme btn_theme_active mt_40" data-wow-duration="0.8s">مشاوره رایگان </a>
+                            <div className="row justify-content-center align-items-center text-center my-3 py-2 rounded-2" style={{backgroundColor: "#003d6a"}}>
+
+                                <div className="col-md-6">
+                                    <div className="contact-item text-white">
+                                        <a href="tel:02163479300" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                            <span>02163479300-302</span>
+                                            <i className="bi bi-telephone-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div className="col-md-6">
+                                    <div className="contact-item text-white">
+                                        <a href="mailto:Commodity@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                            <span>Futures@fadakbrokerage.ir</span>
+                                            <i className="bi bi-envelope-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
+                            {/*<div className="d-flex flex-row-reverse justify-content-around mt-3">*/}
+                            {/*    <a href="https://fadakregister.irbrokersite.ir/" className="fadak-button" data-wow-duration="0.8s">دریافت کد بورسی </a>*/}
+                            {/*    /!*<a href="" className="fadak-button" data-wow-duration="0.8s">مشاوره رایگان </a>*!/*/}
+                            {/*</div>*/}
+
 
                         </div>
                     </div>
