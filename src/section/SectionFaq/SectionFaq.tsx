@@ -1,5 +1,5 @@
 'use client'
-
+import "./SectionFaq.css"
 import {Accordion, Tab, Tabs} from "react-bootstrap";
 import {useState} from "react";
 
@@ -56,7 +56,7 @@ export default function SectionFaq() {
             {q: "عرضه اولیه چیست؟", a: "به زمانی گفته می‌شود که سهام یک شرکت برای اولین بار به عموم مردم عرضه می‌شود."},
             {
                 q: "معاملات مرحله پایانی چیست؟ (TAL)",
-                a: "معاملات مرحله پایانی (TAL) یا Trading At Last بخشی از فرآیند معاملاتی بورس است که پس از پایان زمان معاملات پیوسته، برای نمادهای فعال در تابلوی اصلی بازار اول آغاز می‌شود. در این مرحله (از ساعت ۱۲:۴۵ تا ۱۳:۰۰ در بورس تهران)، معامله‌گران می‌توانند سفارش‌های خرید و فروش خود را صرفاً بر اساس قیمت پایانی ساعت ۱۲:۳۰ ثبت کنند. در TAL معامله در یک قیمت ثابت یعنی قیمت پایانی نماد انجام می‌شود."
+                a: "معاملات مرحله پایانی (TAL) یا Trading At Last بخشی از فرآیند معاملاتی بورس است که پس از پایان زمان معاملات پیوسته، آغاز می‌شود. در این مرحله (از ساعت ۱۲:۴۵ تا ۱۳:۰۰ در بورس تهران)، معامله‌گران می‌توانند سفارش‌های خرید و فروش خود را صرفاً بر اساس قیمت پایانی ساعت ۱۲:۳۰ ثبت کنند. در TAL معامله در یک قیمت ثابت یعنی قیمت پایانی نماد انجام می‌شود."
             },
             {
                 q: "آدرس سامانه معاملات برخط کارگزاری فدک چیست؟",
@@ -151,8 +151,8 @@ export default function SectionFaq() {
                                 </Tabs>
 
                                 <Accordion>
-                                    {data[key].map((item, idx) => (
-                                        <Accordion.Item eventKey={idx.toString()} key={idx}
+                                    {data[key].map((item, index) => (
+                                        <Accordion.Item eventKey={index.toString()} key={index}
                                                         className="accordion-item accordion_bg">
                                             <Accordion.Header className="accordion-header">{item.q}</Accordion.Header>
                                             <Accordion.Body className="accordion-body">
