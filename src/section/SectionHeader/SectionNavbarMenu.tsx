@@ -29,7 +29,7 @@ export default function SectionNavbarMenu() {
                                 <NavDropdown.Item className="custom-nav-item" href="https://fadak.tsetab.ir/">آنلاین مشتقه </NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="https://fadak.irbrokersite.ir/">آفلاین سهام </NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="https://fadak.ebgo.ir/Login">بورس کالا</NavDropdown.Item>
-                                <NavDropdown.Item className="custom-nav-item" href="">مرکز تماس</NavDropdown.Item>
+                                {/*<NavDropdown.Item className="custom-nav-item" href="">مرکز تماس</NavDropdown.Item>*/}
                             </NavDropdown>
                             <Nav.Link className="nav-item" href="/kala">بورس کالا و انرژی</Nav.Link>
                             <Nav.Link className="nav-item" href="/derivative">مشتقه</Nav.Link>
@@ -49,7 +49,7 @@ export default function SectionNavbarMenu() {
                                 <span dir={'ltr'}>021 63479000</span>
                             </a>
 
-                            <a href="/online-registration" className="btn fadak-button open-account-btn">
+                            <a href="https://fadakregister.irbrokersite.ir/" className="btn fadak-button open-account-btn">
                                 افتتاح حساب
                             </a>
                         </div>
