@@ -13,7 +13,7 @@ export default function SectionMarketMaking() {
                         <div className="col-lg-8 d-flex flex-column align-items-center justify-content-center" style={{minHeight: "500px"}}>
                             <h4>صندوق بازارگردانی فدک</h4>
                             <div className="mt-4">
-                                <a href="" target="_blank" className="btn fadak-button me-3">شروع سرمایه گذاری</a>
+                                <a href="" target="_blank" className="btn fadak-button me-3">سایت صندوق</a>
                             </div>
                         </div>
                     </div>
