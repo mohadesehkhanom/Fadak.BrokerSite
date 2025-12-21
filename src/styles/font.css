@@ -1,19 +1,20 @@
 body {
-    font-family: var(--font-yekanbakh), sans-serif;
-    font-weight: 400;
+    font-family: var(--font-Modam), sans-serif;
+    font-weight: 100;
 }
 
 h1 {
-    font-weight: 800; /* ExtraBold */
-    color: var(--bs-primary);
+    font-weight: bold; /* ExtraBold */
+    color: var(--fadak-navy);
 }
 
 h2 {
-    font-weight: 700; /* Bold */
-    color: var(--bs-primary);
+    font-weight: bold; /* Bold */
+    color: var(--fadak-navy);
 }
 
 p {
-    font-weight: 300; /* Light */
-    color: var(--bs-primary);
+    font-weight: 100; /* Light */
+    color: var(--fadak-navy);
+    text-align: justify;
 }
