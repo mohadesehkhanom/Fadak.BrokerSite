@@ -14,7 +14,7 @@ export default function SectionDerivative() {
         speed: 1500,
         autoplaySpeed: 3500,
         vertical: true,
-        arrows: false,
+        arrows: true,
         verticalSwiping: true,
         swipeToSlide: true,
     };
@@ -32,7 +32,7 @@ export default function SectionDerivative() {
                             </p>
                             <div className="mt-4">
                                 <a href="https://fadak.tsetab.ir/" target="_blank" className="btn fadak-button me-3">شروع معاملات مشتقه</a>
-                                <a href="#services" className="fadak-btn-outline mt-2 mt-sm-0">فعال‌سازی حساب اختیار معامله</a>
+                                <a href="https://fadakregister.irbrokersite.ir/" target="_blank" className="btn fadak-button mt-2 mt-sm-0">ثبت نام در کارگزاری فدک</a>
                             </div>
                         </div>
                     </div>
@@ -237,12 +237,44 @@ export default function SectionDerivative() {
                                 <h5 className="mb-3">با خدمات تخصصی مشتقه فدک، معاملات
                                     خود را به سطح بالاتری ببرید.</h5>
                                 <div className="mt-3">
-                                    <a href="#onboarding" className="btn fadak-button me-3">فعال‌سازی معاملات مشتقه</a>
-                                    <a href="#contact" className="fadak-btn-outline">مشاوره رایگان</a>
+                                    <a href="tel:02163479303" className="btn fadak-button me-3">فعال‌سازی معاملات مشتقه</a>
+                                    {/*<a href="#contact" className="fadak-btn-outline">مشاوره رایگان</a>*/}
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div className="row justify-content-center align-items-center text-center py-2 rounded-2" style={{backgroundColor: "#afa791"}}>
+
+                        <div className="col-md-4">
+                            <div className="contact-item text-white">
+                                <a href="tel:02163479303" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                    <span>02163479303</span>
+                                    <i className="bi bi-telephone-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="col-md-4">
+                            <div className="contact-item text-white">
+                                <a href="mailto:Futures@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                    <span>Futures@fadakbrokerage.ir</span>
+                                    <i className="bi bi-envelope-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="col-md-4">
+                            <div className="contact-item text-white">
+                                <a href="https://t.me/fadakbrk" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                    <span>@fadakbrk</span>
+                                    <i className="bi bi-telegram"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
             </section>
 
@@ -279,7 +311,7 @@ export default function SectionDerivative() {
                                         کنند.
                                     </p>
 
-                                    <a href="#" className="btn fadak-button float-end">ورود به سامانه امکس</a>
+                                    <a href="https://fadak.tsetab.ir" className="btn fadak-button float-end">ورود به سامانه امکس</a>
 
                                 </div>
                             </div>
@@ -291,7 +323,7 @@ export default function SectionDerivative() {
 
             <section id="onboarding" className="onboarding-section fadak-bg-cream p-5">
                 <div className="container my-5">
-                    <h4 className="section-title">مراحل ثبت نام تا معامله</h4>
+                    <h4 className="section-title w-100 text-center">مراحل ثبت نام تا معامله</h4>
 
                     <div className="row mt-4">
                         <div className="col-md-3 mb-4">
@@ -333,7 +365,7 @@ export default function SectionDerivative() {
 
                     <div className="row mt-5">
                         <div className="col-12 text-center">
-                            <p className="lead mb-4">
+                            <p className="lead mb-4 text-center">
                                 سریع‌تر، دقیق‌تر، حرفه‌ای‌تر؛ همه‌چیز برای یک معامله‌گر واقعی آماده است.
                             </p>
                             <a href="https://fadakregister.irbrokersite.ir/" target="_blank" className="btn fadak-button btn-lg">همین حالا به جمع معامله‌گران فدک بپیوندید</a>
