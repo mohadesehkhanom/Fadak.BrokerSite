@@ -24,7 +24,7 @@ export default function SectionFooter() {
                                         </span>
                                         <span>info@fadakbrokerage.ir</span>
                                     </a>
-                                    <a href="#">
+                                    <a href="/Brokerage-branch">
                                          <span className="btn_theme social_box">
                                             <i className="bi bi-geo-alt"></i>
                                         </span>
