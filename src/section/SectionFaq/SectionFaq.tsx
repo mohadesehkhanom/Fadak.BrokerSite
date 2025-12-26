@@ -123,8 +123,8 @@ export default function SectionFaq() {
 
     return <>
         <section className="video-tutorial-section white-bg section" style={{backgroundColor: "#e9eff7 !important"}}>
-            <div className="container">
-                <div className="row justify-content-center">
+            <div className="container-fluid container-lg">
+                <div className="row">
                     <div className="col-lg-5">
                         <div className="section__header">
                             <h2 className="section__header-title wow fadeInUp" data-wow-duration="0.8s">سوالات
@@ -132,40 +132,34 @@ export default function SectionFaq() {
                         </div>
                     </div>
                 </div>
-                <div className="row justify-content-between gy-4 gy-lg-0">
+                <div className="row">
                     <div className="col-12">
                         <div className="accordion wow fadeInDown" data-wow-duration="0.8s" id="faq">
+                            <Tabs
+                                id="faq-tabs"
+                                activeKey={key}
+                                onSelect={(k) => setKey((k ?? 'energy') as DataKeys)}
+                                className="mb-0"
+                                justify>
+                                <Tab eventKey="energy" title="پذیرش و ثبت نام "/>
+                                <Tab eventKey="registration" title="اواراق بهادر"/>
+                                <Tab eventKey="goods" title="مشتقه (اختیار معامله)"/>
+                                <Tab eventKey="funds" title="بورس کالا و انرژی"/>
+                            </Tabs>
 
-
-                            <div className="container mt-5">
-                                <Tabs
-                                    id="faq-tabs"
-                                    activeKey={key}
-                                    onSelect={(k) => setKey((k ?? 'energy') as DataKeys)}
-                                    className="mb-0"
-                                    justify>
-                                    <Tab eventKey="energy" title="پذیرش و ثبت نام "/>
-                                    <Tab eventKey="registration" title="اواراق بهادر"/>
-                                    <Tab eventKey="goods" title="مشتقه (اختیار معامله)"/>
-                                    <Tab eventKey="funds" title="بورس کالا و انرژی"/>
-                                </Tabs>
-
-                                <Accordion>
-                                    {data[key].map((item, index) => (
-                                        <Accordion.Item eventKey={index.toString()} key={index}
-                                                        className="accordion-item accordion_bg">
-                                            <Accordion.Header className="accordion-header">{item.q}</Accordion.Header>
-                                            <Accordion.Body className="accordion-body">
-                                                <p className="mb-0">
-                                                    {item.a}
-                                                </p>
-                                            </Accordion.Body>
-                                        </Accordion.Item>
-                                    ))}
-                                </Accordion>
-                            </div>
-
-
+                            <Accordion>
+                                {data[key].map((item, index) => (
+                                    <Accordion.Item eventKey={index.toString()} key={index}
+                                                    className="accordion-item accordion_bg">
+                                        <Accordion.Header className="accordion-header">{item.q}</Accordion.Header>
+                                        <Accordion.Body className="accordion-body">
+                                            <p className="mb-0">
+                                                {item.a}
+                                            </p>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                ))}
+                            </Accordion>
                         </div>
                     </div>
                 </div>
