@@ -7,7 +7,7 @@ export default function SectionTrading() {
             <div className="container">
                 <div className="row flex-row-reverse gy-5 gy-xl-0 justify-content-between align-items-lg-center"
                      data-wow-duration="2s" data-wow-delay="2s">
-                    <div className="col-xxl-6 col-xl-7 col-lg-7 col-md-6">
+                    <div className="order-2 order-sm-0 order-lg-1 col-xxl-6 col-xl-7 col-lg-7 col-md-6">
                         <div className="section__content">
                             <h3 className="section__content-title wow fadeInUp" data-wow-duration="0.8s">دریافت کد بورسی
                                 و مشاوره سرمایه‌گذاری</h3>
@@ -45,7 +45,7 @@ export default function SectionTrading() {
 
                         </div>
                     </div>
-                    <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-6">
+                    <div className="order-1 order-sm-0 order-lg-2 col-xxl-5 col-xl-5 col-lg-5 col-md-6">
                         <div className="traning-plan-thumb w-100">
                             <Image
                                 src="/assets/images/app/apps-thumb2.png"
