@@ -229,17 +229,8 @@ const OraghBahadarBankAccounts = [
         address: "میدان شیخ بهایی، ابتدای سئول، کوچه مهتاب، پلاک 19",
         branch: "100",
         telephone: "86080903 ",
-        shebaNumber: "IR544095000000001001885978",
+        shebaNumber: "IR540950000000001001885978",
         accountNumber: "1001885978",
-        image: "/assets/images/bank/bank-iran-venezuela/Iran_-_Venezuela_logo.png",
-    },
-    {
-        name: "بانک ایران ونزوئلا",
-        address: "میدان شیخ بهایی، ابتدای سئول، کوچه مهتاب، پلاک 19",
-        branch: "100",
-        telephone: "3001885968 ",
-        shebaNumber: "IR400950000000003001885968",
-        accountNumber: "",
         image: "/assets/images/bank/bank-iran-venezuela/Iran_-_Venezuela_logo.png",
     }
 ];
@@ -331,32 +322,32 @@ export default function BankAccount2() {
                             <td className="">{item.address}</td>
                             <td className="text-end" style={{ width: '160px' }}>
                                 {item.accountNumber ? (
-                                    <>
+                                    <span className="text-nowrap">
                                         {item.accountNumber}
                                         <button
                                             type="button"
-                                            className="btn btn-sm p-0"
+                                            className="btn btn-sm px-1"
                                             onClick={() => copyToClipboard(item.accountNumber)}
                                             disabled={!item.accountNumber?.trim()}
                                             title="کپی شماره حساب">
                                             <i className="bi bi-clipboard fs-5 color-navy"></i>
                                         </button>
-                                    </>
+                                    </span>
                                 ) : ''
                                 }
                             </td>
                             <td className="text-end" style={{ width: '250px' }}>
                                 {item.shebaNumber ? (
-                                    <>
+                                    <span className="text-nowrap">
                                         {item.shebaNumber || ''}
                                         <button
                                             type="button"
-                                            className="btn btn-sm p-0"
+                                            className="btn btn-sm px-1"
                                             onClick={() => copyToClipboard(item.shebaNumber)}
                                             title="کپی شماره شبا">
                                             <i className="bi bi-clipboard fs-5 color-navy"></i>
                                         </button>
-                                    </>
+                                    </span>
                                 ) : ''}
                             </td>
                         </tr>
