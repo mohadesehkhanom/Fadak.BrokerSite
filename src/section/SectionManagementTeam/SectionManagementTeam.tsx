@@ -2,8 +2,12 @@
 
 import './SectionManagementTeam.css'
 import Slider from "react-slick";
+import {useState} from "react";
 
 export default function SectionManagementTeam() {
+
+
+
     // هیئت مدیره
     const BoardOfDirectors = [
         {
@@ -313,34 +317,74 @@ export default function SectionManagementTeam() {
             {
                 breakpoint: 576, // Mobile
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     centerPadding: "20px",
-                },
+                }
             },
             {
                 breakpoint: 768, // Tablet
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     centerPadding: "40px",
-                },
+                }
+            },
+            {
+                breakpoint: 992, // Tablet
+                settings: {
+                    slidesToShow: 2,
+                    centerPadding: "40px",
+                }
             },
             {
                 breakpoint: 1200, // Desktop
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                     centerPadding: "60px",
-                },
+                }
             },
             {
                 breakpoint: 1600, // Large Desktop
                 settings: {
                     slidesToShow: 5,
                     centerPadding: "80px",
-                },
+                }
             },
         ],
     };
 
+
+
+    const categories = [
+        {
+            key: 'board',
+            title: 'هیئت مدیره',
+            data: BoardOfDirectors,
+        },
+        {
+            key: 'nomination',
+            title: 'کمیته انتصابات',
+            data: NominationCommittee,
+        },
+        {
+            key: 'risk',
+            title: 'کمیته ریسک',
+            data: RiskCommittee,
+        },
+        {
+            key: 'audit',
+            title: 'کمیته حسابرس داخلی',
+            data: InternalAuditCommittee,
+        },
+        {
+            key: 'brokerage',
+            title: 'مدیران کارگزاری',
+            data: BrokerageManagement,
+        },
+    ];
+
+    const [activeTab, setActiveTab] = useState(categories[0].key);
+
+    const activeCategory = categories.find(c => c.key === activeTab) ?? categories[0];
 
 
     return <>
@@ -348,38 +392,48 @@ export default function SectionManagementTeam() {
             <div className="container">
                 <div className="text-center mb-5">
                     <h4 className="">تیم مدیریتی</h4>
-                    <p className="mt-3 w-100 text-center">متخصصان با تجربه در خدمت شما</p>
+                    {/*<p className="mt-3 w-100 text-center">متخصصان با تجربه در خدمت شما</p>*/}
                 </div>
                 <div className="row">
-                    <h4 className="text-center">هیئت مدیره</h4>
+
+                    <div className="d-flex flex-column flex-md-row justify-content-center gap-3 mb-4">
+                        {categories.map(cat => (
+                            <button
+                                key={cat.key}
+                                className={`tab-btn ${activeTab === cat.key ? 'active' : ''} text-nowrap  `}
+                                onClick={() => setActiveTab(cat.key)}
+                            >
+                                {cat.title}
+                            </button>
+                        ))}
+                    </div>
+
+                    {/*<h4 className="text-center mb-3">{activeCategory.title}</h4>*/}
+
                     <Slider {...settings}>
-                        {BoardOfDirectors.map((member, index) => (
+                        {activeCategory.data.map((member, index) => (
                             <div key={index} className="p-3">
                                 <div className="team-card">
                                     <div className="team-card-inner">
 
                                         {/* FRONT */}
-                                        <div className="team-card-front">
+                                        <div className="team-card-front d-flex flex-column">
                                             <img
                                                 src="/assets/images/background/3542.jpg"
-                                                // src="https://picsum.photos/200/250"
                                                 alt={member.name}
                                             />
                                             <h3>{member.name}</h3>
-                                            <p className="text-center">{member.position}</p>
+                                            <p className="text-center mt-auto h-25 pt-5">{member.position}</p>
                                         </div>
 
                                         {/* BACK */}
                                         <div className="team-card-back d-flex flex-column">
-
-                                            {/* CONTENT */}
                                             <ul className="team-resume">
                                                 {member.resume.map((item, i) => (
                                                     <li key={i}>{item}</li>
                                                 ))}
                                             </ul>
 
-                                            {/* FOOTER */}
                                             {member.linkedin && (
                                                 <div className="team-card-footer">
                                                     <a
@@ -392,215 +446,14 @@ export default function SectionManagementTeam() {
                                                     </a>
                                                 </div>
                                             )}
-
                                         </div>
-
 
                                     </div>
                                 </div>
                             </div>
                         ))}
                     </Slider>
-                    <h4 className="">کمیته انتصابات</h4>
-                    <Slider {...settings}>
-                        {NominationCommittee.map((member, index) => (
-                            <div key={index} className="p-3">
-                                <div className="team-card">
-                                    <div className="team-card-inner">
 
-                                        {/* FRONT */}
-                                        <div className="team-card-front">
-                                            <img
-                                                src="/assets/images/background/3542.jpg"
-                                                // src="https://picsum.photos/200/250"
-                                                alt={member.name}
-                                            />
-                                            <h3>{member.name}</h3>
-                                            <p className="text-center">{member.position}</p>
-                                        </div>
-
-                                        {/* BACK */}
-                                        <div className="team-card-back d-flex flex-column">
-
-                                            {/* CONTENT */}
-                                            <ul className="team-resume">
-                                                {member.resume.map((item, i) => (
-                                                    <li key={i}>{item}</li>
-                                                ))}
-                                            </ul>
-
-                                            {/* FOOTER */}
-                                            {member.linkedin && (
-                                                <div className="team-card-footer">
-                                                    <a
-                                                        href={member.linkedin}
-                                                        target="_blank"
-                                                        rel="noreferrer"
-                                                        className="linkedin-btn"
-                                                    >
-                                                        مشاهده پروفایل لینکدین
-                                                    </a>
-                                                </div>
-                                            )}
-
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </Slider>
-                    <h4 className="">کمیته ریسک</h4>
-                    <Slider {...settings}>
-                        {RiskCommittee.map((member, index) => (
-                            <div key={index} className="p-3">
-                                <div className="team-card">
-                                    <div className="team-card-inner">
-
-                                        {/* FRONT */}
-                                        <div className="team-card-front">
-                                            <img
-                                                src="/assets/images/background/3542.jpg"
-                                                // src="https://picsum.photos/200/250"
-                                                alt={member.name}
-                                            />
-                                            <h3>{member.name}</h3>
-                                            <p className="text-center">{member.position}</p>
-                                        </div>
-
-                                        {/* BACK */}
-                                        <div className="team-card-back d-flex flex-column">
-
-                                            {/* CONTENT */}
-                                            <ul className="team-resume">
-                                                {member.resume.map((item, i) => (
-                                                    <li key={i}>{item}</li>
-                                                ))}
-                                            </ul>
-
-                                            {/* FOOTER */}
-                                            {member.linkedin && (
-                                                <div className="team-card-footer">
-                                                    <a
-                                                        href={member.linkedin}
-                                                        target="_blank"
-                                                        rel="noreferrer"
-                                                        className="linkedin-btn"
-                                                    >
-                                                        مشاهده پروفایل لینکدین
-                                                    </a>
-                                                </div>
-                                            )}
-
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </Slider>
-                    <h4 className="">کمیته حسابرس داخلی</h4>
-                    <Slider {...settings}>
-                        {InternalAuditCommittee.map((member, index) => (
-                            <div key={index} className="p-3">
-                                <div className="team-card">
-                                    <div className="team-card-inner">
-
-                                        {/* FRONT */}
-                                        <div className="team-card-front">
-                                            <img
-                                                src="/assets/images/background/3542.jpg"
-                                                // src="https://picsum.photos/200/250"
-                                                alt={member.name}
-                                            />
-                                            <h3>{member.name}</h3>
-                                            <p className="text-center">{member.position}</p>
-                                        </div>
-
-                                        {/* BACK */}
-                                        <div className="team-card-back d-flex flex-column">
-
-                                            {/* CONTENT */}
-                                            <ul className="team-resume">
-                                                {member.resume.map((item, i) => (
-                                                    <li key={i}>{item}</li>
-                                                ))}
-                                            </ul>
-
-                                            {/* FOOTER */}
-                                            {member.linkedin && (
-                                                <div className="team-card-footer">
-                                                    <a
-                                                        href={member.linkedin}
-                                                        target="_blank"
-                                                        rel="noreferrer"
-                                                        className="linkedin-btn"
-                                                    >
-                                                        مشاهده پروفایل لینکدین
-                                                    </a>
-                                                </div>
-                                            )}
-
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </Slider>
-                    <h4 className="">مدیران کارگزاری</h4>
-                    <Slider {...settings}>
-                        {BrokerageManagement.map((member, index) => (
-                            <div key={index} className="p-3">
-                                <div className="team-card">
-                                    <div className="team-card-inner">
-
-                                        {/* FRONT */}
-                                        <div className="team-card-front">
-                                            <img
-                                                src="/assets/images/background/3542.jpg"
-                                                // src="https://picsum.photos/200/250"
-                                                alt={member.name}
-                                            />
-                                            <h3>{member.name}</h3>
-                                            <p className="text-center">{member.position}</p>
-                                        </div>
-
-                                        {/* BACK */}
-                                        <div className="team-card-back d-flex flex-column">
-
-                                            {/* CONTENT */}
-                                            <ul className="team-resume">
-                                                {member.resume.map((item, i) => (
-                                                    <li key={i}>{item}</li>
-                                                ))}
-                                            </ul>
-
-                                            {/* FOOTER */}
-                                            {member.linkedin && (
-                                                <div className="team-card-footer">
-                                                    <a
-                                                        href={member.linkedin}
-                                                        target="_blank"
-                                                        rel="noreferrer"
-                                                        className="linkedin-btn"
-                                                    >
-                                                        مشاهده پروفایل لینکدین
-                                                    </a>
-                                                </div>
-                                            )}
-
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </Slider>
 
                 </div>
             </div>
