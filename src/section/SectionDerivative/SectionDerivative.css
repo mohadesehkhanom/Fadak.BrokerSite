@@ -61,3 +61,9 @@
         background: url("https://picsum.photos/2600/500");
     }
 }
+
+/* Remove default slick arrow icon */
+.slick-prev::before,
+.slick-next::before {
+    content: none !important;
+}

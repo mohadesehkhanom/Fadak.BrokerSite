@@ -6,8 +6,8 @@ button {
     font-size: 16px;
     line-height: 1.2;
     color: #222E48;
-    font-weight: 400;
-    font-family: var(--font-yekanbakh), sans-serif;
+    font-weight: 200;
+    font-family: var(--font-Modam), sans-serif;
     cursor: pointer;
     letter-spacing: inherit;
 }
@@ -28,8 +28,8 @@ blockquote,
 span {
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 400;
-    font-family: var(--font-yekanbakh), sans-serif;
+    font-weight: 200;
+    font-family: var(--font-Modam), sans-serif;
 }
 
 p span {
@@ -90,8 +90,8 @@ h5 > a,
 h6,
 h6 > a {
     line-height: 1.2;
-    font-family: var(--font-yekanbakh), sans-serif;
-    color: var(--bs-primary);
+    font-family: var(--font-Modam), sans-serif;
+    color: var(--fadak-navy);
     letter-spacing: inherit;
 }
 .display-1 span,
@@ -181,7 +181,7 @@ h6 > a {
 .headingFour,
 .headingFive,
 .headingSix {
-    font-family: var(--font-yekanbakh), sans-serif;
+    font-family: var(--font-Modam), sans-serif;
     line-height: 1.2;
     color: #222E48;
     font-weight: 600;
@@ -218,7 +218,7 @@ h6 > a {
 }
 
 .font_primary {
-    font-family: var(--font-yekanbakh), sans-serif;
+    font-family: var(--font-Modam), sans-serif;
 }
 
 .font_600 {
@@ -546,6 +546,14 @@ h6 > a {
         margin-top: 28px;
     }
 }
+
+.dir-rtl { direction: rtl; }
+.dir-ltr { direction: ltr; }
+
+.number-farsi{
+    font-family: var(--font-Modam-number), sans-serif !important;
+}
+
 /* ====
   --------- (2.2) typography styles end ---------
   ==== */

@@ -30,9 +30,9 @@
 }
 
 .contact .contact__title {
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
     border-bottom: 1px dashed #C1C4CC;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
 }
 
 .contact .form-control {
@@ -106,6 +106,6 @@
 }
 
 .contact:before{
-    background: var(--fadak-keremi);
+    background: var(--fadak-cream);
     opacity: 1;
 }

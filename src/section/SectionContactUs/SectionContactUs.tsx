@@ -11,9 +11,8 @@ export default function SectionContactUs() {
 
                     <div className="col-12 col-lg-5 col-xxl-4">
                         <div className="more-help rounded-3">
-                            <h5 className="contact__title">نیاز به کمک بیشتری دارید؟</h5>
-                            <div className="more-help__content
-                            ">
+                            <h5 className="contact__title pb-4 mb-4">نیاز به کمک بیشتری دارید؟</h5>
+                            <div className="more-help__content">
 
                                 <div className="card card--small p-3">
                                     <div className="card--small-icon">
@@ -22,7 +21,7 @@ export default function SectionContactUs() {
                                     <div className="card--small-content">
                                         <p className="card--small-title">شماره تماس</p>
                                         <div className="gap-1 flex-column">
-                                            <a href="tel:+1234567891" className="card--small-call dir-ltr">(021) 63479000</a>
+                                            <a href="tel:+1234567891" className="card--small-call dir-ltr number-farsi">(021) 63479000</a>
                                             {/*<a href="tel:+1234567891" className="card--small-call">(021) 456-7891</a>*/}
                                         </div>
                                     </div>
@@ -71,7 +70,8 @@ export default function SectionContactUs() {
                     <div className="col-12 col-lg-7 col-xxl-8 card rounded-3">
                         <form method="POST" autoComplete="off" id="frmContactus"
                               className="sign-up__form white-bg rounded-4 h-100 card-body">
-                            <h5 className="contact__title">با ما در تماس باشید</h5>
+                            <h5 className="contact__title pb-3 mb-3">ثبت پیشنهاد، انتقاد و شکایت</h5>
+                            <p className="text-start my-3">نظرات شما برای ما مهم است و به ما کمک می کند کیفیت خدماتمان را بهبود دهیم. چنانچه در هر زمینه نظری دارید برای ما بنویسید. اگر در هر مورد شکایتی دارید ما را در جریان بگذارید. ما متعهدیم ظرف ۴۸ ساعت به شکایت شما رسیدگی کنیم.</p>
                             <div className="sign-up__form-part">
                                 <div className="input-group mb-xxl-4 mb-3">
                                     <div className="input-single">
@@ -95,7 +95,7 @@ export default function SectionContactUs() {
                                 </div>
                             </div>
                             <span id="msg"></span>
-                            <button type="submit" className="btn fadak-btn mt_40 float-end" name="submit"  id="submit">
+                            <button type="submit" className="fadak-button mt_40 float-end" name="submit"  id="submit">
                                 ارسال پیام
                             </button>
                         </form>

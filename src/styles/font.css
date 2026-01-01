@@ -18,3 +18,7 @@ p {
     color: var(--fadak-navy);
     text-align: justify;
 }
+
+body, * {
+    letter-spacing: 0 !important;
+}

@@ -3,7 +3,7 @@
 import SectionFooter from "@/section/SectionFooter/SectionFooter";
 import SectionNavbarMenu from "@/section/SectionHeader/SectionNavbarMenu";
 import SectionOrganization from "@/section/SectionOrganization/SectionOrganization";
-import { useState } from "react";
+import {useEffect, useState} from "react";
 import dynamic from "next/dynamic";
 
 const MapComponent = dynamic(() => import("@/components/ui/MapComponent"), {
@@ -111,6 +111,11 @@ export default function Page() {
     const currentBranches = branches[selectedProvince];
     const mapCenter = provinceCenters[selectedProvince];
 
+
+        useEffect(() => {
+            document.title = 'شعب و دفاتر';
+        }, []);
+
     return (
         <>
             <SectionNavbarMenu />
@@ -146,7 +151,15 @@ export default function Page() {
                                                             <i className="bi bi-building text-primary me-2"></i>
                                                             <div>
                                                                 {/*<span className="text-muted d-block d-md-none">نام شعبه</span>*/}
-                                                                <span className="fw-bold">{b.name}</span>
+                                                                <a
+                                                                    href={`https://www.google.com/maps/dir/?api=1&destination=${b.position[0]},${b.position[1]}`}
+                                                                    target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    className=" btn-sm text-nowrap"
+                                                                >
+                                                                    <span className="fw-bold">{b.name}</span>
+                                                                </a>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -157,7 +170,7 @@ export default function Page() {
                                                                 <i className="bi bi-telephone-fill text-success me-2"></i>
                                                                 <div>
                                                                     {/*<small className="text-muted d-block d-md-none">تلفن</small>*/}
-                                                                    <a href={`tel:${b.phone}`} className="text-decoration-none">{b.phone}</a>
+                                                                    <a href={`tel:${b.phone}`} className="text-decoration-none number-farsi">{b.phone}</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -170,14 +183,22 @@ export default function Page() {
                                                             <div>
                                                                 <small className="text-muted d-block d-md-none">کد
                                                                     پستی</small>
-                                                                <span>{b.postalCode || '-'}</span>
+                                                                <span className="number-farsi">{b.postalCode || '-'}</span>
                                                             </div>
                                                         </div>
                                                     </div>) }
 
                                                     <div className="col-12 col-md-12">
                                                         <div className="d-flex align-items-center">
-                                                            <i className="bi bi-geo-alt-fill text-danger me-2"></i>
+                                                            <a
+                                                                href={`https://www.google.com/maps/dir/?api=1&destination=${b.position[0]},${b.position[1]}`}
+                                                                target="_blank"
+                                                                rel="noopener noreferrer"
+                                                                className=" btn-sm text-nowrap"
+                                                            >
+                                                                <i title="مسیریابی" className="bi bi-geo-alt-fill text-danger me-2"></i>
+                                                            </a>
+
                                                             <div>
                                                                 {/*<small className="text-muted d-block d-md-none">آدرس</small>*/}
                                                                 <span>{b.address}</span>

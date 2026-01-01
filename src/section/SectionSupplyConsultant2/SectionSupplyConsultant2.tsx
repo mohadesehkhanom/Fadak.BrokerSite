@@ -25,7 +25,7 @@ export default function SectionSupplyConsultant2() {
                                 <div className="col-md-6">
                                     <div className="contact-item text-white">
                                         <a href="tel:02163479410" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                            <span>02163479410</span>
+                                            <span className="number-farsi">02163479410</span>
                                             <i className="bi bi-telephone-fill"></i>
                                         </a>
                                     </div>

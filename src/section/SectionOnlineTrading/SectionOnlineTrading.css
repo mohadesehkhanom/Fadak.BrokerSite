@@ -1,0 +1,73 @@
+
+/* Wrapper برای افزودن عمق به محتوای اصلی */
+.main-content-wrapper {
+    background-color: white;
+    padding: 3rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* سایه ظریف برای عمق */
+    margin-top: -30px; /* برای همپوشانی با هدر و ایجاد ترنزیشن */
+}
+
+.section-title {
+    color: var(--fadak-navy);
+    font-weight: 800; /* bolder */
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--fadak-gold); /* خط ضخیم‌تر برای تاکید */
+    display: inline-block;
+    /*margin-bottom: 3rem; !* افزایش Whitespace *!*/
+}
+
+.section-online-trading {
+    background-color: var(--fadak-navy);
+    background-image: url("https://picsum.photos/2000/500");
+    color: white;
+    padding: 3rem 0;
+    height: 500px;
+    border-bottom: 5px solid var(--fadak-gold);
+}
+
+
+.gold-text {
+    color: var(--fadak-gold);
+}
+
+/* استایل خاص برای دکمه‌های ثبت‌نام (CTA) */
+/*.cta-btn {*/
+/*    background-color: var(--fadak-gold);*/
+/*    border: 2px solid var(--fadak-gold);*/
+/*    color: var(--fadak-navy);*/
+/*    font-size: 1.25rem;*/
+/*    font-weight: 700;*/
+/*    transition: all 0.3s;*/
+/*}*/
+/*.cta-btn:hover {*/
+/*    background-color: var(--fadak-navy);*/
+/*    color: var(--fadak-gold);*/
+/*    border-color: var(--fadak-gold);*/
+/*}*/
+
+.contact-info {
+    background-color: var(--fadak-cream);
+    border: 1px solid var(--fadak-gold);
+    padding: 2.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 5px 15px rgba(0, 61, 106, 0.1);
+}
+
+/* استایل کارت‌های مزایا (Card-based Design) */
+.advantage-card {
+    transition: all 0.3s ease;
+    height: 100%;
+    border-radius: 0.75rem;
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--fadak-gold);
+
+}
+
+
+@media (min-width: 992px) {
+    .w-lg-50 {
+        width: 50%;
+    }
+}

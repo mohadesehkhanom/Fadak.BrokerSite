@@ -23,14 +23,6 @@ export default function Page() {
             <SectionHero/>
             <SectionAbout2/>
             <SectionManagementTeam/>
-            {/*<SectionServiceOfferings/>*/}
-            {/*<SectionHero/>*/}
-            {/*<SectionTimeLine/>*/}
-            {/*<SectionServiceOfferings/>*/}
-            {/*<section id="about"></section>*/}
-            {/*<SectionBeginInvestment/>*/}
-            {/*<ManagementTeam/>*/}
-            {/*<WorkingSection/>*/}
             <SectionOrganization/>
             <SectionFooter/>
         </>

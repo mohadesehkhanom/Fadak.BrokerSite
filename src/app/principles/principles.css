@@ -24,28 +24,27 @@
     transform: scale(1.1);
 }
 .principles-header-section {
-    background: linear-gradient(135deg, #293b8d 0%, #12529b 100%);
-    padding: 70px 0;
+    background: url("https://picsum.photos/2000/500");
     margin-bottom: 50px;
     border-bottom: none;
     position: relative;
     overflow: hidden;
 }
-.principles-header-section::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
-    transform: rotate(45deg);
-    z-index: 1;
-}
-.principles-header-content {
-    position: relative;
-    z-index: 2;
-}
+/*.principles-header-section::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: -50%;*/
+/*    right: -50%;*/
+/*    width: 200%;*/
+/*    height: 200%;*/
+/*    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);*/
+/*    transform: rotate(45deg);*/
+/*    z-index: 1;*/
+/*}*/
+/*.principles-header-content {*/
+/*    position: relative;*/
+/*    z-index: 2;*/
+/*}*/
 .card-title {
     color: #1a3a5f;
     font-weight: 700;

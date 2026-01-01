@@ -17,16 +17,15 @@ export default function SectionServices() {
             <section className="commodity-section">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 text-center">
+                        <div className="col-lg-6 text-center order-1">
                             <img
                                 src="https://picsum.photos/600/400"
                                 className="metal-img rounded-4"/>
                         </div>
-                        <div className="col-lg-6 mb-4 mb-lg-0">
+                        <div className="col-lg-6 mb-4 mb-lg-0 mt-5 mt-sm-5 mt-lg-0 order-2">
                             <h4 className="fw-bold mb-4">اعتبار معاملاتی کارگزاری فدک</h4>
                             <p className=" lh-lg mb-4 text-justify">
-                                اعتبار معاملاتی کارگزاری فدک
-                                اعتبار معاملاتی مبلغی است که کارگزاری فدک بر اساس ضوابط اعتباری در اختیار مشتریان واجد شرایط قرار می‌دهد تا با افزایش قدرت خرید، از فرصت‌های بازار سرمایه بهتر استفاده کنند. این خدمت امکان انجام معاملات بدون نیاز به تأمین کامل وجه نقد را فراهم کرده و به مدیریت بهینه نقدینگی و پرتفوی سرمایه‌گذاری کمک می‌کند.دریافت و تخصیص اعتبار معاملاتی هیچ‌گونه هزینه، بهره یا کارمزد اضافی برای مشتری به همراه ندارد.
+                                اعتبار معاملاتی مبلغی است که کارگزاری فدک بر اساس ضوابط اعتباری در اختیار مشتریان واجد شرایط قرار می‌دهد تا با افزایش قدرت خرید، از فرصت‌های بازار سرمایه بهتر استفاده کنند. این خدمت امکان انجام معاملات بدون نیاز به تأمین کامل وجه نقد را فراهم کرده و به مدیریت بهینه نقدینگی و پرتفوی سرمایه‌گذاری کمک می‌کند.
                             </p>
                         </div>
                     </div>
@@ -38,7 +37,7 @@ export default function SectionServices() {
                     <div className="row justify-content-center">
                         <div className="col-md-8">
                             <h4 className="vision-title">پول شما برای سرمایه‌گذاری کم نیست</h4>
-                            <p className="lead mt-3">
+                            <p className="lead mt-3 text-center">
                                 اعتبار معاملاتی، سرمایه‌ای موقت است که قدرت خرید شما را افزایش می‌دهد و امکان معامله با مبلغی فراتر از سرمایه شخصی‌تان را فراهم می‌کند. این اعتبار به‌صورت مستقیم به حساب معاملاتی شما واریز می‌شود و نقش یک ابزار مالی مؤثر در افزایش توان معامله‌گری شما را دارد
                             </p>
                         </div>
@@ -74,7 +73,7 @@ export default function SectionServices() {
                             </div>
                         </div>
 
-                        <div className="col-md-4">
+                        <div className="col-md-4 my-4 my-sm-0">
                             <div className="card h-100 fadak-bg-cream rounded-4">
                                 <div className="card-body text-center d-flex flex-column justify-content-around">
 
@@ -132,7 +131,7 @@ export default function SectionServices() {
                             <div className="col-md-4">
                                 <div className="contact-item text-white">
                                     <a href="tel:02163479302" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                        <span>02163479302</span>
+                                        <span className="number-farsi">02163479302</span>
                                         <i className="bi bi-telephone-fill"></i>
                                     </a>
                                 </div>

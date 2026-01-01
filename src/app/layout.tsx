@@ -6,7 +6,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 /*  End bootstrap    */
 
 // import "./globals.css";
-import "./style.css";
+// import "./style.css";
 
 /*  layout style    */
 import "../styles/color.css";
@@ -32,7 +32,7 @@ import "animate.css/source/fading_entrances/fadeInUp.css"
 
 
 
-import {yekanBakh} from "@/lib/fonts";
+import {ModamFont, ModamNumber} from "@/lib/fonts";
 import {ImportWowJs} from "@/components/ui/ImportWowJs/ImportWowJs";
 
 export const metadata: Metadata = {
@@ -56,7 +56,7 @@ export default function RootLayout({
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </head>
-            <body className={`${yekanBakh.variable}`}>
+            <body className={`${ModamFont.variable}  ${ModamNumber.variable}`}>
                 {children}
 
                 <ImportWowJs/>

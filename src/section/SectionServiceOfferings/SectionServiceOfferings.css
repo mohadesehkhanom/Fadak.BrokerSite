@@ -10,7 +10,7 @@
 .section-ServiceOfferings-title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--fadak-primary);
+    color: var(--fadak-navy);
     margin-bottom: 1rem;
     position: relative;
     display: inline-block;
@@ -45,19 +45,144 @@
 
 .service-ServiceOfferings-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    box-shadow: 10px 8px 6px 4px #00000026;
 }
 
 .service-ServiceOfferings-icon {
     width: 60px;
     height: 60px;
     /*background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));*/
-    border: 3px solid var(--fadak-primary);
+    /*border: 3px solid var(--fadak-primary);*/
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    /*margin-bottom: 1.5rem;*/
     font-size: 1.5rem;
     color: white;
+}
+
+
+.bi.bi-Online-Transactions {
+    background-image: url('/assets/images/icon/OnlineTransactions.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+
+.bi.bi-Stock-Derivatives {
+    background-image: url('/assets/images/icon/StockDerivatives.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+
+.bi.bi-Commodity-Energy-Exchange {
+    background-image: url('/assets/images/icon/CommodityEnergyExchange.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+
+.bi.bi-Admissions-Advisor {
+    background-image: url('/assets/images/icon/AdmissionsAdvisor.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+
+.bi.bi-Market-Making {
+    background-image: url('/assets/images/icon/Market-Making.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+
+.bi.bi-Offering-Advisor {
+    background-image: url('/assets/images/icon/OfferingAdvisor.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+.bi.bi-Portfolio-Management {
+    background-image: url('/assets/images/icon/PortfolioManagement.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+
+.bi.bi-Investment-Advisory {
+    background-image: url('/assets/images/icon/InvestmentAdvisory.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+
+.bi.bi-Crowdfunding {
+    background-image: url('/assets/images/icon/Crowdfunding.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+
+
+
+.color-animate-border {
+    border: 2px solid;
+    /*border-radius: 12px;*/
+    border-color: rgba(255, 91, 91, 0);
+    transition: box-shadow 0.3s ease;
+}
+
+.color-animate-border:hover {
+    animation: border-color-change 2s linear infinite;
+}
+
+/* فقط رنگ عوض می‌شود */
+@keyframes border-color-change {
+    0% {
+        border-color: var(--fadak-navy); /* آبی */
+    }
+    50% {
+        border-color: var(--fadak-gold); /* قرمز */
+    }
+    100% {
+        border-color: var(--fadak-cream);
+    }
+}
+
+@keyframes cold-shiver {
+    0%   { transform: translate(0, 0); }
+    10%  { transform: translate(-1px, 0); }
+    20%  { transform: translate(1px, 0); }
+    30%  { transform: translate(-2px, 0); }
+    40%  { transform: translate(2px, 0); }
+    50%  { transform: translate(-1px, 0); }
+    60%  { transform: translate(1px, 0); }
+    70%  { transform: translate(-1px, 0); }
+    80%  { transform: translate(1px, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+/* وقتی موس روی کارت است، آیکون بلرزد */
+.service-ServiceOfferings-card:hover .cold-hover {
+    animation: cold-shiver 0.6s linear infinite;
 }

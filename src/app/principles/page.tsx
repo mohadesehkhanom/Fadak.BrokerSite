@@ -2,6 +2,13 @@ import SectionFooter from "@/section/SectionFooter/SectionFooter";
 import SectionNavbarMenu from "@/section/SectionHeader/SectionNavbarMenu";
 import "./principles.css"
 import SectionOrganization from "@/section/SectionOrganization/SectionOrganization";
+import {Metadata} from "next";
+
+
+export const metadata: Metadata = {
+    title: "اصول و اعتقادات حرفه‌ای",
+    description: '',
+};
 
 export default function Page() {
 
@@ -15,7 +22,7 @@ export default function Page() {
                     <div className="row minHeight480 d-flex align-items-center justify-content-center">
                         <div className="col-12 text-center">
                             <h1 className="display-4 fw-bold text-white">اصول و ارزش‌های حرفه‌ای</h1>
-                            <p className="lead text-white-50">تعهد ما به برتری در هر جنبه‌ای از کسب‌وکارمان</p>
+                            <p className="lead text-white-50 text-center">تعهد ما به برتری در هر جنبه‌ای از کسب‌وکارمان</p>
                         </div>
                     </div>
                 </div>
@@ -99,10 +106,8 @@ export default function Page() {
                     </div>
                     <a
                         href="/assets/doc/12.pdf"
-                        className="btn_theme btn_theme_active mt_40 float-end"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                        className=" mt_40 float-end fadak-button"
+                        target="_blank">
                         کدهای اخلاقی
                     </a>
 

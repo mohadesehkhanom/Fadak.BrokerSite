@@ -4,39 +4,26 @@ export default function SectionOrganization() {
     return <>
         <SponsorSlider>
             <div className="aitable-sponsor-item">
-                <img src="/assets/images/sponsor/0.svg" width="110" height="110" alt="airtable"/>
-                <p>بورس انرژی ایران</p>
+                <img alt="بورس کالا" width="100" height="100"  style={{color:"transparent"}} src="/assets/images/sponsor/new/1.svg"/>
             </div>
             <div className="aitable-sponsor-item">
-                <img src="/assets/images/sponsor/1.svg" width="110" height="110" alt="airtable"/>
-                <p>وزارت اقتصاد و دارایی</p>
+                <img alt="بورس کالا" width="100" height="100"  style={{color:"transparent"}} src="/assets/images/sponsor/new/2.svg"/>
             </div>
             <div className="aitable-sponsor-item">
-                <img src="/assets/images/sponsor/2.svg" width="110" height="110" alt="airtable"/>
-                <p>سازمان بورس</p>
+                <img alt="بورس کالا" width="100" height="100"  style={{color:"transparent"}} src="/assets/images/sponsor/new/3.svg"/>
             </div>
             <div className="aitable-sponsor-item">
-                <img src="/assets/images/sponsor/3.svg" width="110" height="110" alt="airtable"/>
-                <p>بورس اوراق بهادار تهران</p>
+                <img alt="بورس کالا" width="100" height="100"  style={{color:"transparent"}} src="/assets/images/sponsor/new/4.svg"/>
             </div>
             <div className="aitable-sponsor-item">
-                <img src="/assets/images/sponsor/4.svg" width="110" height="110" alt="airtable"/>
-                <p>کانون کارگزاران</p>
+                <img alt="بورس کالا" width="100" height="100"  style={{color:"transparent"}} src="/assets/images/sponsor/new/5.svg"/>
             </div>
             <div className="aitable-sponsor-item">
-                <img src="/assets/images/sponsor/5.svg" width="110" height="110" alt="airtable"/>
-                <p>فرابورس</p>
+                <img alt="بورس کالا" width="100" height="100"  style={{color:"transparent"}} src="/assets/images/sponsor/new/6.svg"/>
             </div>
             <div className="aitable-sponsor-item">
-                <img src="/assets/images/sponsor/6.svg" width="110" height="110" alt="airtable"/>
-                <p>بورس کالا</p>
+                <img alt="بورس کالا" width="100" height="100"  style={{color:"transparent"}} src="/assets/images/sponsor/new/7.svg"/>
             </div>
-            <div className="aitable-sponsor-item">
-                <img src="/assets/images/sponsor/7.png" width="110" height="110" alt="airtable"/>
-                <p>مدیریت فناوری بورس تهران</p>
-            </div>
-
-
         </SponsorSlider>
     </>;
 }

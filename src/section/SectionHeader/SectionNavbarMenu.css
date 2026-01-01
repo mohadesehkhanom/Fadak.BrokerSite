@@ -7,7 +7,7 @@
 }
 
 .nav-item, .custom-nav-item, .nav-link {
-    color: var(--fadak-primary) !important;
+    color: var(--fadak-navy) !important;
     font-weight: 100 !important;
 }
 
@@ -16,13 +16,22 @@
     min-width: 200px;
     height: 40px;
     padding-top: 10px;
+    font-weight: normal !important;
+}
+
+.custom-nav-item:hover {
+    font-weight: bolder !important;
 }
 
 
 .nav-link:hover {
-    color: var(--fadak-primary) !important;
+    color: var(--fadak-navy) !important;
 }
 
 .dropdown-item.active, .dropdown-item:active {
     background-color: #f3f3f3;
+}
+
+.dropdown-item{
+    font-weight: 100 !important;
 }

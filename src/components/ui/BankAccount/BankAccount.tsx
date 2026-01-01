@@ -23,11 +23,6 @@ type BankAccountProps = {
 
 export default function BankAccount ({ bankList = []}: BankAccountProps) {
 
-    // useEffect(() => {
-    //     if (typeof window !== 'undefined') {
-    //         new WOW.WOW().init();
-    //     }
-    // }, []);
 
     return <>
         <div className="broker-review-wrap">

@@ -1,0 +1,25 @@
+@media screen and (max-width: 490px) {
+    .attain-financial-wrap {
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+    .attain-financial-wrap .attain-financial-inner {
+        display: grid;
+        gap: 14px;
+    }
+}
+@media screen and (min-width: 490px) {
+    .attain-financial-wrap .attain-financial-inner .card:first-child {
+        border-bottom: unset !important;
+    }
+}
+@media screen and (min-width: 490px) {
+    .attain-financial-wrap .attain-financial-inner1 .card:last-child {
+        border-right: unset;
+    }
+}
+@media screen and (min-width: 490px) {
+    .attain-financial-wrap .attain-financial-inner2 {
+        margin-top: 60px;
+    }
+}

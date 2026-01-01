@@ -1,0 +1,248 @@
+
+
+/* استایل‌های هدر */
+
+.btn-signup {
+    background-color: var(--fadak-gold);
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+.btn-signup:hover {
+    background-color: #e67e22;
+    transform: translateY(-2px);
+}
+
+/* استایل‌های بخش معرفی (Hero) */
+/*.hero-section {*/
+/*    background: linear-gradient(rgba(26, 58, 95, 0.8), rgba(26, 58, 95, 0.8)), url('/assets/images/background/676-1920x800.jpg');*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    color: white;*/
+/*    padding: 100px 0;*/
+/*    text-align: center;*/
+/*}*/
+/*.hero-section h1 {*/
+/*    font-weight: 700;*/
+/*    font-size: 3rem;*/
+/*    margin-bottom: 1.5rem;*/
+/*}*/
+/*.hero-section p {*/
+/*    font-size: 1.2rem;*/
+/*    font-weight: 300;*/
+/*    max-width: 600px;*/
+/*    margin: 0 auto 2rem auto;*/
+/*}*/
+/*.btn-hero {*/
+/*    background-color: var(--bs-secondary);*/
+/*    border: none;*/
+/*    color: white;*/
+/*    font-weight: 600;*/
+/*    font-size: 1.1rem;*/
+/*    padding: 0.75rem 2.5rem;*/
+/*    border-radius: 50px;*/
+/*    transition: all 0.3s;*/
+/*}*/
+/*.btn-hero:hover {*/
+/*    background-color: #e67e22;*/
+/*    transform: translateY(-3px);*/
+/*    box-shadow: 0 10px 20px rgba(0,0,0,0.2);*/
+/*}*/
+
+/* استایل‌های بخش خدمات افقی */
+.service-section {
+    padding: 80px 0;
+    overflow: hidden;
+}
+.service-section:nth-child(even) {
+    background-color: #ffffff;
+}
+.service-section:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+.service-section h2 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: var(--fadak-navy);
+    margin-bottom: 1.5rem;
+}
+.service-section p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: #555;
+}
+.service-section .btn {
+    background-color: var(--fadak-navy);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    margin-top: 1rem;
+    transition: all 0.3s;
+}
+.service-section .btn:hover {
+    background-color: #142d4a;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.service-img {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.5s ease;
+}
+.service-img:hover {
+    transform: scale(1.05);
+}
+
+/* استایل‌های کارت‌های صندوق */
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--fadak-navy);
+    margin-bottom: 1rem;
+}
+.section-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 4rem;
+}
+.fund-card {
+    background: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.07);
+    transition: all 0.4s ease;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+.fund-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+.fund-card .icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem auto;
+    background-color: rgba(var(--fadak-primary-rgb), 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+}
+.fund-card:hover .icon-box {
+    background-color: var(--fadak-navy);
+}
+.fund-card .icon-box i {
+    font-size: 2.2rem;
+    color: var(--fadak-navy);
+    transition: all 0.4s;
+}
+.fund-card:hover .icon-box i {
+    color: white;
+}
+.fund-card h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+.fund-card p {
+    font-size: 0.95rem;
+    color: #6c757d;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+.fund-card .btn {
+    background-color: transparent;
+    color: var(--fadak-navy);
+    border: 2px solid var(--bs-primary);
+    border-radius: 50px;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s;
+}
+.fund-card .btn:hover {
+    background-color: var(--bs-primary);
+    color: white;
+}
+.chart-container {
+    position: relative;
+    height: 180px;
+    margin-bottom: 1.5rem;
+}
+
+/* استایل‌های بخش مرکز خدمات */
+.service-center-section {
+    background: linear-gradient(rgba(26, 58, 95, 0.85), rgba(26, 58, 95, 0.85)), url('/assets/images/background/800.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.service-center-section h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+.service-center-section p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    max-width: 700px;
+    margin: 0 auto 4rem auto;
+    color: #e0e0e0;
+}
+.service-center-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 2.5rem 2rem;
+    transition: all 0.4s ease;
+    height: 100%;
+}
+.service-center-card:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+.service-center-card .icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+}
+.service-center-card:hover .icon-box {
+    background-color: var(--fadak-gold);
+}
+.service-center-card .icon-box i {
+    font-size: 2.2rem;
+    color: white;
+}
+.service-center-card h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.service-center-card p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+

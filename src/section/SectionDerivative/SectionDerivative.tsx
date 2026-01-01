@@ -1,6 +1,6 @@
 'use client'
 import "./SectionDerivative.css"
-import Slider from "react-slick";
+import Slider, {CustomArrowProps} from "react-slick";
 
 export default function SectionDerivative() {
 
@@ -17,6 +17,8 @@ export default function SectionDerivative() {
         arrows: true,
         verticalSwiping: true,
         swipeToSlide: true,
+        prevArrow: <PrevArrow />,
+        nextArrow: <NextArrow />,
     };
 
     return (
@@ -24,7 +26,7 @@ export default function SectionDerivative() {
             <section className="header-derivative">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8 d-flex flex-column align-items-center justify-content-center" style={{minHeight: "500px"}}>
+                        <div className="col-lg-8 d-flex flex-column align-items-center justify-content-end" style={{minHeight: "500px"}}>
                             <h4>مدیریت ریسک، خلق فرصت</h4>
                             <p className="mt-2">
                                 با ابزارهای مشتقه، ریسک را کنترل و فرصت‌های جدید بازار را شکار کنید.
@@ -237,7 +239,7 @@ export default function SectionDerivative() {
                                 <h5 className="mb-3">با خدمات تخصصی مشتقه فدک، معاملات
                                     خود را به سطح بالاتری ببرید.</h5>
                                 <div className="mt-3">
-                                    <a href="tel:02163479303" className="btn fadak-button me-3">فعال‌سازی معاملات مشتقه</a>
+                                    <a href="tel:02163479000" className="btn fadak-button me-3">فعال‌سازی معاملات مشتقه</a>
                                     {/*<a href="#contact" className="fadak-btn-outline">مشاوره رایگان</a>*/}
                                 </div>
                             </div>
@@ -248,8 +250,8 @@ export default function SectionDerivative() {
 
                         <div className="col-md-4">
                             <div className="contact-item text-white">
-                                <a href="tel:02163479303" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                    <span>02163479303</span>
+                                <a href="tel:02163479000" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                    <span className="number-farsi dir-ltr">02163479000-(303)</span>
                                     <i className="bi bi-telephone-fill"></i>
                                 </a>
                             </div>
@@ -325,8 +327,8 @@ export default function SectionDerivative() {
                 <div className="container my-5">
                     <h4 className="section-title w-100 text-center">مراحل ثبت نام تا معامله</h4>
 
-                    <div className="row mt-4">
-                        <div className="col-md-3 mb-4">
+                    <div className="row mt-4 gy-3">
+                        <div className="col-12 col-md-6 col-lg-3">
                             <div className="step-card">
                                 <div className="step-number">۱</div>
                                 <h5 className="step-title">ثبت‌نام آنلاین</h5>
@@ -335,7 +337,7 @@ export default function SectionDerivative() {
                             </div>
                         </div>
 
-                        <div className="col-md-3 mb-4">
+                        <div className="col-12 col-md-6 col-lg-3">
                             <div className="step-card">
                                 <div className="step-number">۲</div>
                                 <h5 className="step-title">فعال‌سازی دسترسی بازار مشتقه</h5>
@@ -344,7 +346,7 @@ export default function SectionDerivative() {
                             </div>
                         </div>
 
-                        <div className="col-md-3 mb-4">
+                        <div className="col-12 col-md-6 col-lg-3">
                             <div className="step-card">
                                 <div className="step-number">۳</div>
                                 <h5 className="step-title">شارژ حساب و فعالسازی</h5>
@@ -353,7 +355,7 @@ export default function SectionDerivative() {
                             </div>
                         </div>
 
-                        <div className="col-md-3 mb-4">
+                        <div className="col-12 col-md-6 col-lg-3">
                             <div className="step-card">
                                 <div className="step-number">۴</div>
                                 <h5 className="step-title">شروع معاملات</h5>
@@ -364,11 +366,11 @@ export default function SectionDerivative() {
                     </div>
 
                     <div className="row mt-5">
-                        <div className="col-12 text-center">
+                        <div className="col-12 text-center px-0">
                             <p className="lead mb-4 text-center">
                                 سریع‌تر، دقیق‌تر، حرفه‌ای‌تر؛ همه‌چیز برای یک معامله‌گر واقعی آماده است.
                             </p>
-                            <a href="https://fadakregister.irbrokersite.ir/" target="_blank" className="btn fadak-button btn-lg">همین حالا به جمع معامله‌گران فدک بپیوندید</a>
+                            <a href="https://fadakregister.irbrokersite.ir/" target="_blank" className="btn fadak-button btn-lg">به جمع معامله‌گران فدک بپیوندید</a>
                         </div>
                     </div>
                 </div>
@@ -376,5 +378,33 @@ export default function SectionDerivative() {
 
 
         </>
+    );
+}
+
+
+function PrevArrow(props: CustomArrowProps) {
+    const {className, style, onClick} = props;
+    return (
+        <div
+            className={className}
+            style={{...style, zIndex: 2}}
+            onClick={onClick}
+        >
+            <i className="bi bi-chevron-up fs-4"></i>
+        </div>
+    );
+}
+
+
+function NextArrow(props: CustomArrowProps) {
+    const {className, style, onClick} = props;
+    return (
+        <div
+            className={className}
+            style={{...style, zIndex: 2}}
+            onClick={onClick}
+        >
+            <i className="bi bi-chevron-down fs-4"></i>
+        </div>
     );
 }

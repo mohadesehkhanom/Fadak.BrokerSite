@@ -24,14 +24,18 @@ export default function SectionNavbarMenu() {
                     <Navbar.Toggle className="navbar-toggler" aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse  className="collapse navbar-collapse ms-auto " id="basic-navbar-nav">
                         <Nav className="me-auto  mb-lg-0 navbar-nav">
+                            <NavDropdown title="بورس ها">
+                                <NavDropdown.Item className="custom-nav-item" href="/Bourse">بورس</NavDropdown.Item>
+                                <NavDropdown.Item className="custom-nav-item" href="/Fara-Bourse">فرابورس</NavDropdown.Item>
+                                <NavDropdown.Item className="custom-nav-item" href="/kala">بورس کالا</NavDropdown.Item>
+                                <NavDropdown.Item className="custom-nav-item" href="/energy">بورس انرژی</NavDropdown.Item>
+                            </NavDropdown>
                             <NavDropdown title="سامانه‌ها">
                                 <NavDropdown.Item className="custom-nav-item" href="https://fadak.exirbroker.com/exir/">آنلاین سهام</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="https://fadak.tsetab.ir/">آنلاین مشتقه </NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="https://fadak.irbrokersite.ir/">آفلاین سهام </NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="https://fadak.ebgo.ir/Login">بورس کالا</NavDropdown.Item>
-                                {/*<NavDropdown.Item className="custom-nav-item" href="">مرکز تماس</NavDropdown.Item>*/}
                             </NavDropdown>
-                            <Nav.Link className="nav-item" href="/kala">بورس کالا و انرژی</Nav.Link>
                             <Nav.Link className="nav-item" href="/derivative">مشتقه</Nav.Link>
                             <Nav.Link className="nav-item" href="/Services">اعتبار</Nav.Link>
                             <NavDropdown title="درباره فدک">
@@ -39,14 +43,12 @@ export default function SectionNavbarMenu() {
                                 <NavDropdown.Item className="custom-nav-item" href="/bank-accounts">شماره حساب‌ها</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/principles">اصول و اعتقادات حرفه‌ای</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/about">درباره ما </NavDropdown.Item>
-                                {/*<NavDropdown.Item className="custom-nav-item" href="">کمیته‌های تخصصی با رزومه</NavDropdown.Item>*/}
-                                {/*<NavDropdown.Item className="custom-nav-item" href="">مدیران کلیدی با رزومه</NavDropdown.Item>*/}
                             </NavDropdown>
                             {/*<Nav.Link className="nav-item" href="/learning">آموزش</Nav.Link>*/}
                         </Nav>
                         <div className="d-flex align-items-center gap-3 ms-auto header-actions">
                             <a href="tel:+982163479000">
-                                <span dir={'ltr'}>021 63479000</span>
+                                <span dir={'ltr'} className="number-farsi">021 63479000</span>
                             </a>
 
                             <a href="https://fadakregister.irbrokersite.ir/" className="btn fadak-button open-account-btn">

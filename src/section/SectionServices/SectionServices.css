@@ -1,0 +1,72 @@
+
+.section-kala {
+    /* Using a grayscale factory image similar to your screenshot */
+    background: url('https://picsum.photos/2000/500');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    filter: grayscale(100%); /* Makes the image black and white */
+}
+
+.section-kala h1, .section-kala p.lead {
+    color: var(--fadak-navy) !important; /* Use Navy on the Hero section text */
+    text-shadow: 0 2px 4px rgba(255,255,255,0.8);
+}
+
+@media (max-width: 768px) {
+    .section-kala {
+        height: 350px;
+    }
+}
+
+
+/* --- Section 2: Commodity Content (From Image) --- */
+.commodity-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+
+.metal-img {
+    max-width: 100%;
+    height: auto;
+    /* Simple shadow to pop like the render in image */
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.2));
+}
+
+/* --- Section 3: Centered Text (Requested) --- */
+.vision-section {
+    /* CHANGE: Light Gray to Cream */
+    background-color: var(--fadak-cream);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.vision-title {
+    font-weight: 700;
+    color: var(--fadak-navy); /* Headings should use Navy */
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Small underline decoration */
+.vision-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    /* CHANGE: Green to Gold */
+    background: var(--fadak-gold);
+    margin: 10px auto 0;
+}
+
+/* --- Section 4: Services/Cards (Requested) --- */
+.services-section {
+    padding: 80px 0;
+}
+
+

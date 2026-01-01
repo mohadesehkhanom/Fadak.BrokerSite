@@ -1,0 +1,5 @@
+.accordion-item.accordion_bg:nth-child(even) .accordion-button {
+    background-color: #f0ead8 !important;
+}
+
+

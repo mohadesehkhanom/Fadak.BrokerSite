@@ -2,10 +2,15 @@ import SectionFooter from "@/section/SectionFooter/SectionFooter";
 import SectionOrganization from "@/section/SectionOrganization/SectionOrganization";
 import SectionNavbarMenu from "@/section/SectionHeader/SectionNavbarMenu";
 import SectionMarketMaking from "@/section/SectionMarketMaking/SectionMarketMaking";
+import {Metadata} from "next";
+
+
+export const metadata: Metadata = {
+    title: "بازار گردانی",
+    description: '',
+};
 
 export default function Page() {
-
-
 
     return (
         <>

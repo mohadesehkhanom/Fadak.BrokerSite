@@ -1,0 +1,109 @@
+
+.section-Bourse {
+    /* Using a grayscale factory image similar to your screenshot */
+    background: url('https://picsum.photos/2000/500');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    filter: grayscale(100%); /* Makes the image black and white */
+}
+
+.section-Bourse h1, .section-Bourse p.lead {
+    color: var(--fadak-navy) !important; /* Use Navy on the Hero section text */
+    text-shadow: 0 2px 4px rgba(255,255,255,0.8);
+}
+
+@media (max-width: 768px) {
+    .section-Bourse {
+        height: 350px;
+    }
+}
+
+
+/* --- Section 2: Commodity Content (From Image) --- */
+.commodity-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.custom-btn-navy {
+    /* CHANGE: Green to Navy */
+    background-color: var(--fadak-navy);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.custom-btn-navy:hover {
+    /* CHANGE: Darker Green to Darker Navy */
+    background-color: #002d50;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.metal-img {
+    max-width: 100%;
+    height: auto;
+    /* Simple shadow to pop like the render in image */
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.2));
+}
+
+/* --- Section 3: Centered Text (Requested) --- */
+.vision-section {
+    /* CHANGE: Light Gray to Cream */
+    background-color: var(--fadak-cream);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.vision-title {
+    font-weight: 700;
+    color: var(--fadak-navy); /* Headings should use Navy */
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Small underline decoration */
+.vision-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    /* CHANGE: Green to Gold */
+    background: var(--fadak-gold);
+    margin: 10px auto 0;
+}
+
+/* --- Section 4: Services/Cards (Requested) --- */
+.services-section {
+    padding: 80px 0;
+}
+
+.icon-box {
+    font-size: 2.5rem;
+    /* CHANGE: Green to Navy */
+    color: var(--fadak-navy);
+    margin-bottom: 15px;
+}
+
+.doc-list li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.doc-list li::before {
+    content: "\F26E";       /* آیکون check */
+    font-family: "bootstrap-icons";
+    font-weight: 900;
+    color: var(--fadak-gold);
+    position: absolute;
+    right: 0;
+    top: 2px;
+}

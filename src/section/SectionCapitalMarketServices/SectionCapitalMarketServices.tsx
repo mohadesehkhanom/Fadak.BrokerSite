@@ -1,3 +1,4 @@
+import "./SectionCapitalMarketServices.css";
 import Image from "next/image";
 
 export default function SectionCapitalMarketServices(){

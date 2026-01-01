@@ -16,7 +16,7 @@ export default function SectionFooter() {
                                         <span className="btn_theme social_box">
                                             <i className="bi bi-telephone-plus"></i>
                                         </span>
-                                        <span dir={'ltr'}>(+98) 21 63479000</span>
+                                        <span className="number-farsi" dir={'ltr'}>(+98) 21 63479000</span>
                                     </a>
                                     <a href="mailto:info@fadakbrokerage.ir">
                                         <span className="btn_theme social_box">
