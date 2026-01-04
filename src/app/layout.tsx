@@ -1,4 +1,5 @@
 import type {Metadata} from "next";
+import Script from "next/script";
 
 /*  bootstrap    */
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
@@ -55,6 +56,26 @@ export default function RootLayout({
                 <meta charSet="UTF-8"/>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+                <Script id="goftino-widget" strategy="afterInteractive">
+                    {`
+                        !function(){
+                          var i="212UkQ",a=window,d=document;
+                          function g(){
+                            var g=d.createElement("script"),
+                            s="https://www.goftino.com/widget/"+i,
+                            l=localStorage.getItem("goftino_"+i);
+                            g.async=!0;
+                            g.src=l?s+"?o="+l:s;
+                            d.getElementsByTagName("head")[0].appendChild(g);
+                          }
+                          "complete"===d.readyState?g():
+                          a.attachEvent?a.attachEvent("onload",g):
+                          a.addEventListener("load",g,!1);
+                        }();
+                  `}
+                </Script>
+
             </head>
             <body className={`${ModamFont.variable}  ${ModamNumber.variable}`}>
                 {children}
