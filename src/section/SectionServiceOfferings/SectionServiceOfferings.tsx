@@ -39,8 +39,8 @@ export default function SectionServiceOfferings (){
                                 <div className="service-ServiceOfferings-icon">
                                     <i className="bi bi-Commodity-Energy-Exchange cold-hover"></i>
                                 </div>
-                                <h4>بورس کالا و انرژی</h4>
-                                <p>دسترسی به فرصت‌های واقعی سرمایه‌گذاری در بازارهای کالایی و انرژی با تحلیل دقیق و مشاوره تخصصی.</p>
+                                <h4>بورس کالا </h4>
+                                <p>دسترسی به فرصت‌های واقعی سرمایه‌گذاری در بازارهای کالایی با تحلیل دقیق و مشاوره تخصصی.</p>
                             </a>
                         </div>
                     </div>
