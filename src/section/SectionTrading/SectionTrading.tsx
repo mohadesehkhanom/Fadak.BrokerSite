@@ -21,7 +21,7 @@ export default function SectionTrading() {
                                 <div className="col-md-6">
                                     <div className="contact-item text-white">
                                         <a href="tel:02163479300" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                            <span>02163479300-302</span>
+                                            <span  className="number-farsi dir-ltr">02163479300-(302)</span>
                                             <i className="bi bi-telephone-fill"></i>
                                         </a>
                                     </div>
@@ -29,8 +29,8 @@ export default function SectionTrading() {
 
                                 <div className="col-md-6">
                                     <div className="contact-item text-white">
-                                        <a href="mailto:Commodity@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                            <span>Futures@fadakbrokerage.ir</span>
+                                        <a href="mailto:Reception@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                            <span>Reception@fadakbrokerage.ir</span>
                                             <i className="bi bi-envelope-fill"></i>
                                         </a>
                                     </div>

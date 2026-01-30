@@ -25,7 +25,7 @@ export default function SectionSupplyConsultant() {
                                 انتخاب مناسب‌ترین مسیر تأمین مالی برای شرکت‌هاست.
                             </p>
 
-                            <div className="row justify-content-center align-items-center text-center my-3 py-2 rounded-2" style={{backgroundColor: "#003d6a"}}>
+                            <div className="row justify-content-center align-items-center text-center my-3 py-2 rounded-2 fadak-bg-navy">
 
                                 <div className="col-md-6">
                                     <div className="contact-item text-white">
