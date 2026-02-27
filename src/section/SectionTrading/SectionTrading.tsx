@@ -14,7 +14,7 @@ export default function SectionTrading() {
                             <p style={{textAlign:'justify'}} className="section__content-text wow fadeInDown" data-wow-duration="0.8s">
                                 شما می‌توانید به صورت کاملا رایگان و بدون نیاز به مراجعه حضوری کد بورسی خود را از
                                 کارگزاری فدک دریافت کنید. همینطور در صورت نیاز می‌توانید با ثبت درخواست مشاوره رایگان،
-                                از کارشناسان سرمایه‌گذاری مفید راهنمایی بگیرید.
+                                از کارشناسان سرمایه‌گذاری فدک راهنمایی بگیرید.
                             </p>
                             <div className="row justify-content-center align-items-center text-center my-3 py-2 rounded-2" style={{backgroundColor: "#003d6a"}}>
 
