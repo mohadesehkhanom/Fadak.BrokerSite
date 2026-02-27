@@ -6,7 +6,7 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: "بورس کالا و انرژی",
+    title: "بورس کالا",
     description: '',
 };
 
