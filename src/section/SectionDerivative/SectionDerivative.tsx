@@ -1,25 +1,7 @@
-'use client'
 import "./SectionDerivative.css"
-import Slider, {CustomArrowProps} from "react-slick";
 
 export default function SectionDerivative() {
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        centerMode: true,
-        autoplay: true,
-        speed: 1500,
-        autoplaySpeed: 3500,
-        vertical: true,
-        arrows: true,
-        verticalSwiping: true,
-        swipeToSlide: true,
-        prevArrow: <PrevArrow />,
-        nextArrow: <NextArrow />,
-    };
 
     return (
         < >
@@ -44,193 +26,90 @@ export default function SectionDerivative() {
             <section id="services" className="p-5 fadak-bg-cream">
                 <div className="container my-5">
                     <h4 className="section-title text-center w-100 my-0 py-3">خدمات ما در بازار مشتقه</h4>
-                    {/*<p className="mt-2">*/}
-                    {/*    تیم مشتقه کارگزاری فدک مجموعه‌ای از خدمات تحلیلی، آموزشی و اجرایی را برای*/}
-                    {/*    معامله‌گران حرفه‌ای و سرمایه‌گذاران حقوقی فراهم کرده است تا با اطمینان و سرعت*/}
-                    {/*    بیشتر در بازار اختیار معامله و آتی فعالیت کنند.*/}
-                    {/*</p>*/}
 
                     <div className="row">
                         <div className="col-12">
                                 <div className="d-flex justify-content-center align-items-center"></div>
-                                <Slider {...settings}>
-                                    <div className="card mt-2" dir="rtl">
-                                        <div className="row g-0 align-items-center">
-                                            <div className="col-md-4">
-                                                <img src="https://picsum.photos/300/200" className="img-fluid rounded-end" alt="service image"/>
-                                            </div>
-                                            <div className="col-md-8">
-                                                <div className="card-body">
 
-                                                    <div className="d-flex align-items-center mb-2 d-flex align-items-center">
-                                                        <i className="bi bi-graph-up-arrow fs-3 service-icon me-3"></i>
-                                                        <h5 className="card-title mb-0 service-title">دسترسی کامل به معاملات اختیار و آتی سهام</h5>
-                                                    </div>
+                            <div className="row g-4 mt-5">
 
-                                                    <p className="card-text">
-                                                        کارگزاری فدک به مشتریان خود امکان معامله و فروش قراردادهای
-                                                        اختیار خرید (Call) و
-                                                        اختیار فروش (Put) را در بازار اختیار معامله فراهم کرده است.
-                                                        کاربران فدک می‌توانند
-                                                        علاوه بر خرید اختیار، با رعایت الزامات وجه تضمین، اقدام به فروش
-                                                        قراردادهای اختیار
-                                                        نیز کنند و از استراتژی‌های پیشرفته‌ و سایر روش‌های ترکیبی
-                                                        استفاده نمایند.
-                                                    </p>
-
-                                                </div>
-                                            </div>
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card advantage-card">
+                                        <div className="card-body">
+                                            <i className="bi bi-graph-up-arrow gold-text display-6 mb-3 d-block"></i>
+                                            <h5 className="card-title fw-bold" style={{color: 'var(--fadak-navy)'}}>دسترسی کامل به معاملات اختیار و آتی سهام</h5>
+                                            <p className="card-text small text-muted">
+                                                امکان خرید و فروش قراردادهای اختیار و آتی سهام برای اجرای استراتژی‌های متنوع و مدیریت حرفه‌ای معاملات در بازار مشتقه فراهم است.
+                                            </p>
                                         </div>
                                     </div>
+                                </div>
 
-
-                                    <div className="card mt-2" dir="rtl">
-                                        <div className="row g-0 align-items-center">
-
-                                            <div className="col-md-4">
-                                                <img src="https://picsum.photos/300/200"
-                                                     className="img-fluid rounded-end" alt="service image"/>
-                                            </div>
-
-                                            <div className="col-md-8">
-                                                <div className="card-body">
-
-                                                    <div className="d-flex align-items-center mb-2">
-                                                        <i className="bi bi-pie-chart-fill fs-3 service-icon me-3"></i>
-                                                        <h5 className="card-title mb-0 service-title">تحلیل و پایش پرتفوی مشتقه</h5>
-                                                    </div>
-
-                                                    <p className="card-text">
-                                                        در سامانه معاملات کارگزاری فدک (OMEX)، کاربران به ابزارهای
-                                                        تحلیلی پیشرفته‌ای
-                                                        برای پایش لحظه‌ای موقعیت‌های اختیار معامله دسترسی دارند. این
-                                                        سامانه به‌صورت خودکار
-                                                        موقعیت‌های باز، وضعیت وجه تضمین و سود و زیان لحظه‌ای را محاسبه و
-                                                        نمایش می‌دهد.
-                                                        به این ترتیب، معامله‌گران می‌توانند ریسک پرتفوی مشتقه خود را
-                                                        به‌صورت دقیق کنترل
-                                                        و استراتژی‌های معاملاتی خود را بهینه‌سازی کنند.
-                                                    </p>
-
-                                                </div>
-                                            </div>
-
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card advantage-card">
+                                        <div className="card-body">
+                                            <i className="bi bi-pie-chart-fill gold-text display-6 mb-3 d-block"></i>
+                                            <h5 className="card-title fw-bold" style={{color: 'var(--fadak-navy)'}}>تحلیل و پایش پرتفوی مشتقه</h5>
+                                            <p className="card-text small text-muted">
+                                                دسترسی به ابزارهای تحلیلی برای مشاهده موقعیت‌های باز، وجه تضمین و سود و زیان لحظه‌ای به‌منظور مدیریت ریسک و تصمیم‌گیری دقیق‌تر فراهم است.
+                                            </p>
                                         </div>
                                     </div>
+                                </div>
 
-
-                                    <div className="card mt-2" dir="rtl">
-                                        <div className="row g-0 align-items-center">
-
-                                            <div className="col-md-4">
-                                                <img src="https://picsum.photos/300/200"
-                                                     className="img-fluid rounded-end" alt="service image"/>
-                                            </div>
-
-                                            <div className="col-md-8">
-                                                <div className="card-body">
-
-                                                    <div className="d-flex align-items-center mb-2">
-                                                        <i className="bi bi-shuffle fs-3 service-icon me-3"></i>
-                                                        <h5 className="card-title mb-0 service-title">
-                                                            پشتیبانی از استراتژی‌های ترکیبی و مدیریت بهینه وجه تضمین
-                                                        </h5>
-                                                    </div>
-
-                                                    <p className="card-text">
-                                                        کارگزاری فدک از تمامی ۹ استراتژی تعریف‌شده رسمی در بورس اوراق
-                                                        بهادار تهران پشتیبانی می‌کند؛
-                                                        از جمله Covered Call، Bull Spread، Bear Spread، Straddle،
-                                                        Strangle، Butterfly و سایر ترکیب‌های مجاز.
-                                                        در سامانه معاملات Omex، وجه تضمین مشتریان بر اساس نوع استراتژی
-                                                        به‌صورت خودکار محاسبه می‌شود.
-                                                        این قابلیت باعث می‌شود معامله‌گران حرفه‌ای بتوانند با وجه تضمین
-                                                        کمتر، موقعیت‌های متنوع‌تری اتخاذ کنند
-                                                        و کارایی سرمایه خود را به شکل چشمگیری افزایش دهند.
-                                                    </p>
-
-                                                </div>
-                                            </div>
-
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card advantage-card">
+                                        <div className="card-body">
+                                            <i className="bi bi-diagram-3-fill gold-text display-6 mb-3 d-block"></i>
+                                            <h5 className="card-title fw-bold" style={{color: 'var(--fadak-navy)'}}>پشتیبانی از استراتژی‌های ترکیبی و مدیریت بهینه وجه تضمین</h5>
+                                            <p className="card-text small text-muted">
+                                                امکان اجرای استراتژی‌های رسمی بازار اختیار از جمله انواع Spread، Straddle و سایر ترکیب‌های مجاز با مدیریت بهینه وجه تضمین فراهم است.
+                                            </p>
                                         </div>
                                     </div>
+                                </div>
 
-
-                                    <div className="card mt-2" dir="rtl">
-                                        <div className="row g-0 align-items-center">
-
-                                            <div className="col-md-4">
-                                                <img src="https://picsum.photos/300/200"
-                                                     className="img-fluid rounded-end" alt="service image"/>
-                                            </div>
-
-                                            <div className="col-md-8">
-                                                <div className="card-body">
-
-                                                    <div className="d-flex align-items-center mb-2">
-                                                        <i className="bi bi-cash-stack fs-3 service-icon me-3"></i>
-                                                        <h5 className="card-title mb-0 service-title">
-                                                            پرداخت سود به مانده حساب و وجه تضمین بلوکه‌شده
-                                                        </h5>
-                                                    </div>
-
-                                                    <p className="card-text">
-                                                        در کارگزاری فدک، مانده حساب مشتریان و مبالغ وجه تضمین بلوکه‌شده
-                                                        نیز بدون آنکه از دسترس خارج شوند،
-                                                        مشمول پرداخت سود روزشمار می‌شوند. این ویژگی منحصربه‌فرد موجب
-                                                        می‌شود سرمایه مشتریان در زمان نگهداری
-                                                        موقعیت‌های باز، بازدهی غیرفعال و مستمر ایجاد کند و هزینه فرصت
-                                                        نگهداری وجه تضمین به حداقل برسد.
-                                                        با این سازوکار، معامله‌گران اختیار معامله در فدک می‌توانند از
-                                                        سرمایه درگیر در معاملات خود
-                                                        حداکثر بهره‌وری مالی را به‌دست آورند.
-                                                    </p>
-
-                                                </div>
-                                            </div>
-
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card advantage-card">
+                                        <div className="card-body">
+                                            <i className="bi bi-cash-stack gold-text display-6 mb-3 d-block"></i>
+                                            <h5 className="card-title fw-bold" style={{color: 'var(--fadak-navy)'}}>پرداخت سود به مانده حساب و وجه تضمین بلوکه‌شده</h5>
+                                            <p className="card-text small text-muted">
+                                                مانده حساب و وجه تضمین بلوکه‌شده مشمول سود روزشمار بوده و ضمن حفظ دسترسی، بازدهی مستمر و بهینه برای سرمایه ایجاد می‌کند.
+                                            </p>
                                         </div>
                                     </div>
+                                </div>
 
-
-                                    <div className="card mt-2" dir="rtl">
-                                        <div className="row g-0 align-items-center">
-
-                                            <div className="col-md-4">
-                                                <img src="https://picsum.photos/300/200"
-                                                     className="img-fluid rounded-end" alt="service image"/>
-                                            </div>
-
-                                            <div className="col-md-8">
-                                                <div className="card-body">
-
-                                                    <div className="d-flex align-items-center mb-2">
-                                                        <i className="bi bi-headset fs-3 service-icon me-3"></i>
-                                                        <h5 className="card-title mb-0 service-title">
-                                                            پشتیبانی اختصاصی مشتریان مشتقه
-                                                        </h5>
-                                                    </div>
-
-                                                    <p className="card-text">
-                                                        تیم مشتقه کارگزاری فدک همواره در کنار معامله‌گران است. مشتریان
-                                                        می‌توانند در هر زمان
-                                                        که به راهنمایی، رفع اشکال معاملاتی، یا مشاوره فنی در زمینه
-                                                        اختیار معامله و آتی نیاز داشته باشند،
-                                                        با تیم مشتقه فدک در ارتباط مستقیم قرار گیرند. ارتباط از طریق
-                                                        تماس تلفنی، شبکه‌های اجتماعی
-                                                        و پشتیبانی آنلاین سامانه Omex در دسترس است تا کاربران بتوانند با
-                                                        اطمینان خاطر و سرعت
-                                                        بیشتر به فعالیت خود ادامه دهند.
-                                                    </p>
-
-                                                </div>
-                                            </div>
-
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card advantage-card">
+                                        <div className="card-body">
+                                            <i className="bi bi-headset gold-text display-6 mb-3 d-block"></i>
+                                            <h5 className="card-title fw-bold" style={{color: 'var(--fadak-navy)'}}>پشتیبانی اختصاصی مشتریان مشتقه</h5>
+                                            <p className="card-text small text-muted">
+                                                امکان ارتباط مستقیم با تیم تخصصی مشتقه برای دریافت راهنمایی، رفع اشکال معاملاتی و مشاوره فنی در معاملات اختیار و آتی فراهم است.
+                                            </p>
                                         </div>
                                     </div>
+                                </div>
 
-                                </Slider>
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card advantage-card">
+                                        <div className="card-body">
+                                            <i className="bi bi-briefcase-fill gold-text display-6 mb-3 d-block"></i>
+                                            <h5 className="card-title fw-bold" style={{color: 'var(--fadak-navy)'}}>دسترسی به پرتفوی پیشرفته مشتقه</h5>
+                                            <p className="card-text small text-muted">
+                                                مشاهده یکجای میانگین خرید، قیمت سر‌به‌سر، سود و زیان لحظه‌ای و سایر جزئیات پرتفوی برای مدیریت دقیق‌تر موقعیت‌های معاملاتی فراهم است.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
+
+
+                        </div>
                     </div>
 
                     <div className="row mt-5">
@@ -378,33 +257,5 @@ export default function SectionDerivative() {
 
 
         </>
-    );
-}
-
-
-function PrevArrow(props: CustomArrowProps) {
-    const {className, style, onClick} = props;
-    return (
-        <div
-            className={className}
-            style={{...style, zIndex: 2}}
-            onClick={onClick}
-        >
-            <i className="bi bi-chevron-up fs-4"></i>
-        </div>
-    );
-}
-
-
-function NextArrow(props: CustomArrowProps) {
-    const {className, style, onClick} = props;
-    return (
-        <div
-            className={className}
-            style={{...style, zIndex: 2}}
-            onClick={onClick}
-        >
-            <i className="bi bi-chevron-down fs-4"></i>
-        </div>
     );
 }
