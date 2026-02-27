@@ -31,7 +31,7 @@ export default function SectionOnlineTrading() {
 
 
 
-            <div className="container main-content-wrapper">
+            <div className="container main-content-wrapper mb-5">
 
 
                 <section className="commodity-section my-5">
