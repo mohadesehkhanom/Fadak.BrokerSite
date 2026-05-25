@@ -14,9 +14,7 @@ const MapComponent = dynamic(() => import("@/components/ui/MapComponent"), {
 // ✅ تعریف لیست استان‌ها به‌صورت ثابت (immutable)
 const provinces = [
     "Tehran",
-    "West Azerbaijan",
     "South Khorasan",
-    "Kermanshah",
 ] as const; // ⬅️ این کلید است!
 
 // ✅ استخراج نوع استان‌ها
@@ -25,17 +23,13 @@ type Province = (typeof provinces)[number];
 // ✅ نگاشت نام استان‌ها از انگلیسی به فارسی
 const provinceNamesFa: Record<Province, string> = {
     Tehran: "تهران",
-    "West Azerbaijan": "آذربایجان غربی",
     "South Khorasan": "خراسان جنوبی",
-    Kermanshah: "کرمانشاه",
 };
 
 // ✅ تعریف مختصات استان‌ها
 const provinceCenters: Record<Province, [number, number]> = {
     Tehran: [35.6892, 51.3890],
-    "West Azerbaijan": [37.5553, 45.0723],
-    "South Khorasan": [32.8649, 59.2211],
-    Kermanshah: [34.3142, 47.0650],
+    "South Khorasan": [32.8649, 59.2211]
 };
 
 interface Branch {
@@ -59,28 +53,9 @@ const branches: Record<Province, Branch[]> = {
             email: "",
             postalCode: "",
             position: [35.692062, 51.410490],
-        },
-        {
-            name: "تالار بورس تهران",
-            address: "پذیرش دفتر مرکزی ایستگاه داخل تالار بورس تهران",
-            phone: "",
-            fax: "",
-            email: "",
-            postalCode: "",
-            position: [35.778247, 51.368160],
-        },
+        }
     ],
-    "West Azerbaijan": [
-        {
-            name: "شعبه ارومیه",
-            address: "خیابان برق، جنب تربیت بدنی، سازمان بورس، طبقه همکف",
-            phone: "044-33477196",
-            fax: "",
-            email: "",
-            postalCode: "",
-            position: [37.5465070, 45.0437310],
-        },
-    ],
+
     "South Khorasan": [
         {
             name: "شعبه بیرجند",
@@ -92,17 +67,7 @@ const branches: Record<Province, Branch[]> = {
             position: [32.8821890, 59.2108500],
         },
     ],
-    Kermanshah: [
-        {
-            name: "شعبه کرمانشاه",
-            address: "بلوار شهید بهشتی، سازمان بورس، طبقه دوم",
-            phone: "0833-8254514",
-            fax: "",
-            email: "",
-            postalCode: "",
-            position: [34.3336940, 47.0856160],
-        },
-    ],
+
 };
 
 export default function Page() {
