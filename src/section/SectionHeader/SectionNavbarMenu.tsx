@@ -49,6 +49,7 @@ export default function SectionNavbarMenu() {
                         <div className="d-flex align-items-center gap-3 ms-auto header-actions">
                             <a href="tel:+982163479000">
                                 <span dir={'ltr'} className="number-farsi">021 63479000</span>
+                                <i className="bi bi-telephone-fill fs-6"></i>
                             </a>
 
                             <a href="https://fadakregister.irbrokersite.ir/" className="btn fadak-button open-account-btn">

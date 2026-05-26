@@ -19,7 +19,7 @@ export default function SectionServices() {
                     <div className="row align-items-center">
                         <div className="col-lg-6 text-center order-1">
                             <img
-                                src="https://picsum.photos/600/400"
+                                src="https://placehold.co/600x400"
                                 className="metal-img rounded-4"/>
                         </div>
                         <div className="col-lg-6 mb-4 mb-lg-0 mt-5 mt-sm-5 mt-lg-0 order-2">

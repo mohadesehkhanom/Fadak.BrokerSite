@@ -20,7 +20,7 @@ export default function SectionKala() {
                     <div className="row align-items-center">
                         <div className="col-lg-5 text-center">
                             <img
-                                src="https://picsum.photos/600/400"
+                                src="https://placehold.co/600x400"
                                 className="metal-img rounded-4"/>
                         </div>
                         <div className="col-lg-7 mb-4 mb-lg-0 mt-5 mt-lg-0">
@@ -33,7 +33,7 @@ export default function SectionKala() {
                                 می‌شوند.
                                 <br/><br/>
                                 کارگزاری فدک با نام پیشین «کارگزاری راهنمای سرمایه‌گذاران» به عنوان یکی از زیرمجموعه‌های
-                                اصلی گروه سرمایه‌گذاری ثروت فدک (قطارهای فدک)، در بخش کالا و انرژی، از تیمی با سابقه‌ای
+                                اصلی گروه سرمایه‌گذاری ثروت فدک (قطارهای فدک)، در بخش کالا ، از تیمی با سابقه‌ای
                                 نزدیک به دو دهه فعالیت بهره می‌برد؛ تیمی که با تکیه بر دانش و تجربه ارزشمند خود و با
                                 استفاده از زیرساخت‌های نوین و سیستم‌های معاملاتی پیشرفته، توانسته جایگاهی متمایز در میان
                                 کارگزاران بورس کالا به دست آورد.
@@ -62,7 +62,7 @@ export default function SectionKala() {
                             <h4 className="vision-title">آمار و عملکرد کارگزاری فدک</h4>
                             <p className="lead mt-3 text-center">
                                 ما در کارگزاری فدک با تکیه بر دانش متخصصان و تجربه چندین ساله، مسیری امن و شفاف را برای
-                                معاملات کلیه کالاها، فرآورده‌های نفتی و انرژی شما در بازار سرمایه ایران فراهم کرده‌ایم.
+                                معاملات کلیه کالاها، فرآورده‌های نفتی شما در بازار سرمایه ایران فراهم کرده‌ایم.
                             </p>
                         </div>
                     </div>
@@ -152,6 +152,88 @@ export default function SectionKala() {
                     </div>
 
 
+                </div>
+            </section>
+
+
+
+            <section className="py-5 fadak-bg-navy text-white">
+                <div className="container py-5">
+                    <div className="row">
+                        <div className="col-lg-7">
+                            <h4 className="mb-4 text-white border-bottom border-warning d-inline-block pb-2">مدارک و فرم‌های لازم</h4>
+                            {/*<p className="mb-4 text-white">جهت تسریع در روند دریافت کد، لطفا مدارک زیر را آماده نمایید:</p>*/}
+
+                            <ul className="list-unstyled doc-list text-white">
+                                <li>تکمیل فرم احراز هویت مشتریان</li>
+                                <li>تکمیل فرم درخواست كد مشتریان</li>
+                                <li>تکمیل و امضای فرم بیانیه ریسک (مخصوص مشتریان بازار مشتقه برق)</li>
+                                <li>تصویر اساسنامه و ارائه شناسه ملی شرکت، پروانه بهره‌برداری، شرکت نامه</li>
+                                <li>کپی روزنامه رسمی آخرین تغییرات شرکت</li>
+                                <li>كپی شناسنامه و کارت ملی اعضای هیئت مدیره و مدیرعامل شركت (صاحبان امضای مجاز)</li>
+                                <li>ارائه مدارک مربوط به آخرین تغییرات مدیران و صاحبان امضا</li>
+                                <li>اعلام شماره حساب در قالب یک نامه جهت واریز وجه</li>
+
+                            </ul>
+                        </div>
+
+                        <div className="col-lg-3 offset-2  align-self-center">
+                            <div className="card bg-white border-0 shadow d-flex flex-column justify-content-end">
+                                <a href="https://fadak.ebgo.ir/Login" className="d-flex flex-row align-items-center justify-content-center">
+                                    <i className="bi bi-link-45deg fs-4"></i>
+                                    <span>ایبیگو</span>
+                                </a>
+                                <a href="https://tts.ime.co.ir/" className="d-flex flex-row align-items-center justify-content-center">
+                                    <i className="bi bi-link-45deg fs-4"></i>
+                                    <span>معاملات آنلاین بورس کالا</span>
+                                </a>
+                                <a href="https://www.ime.co.ir" className="d-flex flex-row align-items-center justify-content-center">
+                                    <i className="bi bi-link-45deg fs-4"></i>
+                                    <span>شرکت بورس کالا</span>
+                                </a>
+
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section className="vision-section">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-md-8">
+                            <h4 className="vision-title">دریافت کد بورس کالا برای اشخاص حقوقی</h4>
+                            <p className="lead mt-3 text-center">
+                                اولین و مهمترین گام جهت فعالیت در بورس کالا دریافت «کد معامالتی» است. متقاضیان باید از طریق کارگزاری فدک
+                                و با تحویل مدارک و فرمهای مشخص شده، اقدام به دریافت کد معامالتی کنند.
+                            </p>
+                        </div>
+                        <div className="row justify-content-center align-items-center text-center py-2 rounded-2 mt-5" style={{backgroundColor: "rgb(0 61 106)"}}>
+
+                            <div className="col-md-4">
+                                <div className="contact-item text-white">
+                                    <a href="tel:02163479500" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                        <span className="number-farsi dir-ltr">02163479500-(501)</span>
+                                        <i className="bi bi-telephone-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="col-md-4">
+                                <div className="contact-item text-white">
+                                    <a href="mailto:Commodity@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                        <span>Commodity@fadakbrokerage.ir</span>
+                                        <i className="bi bi-envelope-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </section>
 

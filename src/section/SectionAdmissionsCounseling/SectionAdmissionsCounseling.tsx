@@ -41,7 +41,7 @@ export default function SectionAdmissionsCounseling() {
                                 <div className="row">
                                     <div className="col-md-4">
                                         <img
-                                            src="https://picsum.photos/600/300"
+                                            src="https://placehold.co/600x300"
                                             className="img-fluid rounded-4"
                                             alt="ارزیابی و آماده‌سازی شرکت"
                                         />
@@ -67,7 +67,7 @@ export default function SectionAdmissionsCounseling() {
                                 <div className="row">
                                     <div className="col-md-4">
                                         <img
-                                            src="https://picsum.photos/600/300"
+                                            src="https://placehold.co/600x300"
                                             className="img-fluid rounded-4"
                                             alt="راهنمایی و مشاوره مقرراتی"
                                         />
@@ -93,7 +93,7 @@ export default function SectionAdmissionsCounseling() {
                                 <div className="row">
                                     <div className="col-md-4">
                                         <img
-                                            src="https://picsum.photos/600/300"
+                                            src="https://placehold.co/600x300"
                                             className="img-fluid rounded-4"
                                             alt="تهیه و تدوین مستندات پذیرش"
                                         />
@@ -121,7 +121,7 @@ export default function SectionAdmissionsCounseling() {
                                 <div className="row">
                                     <div className="col-md-4">
                                         <img
-                                            src="https://picsum.photos/600/300"
+                                            src="https://placehold.co/600x300"
                                             className="img-fluid rounded-4"
                                             alt="اصلاحات ساختاری و حقوقی"
                                         />
@@ -147,7 +147,7 @@ export default function SectionAdmissionsCounseling() {
                                <div className="row">
                                    <div className="col-md-4">
                                        <img
-                                           src="https://picsum.photos/600/300"
+                                           src="https://placehold.co/600x300"
                                            className="img-fluid rounded-4"
                                            alt="هماهنگی جلسات و پیگیری‌های اجرایی"
                                        />
@@ -174,7 +174,7 @@ export default function SectionAdmissionsCounseling() {
                                 <div className="row">
                                     <div className="col-md-4">
                                         <img
-                                            src="https://picsum.photos/600/300"
+                                            src="https://placehold.co/600x300"
                                             className="img-fluid rounded-4"
                                             alt="حضور در جلسات هیأت پذیرش"
                                         />
@@ -199,7 +199,7 @@ export default function SectionAdmissionsCounseling() {
                                 <div className="row">
                                     <div className="col-md-4">
                                         <img
-                                            src="https://picsum.photos/600/300"
+                                            src="https://placehold.co/600x300"
                                             className="img-fluid rounded-4"
                                             alt="تعامل با سرمایه‌گذاران و تعیین قیمت پایه"
                                         />

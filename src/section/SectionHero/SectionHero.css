@@ -1,7 +1,7 @@
 
 /* Hero Component */
 .hero-section {
-    background: url("https://picsum.photos/2000/500");
+    background: url("https://placehold.co/2000x500");
     color: white;
     position: relative;
     overflow: hidden;
@@ -15,7 +15,7 @@
 /*    right: -50%;*/
 /*    width: 200%;*/
 /*    height: 200%;*/
-/*    background: url("https://picsum.photos/2000/500");*/
+/*    background: url("https://placehold.co/2000x500");*/
 /*    !*animation: hero-float 20s infinite linear;*!*/
 /*}*/
 

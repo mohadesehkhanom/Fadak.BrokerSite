@@ -46,7 +46,7 @@ export default function SectionEnergy() {
 
                         </div>
                         <div className="col-12 col-lg-5 text-center order-0">
-                            <img src="https://picsum.photos/600/400" className="metal-img rounded-4"/>
+                            <img src="https://placehold.co/600x400" className="metal-img rounded-4"/>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,6 @@ export default function SectionEnergy() {
                     <div className="row">
                         <div className="col-lg-7">
                             <h4 className="mb-4 text-white border-bottom border-warning d-inline-block pb-2">مدارک و فرم‌های لازم</h4>
-                            {/*<p className="mb-4 text-white">جهت تسریع در روند دریافت کد، لطفا مدارک زیر را آماده نمایید:</p>*/}
 
                             <ul className="list-unstyled doc-list text-white">
                                 <li>تکمیل فرم احراز هویت مشتریان</li>
@@ -71,18 +70,16 @@ export default function SectionEnergy() {
                             </ul>
                         </div>
 
-                        <div className="col-lg-5 mt-5 mt-lg-0">
-                            <div className="card h-100 bg-white border-0 shadow d-flex flex-column justify-content-between">
-                                <a href="https://fadak.ebgo.ir/Login" className="d-flex flex-row align-items-center justify-content-center">
-                                    <img width="150" height="50" src="/assets/images/broker/ebgo.png"/>
-                                    <span>ایبیگو</span>
+                        <div className="col-lg-3 offset-2  align-self-center ">
+                            <div className="card bg-white border-0 shadow d-flex flex-column justify-content-around">
+                                <a href="https://iee.ir"
+                                   className="d-flex flex-row align-items-center justify-content-center">
+                                    <i className="bi bi-link-45deg fs-4"></i>
+                                    <span>شرکت بورس انرژی</span>
                                 </a>
-                                <a href="https://tts.ime.co.ir/" className="d-flex flex-row align-items-center justify-content-center">
-                                    <img width="150" height="50"  src="https://picsum.photos/150/50"/>
-                                    <span>معاملات آنلاین بورس کالا</span>
-                                </a>
-                                <a href="https://iee.ir/PhysicalMarket/TradeBoard/internationalMarket" className="d-flex flex-row align-items-center justify-content-center">
-                                    <img width="150" height="50"  src="https://picsum.photos/150/50"/>
+                                <a href="https://iee.ir/PhysicalMarket/TradeBoard/internationalMarket"
+                                   className="d-flex flex-row align-items-center justify-content-center">
+                                    <i className="bi bi-link-45deg fs-4"></i>
                                     <span>معاملات آنلاین بورس انرژی</span>
                                 </a>
 

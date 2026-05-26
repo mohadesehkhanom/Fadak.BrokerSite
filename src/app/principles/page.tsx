@@ -33,8 +33,8 @@ export default function Page() {
                         <div className="col-md-6 ">
                             <div className="card principle-card h-100 shadow-sm">
                                 <div className="card-body text-center p-4">
-                                    <div className="icon-circle bg-primary bg-opacity-10 text-primary">
-                                        <i className="bi bi-shield-check fs-2"></i>
+                                    <div className="icon-circle bg-opacity-10 text-primary">
+                                        <i className="bi bi-person-check fs-2 gold-text"></i>
                                     </div>
                                     <h4 className="card-title">مسئولیت پذیری و پاسخگویی</h4>
                                     <p className="card-text mt-4">در کارگزاری ما، اعتماد مشتریان سرمایه‌ای گران‌بهاست. با شفافیت در عملکرد و پاسخگویی در همه مراحل، همواره در کنار شما هستیم.</p>
@@ -45,8 +45,8 @@ export default function Page() {
                         <div className="col-md-6 ">
                             <div className="card principle-card h-100 shadow-sm">
                                 <div className="card-body text-center p-4" >
-                                    <div className="icon-circle bg-success bg-opacity-10 text-success">
-                                        <i className="bi bi-cash-stack fs-2"></i>
+                                    <div className="icon-circle bg-opacity-10 text-success">
+                                        <i className="bi bi-file-earmark-check fs-2 gold-text"></i>
                                     </div>
                                     <h4 className="card-title">عدالت در رویه‌ها و خدمات</h4>
                                     <p className="card-text mt-4">ما به اصول انصاف و بی‌طرفی پایبندیم؛ همه مشتریان ما از فرصت‌ها و خدمات یکسان در بازار سرمایه برخوردارند.</p>
@@ -57,8 +57,8 @@ export default function Page() {
                         <div className="col-md-6 ">
                             <div className="card principle-card h-100 shadow-sm">
                                 <div className="card-body text-center p-4">
-                                    <div className="icon-circle bg-info bg-opacity-10 text-info">
-                                        <i className="bi bi-lock fs-2"></i>
+                                    <div className="icon-circle bg-opacity-10 text-info">
+                                        <i className="bi bi-rocket-takeoff fs-2 gold-text"></i>
                                     </div>
                                     <h4 className="card-title">تقویت فرهنگ نوآوری</h4>
                                     <p className="card-text mt-4">با تکیه بر فناوری‌های روز و نگاه خلاقانه، همواره به‌دنبال ارائه راهکارهای نو برای تسهیل و بهبود تجربه سرمایه‌گذاری هستیم.</p>
@@ -69,8 +69,8 @@ export default function Page() {
                         <div className="col-md-6 ">
                             <div className="card principle-card h-100 shadow-sm">
                                 <div className="card-body text-center p-4">
-                                    <div className="icon-circle bg-info bg-opacity-10 text-info">
-                                        <i className="bi bi-lock fs-2"></i>
+                                    <div className="icon-circle bg-opacity-10 text-info">
+                                        <i className="bi bi-person-lock fs-2 gold-text"></i>
                                     </div>
                                     <h4 className="card-title">صیانت از اطلاعات مشتری</h4>
                                     <p className="card-text mt-4">منیت اطلاعات مشتریان برای ما خط قرمز است؛ با بهره‌گیری از زیرساخت‌های پیشرفته، از داده‌های شما با دقت و اطمینان حفاظت می‌کنیم.</p>

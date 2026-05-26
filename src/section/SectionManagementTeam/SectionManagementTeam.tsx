@@ -324,17 +324,6 @@ export default function SectionManagementTeam() {
             linkedin: "https://www.linkedin.com/in/pegah-talebi-883a91389/"
         },
         {
-            name: "خانم بهاره اکبرپور",
-            position: "مدیر معاملات برخط و مسئول کال سنتر کارگزاری فدک",
-            resume: [
-                "مدیر پذیرش کارگزاری سرمایه و دانش",
-                "کارشناس مسئول کارگزاری توسعه اندیشه دانا",
-                "کارشناس مسئول کارگزاری دارا",
-                "کارشناس مسئول پذیرش حافظ"
-            ],
-            linkedin: ""
-        },
-        {
             name: "خانم کمیله فرقانی اشرفی",
             position: "مدیر پذیرش مشتریان کارگزاری فدک",
             resume: [
@@ -351,7 +340,7 @@ export default function SectionManagementTeam() {
         dots: false,
         infinite: true,
         speed: 600,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
@@ -389,7 +378,7 @@ export default function SectionManagementTeam() {
             {
                 breakpoint: 1600, // Large Desktop
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 3,
                     centerPadding: "80px",
                 }
             },
@@ -472,7 +461,7 @@ export default function SectionManagementTeam() {
                                                 alt={member.name}
                                             />
                                             <h3>{member.name}</h3>
-                                            <p className="text-center mt-auto h-25 pt-5">{member.position}</p>
+                                            <p className="text-center mt-auto h-25 pt-4 ">{member.position}</p>
                                         </div>
 
                                         {/* BACK */}

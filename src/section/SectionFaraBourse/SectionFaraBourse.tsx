@@ -20,7 +20,7 @@ export default function SectionFaraBourse() {
                     <div className="row align-items-center">
                         <div className="col-lg-5 text-center">
                             <img
-                                src="https://picsum.photos/600/400"
+                                src="https://placehold.co/600x400"
                                 className="metal-img rounded-4"/>
                         </div>
                         <div className="col-lg-7 mb-4 mb-lg-0 mt-5 mt-lg-0">
