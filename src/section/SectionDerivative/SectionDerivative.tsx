@@ -125,36 +125,71 @@ export default function SectionDerivative() {
                         </div>
                     </div>
 
-                    <div className="row justify-content-center align-items-center text-center py-2 rounded-2" style={{backgroundColor: "#afa791"}}>
+                    {/*<div className="row justify-content-center align-items-center text-center py-2 rounded-2" style={{backgroundColor: "#afa791"}}>*/}
 
-                        <div className="col-md-4">
-                            <div className="contact-item text-white">
-                                <a href="tel:02163479000" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                    <span className="number-farsi dir-ltr">02163479000-(303)</span>
-                                    <i className="bi bi-telephone-fill"></i>
-                                </a>
+                    {/*    <div className="col-md-4">*/}
+                    {/*        <div className="contact-item text-white">*/}
+                    {/*            <a href="tel:02163479000" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">*/}
+                    {/*                <span className="number-farsi dir-ltr">02163479000-(303)</span>*/}
+                    {/*                <i className="bi bi-telephone-fill"></i>*/}
+                    {/*            </a>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+
+                    {/*    <div className="col-md-4">*/}
+                    {/*        <div className="contact-item text-white">*/}
+                    {/*            <a href="mailto:Futures@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">*/}
+                    {/*                <span>Futures@fadakbrokerage.ir</span>*/}
+                    {/*                <i className="bi bi-envelope-fill"></i>*/}
+                    {/*            </a>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+
+                    {/*    <div className="col-md-4">*/}
+                    {/*        <div className="contact-item text-white">*/}
+                    {/*            <a href="https://t.me/fadakbrk" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">*/}
+                    {/*                <span>@fadakbrk</span>*/}
+                    {/*                <i className="bi bi-telegram"></i>*/}
+                    {/*            </a>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+
+                    {/*</div>*/}
+
+
+                    <div className="container mt-5" dir="rtl">
+
+                        <div className="card border-0 shadow-sm rounded-4 p-4">
+                            <div className="row align-items-center">
+
+                                <div className="col-md-6 d-flex align-items-center">
+                                    <div>
+                                        <h5 className="fw-bold mb-1 fadak-color-navy">برای دریافت مشاوره رایگان ، با کارشناسان فدک در تماس باشید</h5>
+                                        <hr/>
+                                        <a  href="https://t.me/fadakbrk"
+                                            className="fadak-color-navy text-decoration-none d-block d-flex align-items-center justify-content-center">
+                                            <span dir="ltr">fadakbrk</span>
+                                            <i className="bi bi-telegram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-3 offset-lg-3 col-md-4 offset-md-2 text-start mt-sm-0 mt-4">
+                                    <div className="contact-item border border-2 p-3 border-dark rounded-2">
+
+                                        <a href="tel:02163479000"
+                                           className="text-black text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                            <span className="number-farsi dir-ltr">02163479000-(303)</span>
+                                            <i className="bi bi-telephone-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-
-                        <div className="col-md-4">
-                            <div className="contact-item text-white">
-                                <a href="mailto:Futures@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                    <span>Futures@fadakbrokerage.ir</span>
-                                    <i className="bi bi-envelope-fill"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className="col-md-4">
-                            <div className="contact-item text-white">
-                                <a href="https://t.me/fadakbrk" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                    <span>@fadakbrk</span>
-                                    <i className="bi bi-telegram"></i>
-                                </a>
-                            </div>
-                        </div>
-
                     </div>
+
+
 
                 </div>
             </section>

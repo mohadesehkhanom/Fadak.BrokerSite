@@ -178,15 +178,17 @@ export default function SectionKala() {
                         </div>
 
                         <div className="col-lg-4 offset-lg-1 col-xl-3 offset-lg-2 align-self-center">
-                            <div className="card bg-white border-0 shadow d-flex flex-column justify-content-end">
+                            <div className="card bg-white border-0 shadow d-flex flex-column justify-content-end gap-0">
                                 <a href="https://fadak.ebgo.ir/Login" className="d-flex flex-row align-items-center justify-content-center">
                                     <i className="bi bi-link-45deg fs-4"></i>
                                     <span>ایبیگو</span>
                                 </a>
+                                <hr/>
                                 <a href="https://tts.ime.co.ir/" className="d-flex flex-row align-items-center justify-content-center">
                                     <i className="bi bi-link-45deg fs-4"></i>
                                     <span>معاملات آنلاین بورس کالا</span>
                                 </a>
+                                <hr/>
                                 <a href="https://www.ime.co.ir" className="d-flex flex-row align-items-center justify-content-center">
                                     <i className="bi bi-link-45deg fs-4"></i>
                                     <span>شرکت بورس کالا</span>
@@ -213,31 +215,6 @@ export default function SectionKala() {
                                 و با تحویل مدارک و فرمهای مشخص شده، اقدام به دریافت کد معامالتی کنند.
                             </p>
                         </div>
-                        <div className="row justify-content-center align-items-center text-center py-2 rounded-2 mt-5"
-                             style={{backgroundColor: "rgb(0 61 106)"}}>
-
-                            <div className="col-md-4">
-                                <div className="contact-item text-white">
-                                    <a href="tel:02163479500"
-                                       className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                        <span className="number-farsi dir-ltr">02163479500-(501)</span>
-                                        <i className="bi bi-telephone-fill"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4">
-                                <div className="contact-item text-white">
-                                    <a href="mailto:Commodity@fadakbrokerage.ir"
-                                       className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                        <span>Commodity@fadakbrokerage.ir</span>
-                                        <i className="bi bi-envelope-fill"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-
 
 
                         <div className="container mt-5" dir="rtl">
@@ -246,19 +223,20 @@ export default function SectionKala() {
                                 <div className="row align-items-center">
 
                                     <div className="col-md-6 d-flex align-items-center">
-                                        <div className="ms-3">
-                                            <i className="bi bi-headset text-primary" ></i>
-                                        </div>
                                         <div>
-                                            <h5 className="fw-bold mb-1">مشاوره سرمایه‌گذاری</h5>
-                                            <p className="text-secondary small mb-0">برای دریافت مشاوره رایگان، با کارشناسان آگاه در تماس باشید</p>
+                                            <h5 className="fw-bold mb-1 fadak-color-navy">برای دریافت مشاوره رایگان ، با کارشناسان فدک در تماس باشید</h5>
+                                            <hr/>
+                                            <a href="mailto:Commodity@fadakbrokerage.ir"
+                                               className="fadak-color-navy text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                                <span>Commodity@fadakbrokerage.ir</span>
+                                                <i className="bi bi-envelope-fill"></i>
+                                            </a>
                                         </div>
                                     </div>
 
-
-
-                                    <div className="col-md-3 offset-3 text-start">
+                                    <div className="col-lg-3 offset-lg-3 col-md-4 offset-md-2 text-start mt-sm-0 mt-4">
                                         <div className="contact-item border border-2 p-3 border-dark rounded-2">
+
                                             <a href="tel:02163479500"
                                                className="text-black text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
                                                 <span className="number-farsi dir-ltr">02163479500-(501)</span>

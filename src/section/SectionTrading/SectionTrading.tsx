@@ -16,27 +16,63 @@ export default function SectionTrading() {
                                 کارگزاری فدک دریافت کنید. همینطور در صورت نیاز می‌توانید با ثبت درخواست مشاوره رایگان،
                                 از کارشناسان سرمایه‌گذاری فدک راهنمایی بگیرید.
                             </p>
-                            <div className="row justify-content-center align-items-center text-center my-3 py-2 rounded-2" style={{backgroundColor: "#003d6a"}}>
+                            {/*<div className="row justify-content-center align-items-center text-center my-3 py-2 rounded-2" style={{backgroundColor: "#003d6a"}}>*/}
 
-                                <div className="col-md-6">
-                                    <div className="contact-item text-white">
-                                        <a href="tel:02163479300" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                            <span  className="number-farsi dir-ltr">02163479300-(302)</span>
-                                            <i className="bi bi-telephone-fill"></i>
-                                        </a>
+                            {/*    <div className="col-md-6">*/}
+                            {/*        <div className="contact-item text-white">*/}
+                            {/*            <a href="tel:02163479300" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">*/}
+                            {/*                <span  className="number-farsi dir-ltr">02163479300-(302)</span>*/}
+                            {/*                <i className="bi bi-telephone-fill"></i>*/}
+                            {/*            </a>*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
+
+                            {/*    <div className="col-md-6">*/}
+                            {/*        <div className="contact-item text-white">*/}
+                            {/*            <a href="mailto:Reception@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">*/}
+                            {/*                <span>Reception@fadakbrokerage.ir</span>*/}
+                            {/*                <i className="bi bi-envelope-fill"></i>*/}
+                            {/*            </a>*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
+
+                            {/*</div>*/}
+
+
+
+
+
+                                <div className="card border-0 shadow-sm rounded-4 p-4 mt-4">
+                                    <div className="row align-items-center">
+
+                                        <div className="col-md-7 d-flex align-items-center">
+                                            <div>
+                                                <p className=" mb-1 fadak-color-navy text-center">برای دریافت مشاوره رایگان ، با کارشناسان فدک در تماس باشید</p>
+                                                <hr/>
+                                                <a  href="mailto:Reception@fadakbrokerage.ir"
+                                                    className="fadak-color-navy text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                                    <span>Reception@fadakbrokerage.ir</span>
+                                                    <i className="bi bi-envelope-fill"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-lg-5 text-start mt-sm-0 mt-4">
+                                            <div className="contact-item border border-2 border-dark p-3 rounded-2">
+
+                                                <a href="tel:02163479300"
+                                                   className="text-black text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                                    <span className="number-farsi dir-ltr">02163479300-(302)</span>
+                                                    <i className="bi bi-telephone-fill"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
 
-                                <div className="col-md-6">
-                                    <div className="contact-item text-white">
-                                        <a href="mailto:Reception@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                            <span>Reception@fadakbrokerage.ir</span>
-                                            <i className="bi bi-envelope-fill"></i>
-                                        </a>
-                                    </div>
-                                </div>
 
-                            </div>
+
                             {/*<div className="d-flex flex-row-reverse justify-content-around mt-3">*/}
                             {/*    <a href="https://fadakregister.irbrokersite.ir/" className="fadak-button" data-wow-duration="0.8s">دریافت کد بورسی </a>*/}
                             {/*    /!*<a href="" className="fadak-button" data-wow-duration="0.8s">مشاوره رایگان </a>*!/*/}
