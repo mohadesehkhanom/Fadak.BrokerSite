@@ -70,7 +70,7 @@ export default function SectionEnergy() {
                             </ul>
                         </div>
 
-                        <div className="col-lg-3 offset-2  align-self-center ">
+                        <div className="col-lg-4 offset-lg-1 col-xl-3 offset-lg-2 align-self-center ">
                             <div className="card bg-white border-0 shadow d-flex flex-column justify-content-around">
                                 <a href="https://iee.ir"
                                    className="d-flex flex-row align-items-center justify-content-center">

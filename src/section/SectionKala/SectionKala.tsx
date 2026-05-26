@@ -177,7 +177,7 @@ export default function SectionKala() {
                             </ul>
                         </div>
 
-                        <div className="col-lg-3 offset-2  align-self-center">
+                        <div className="col-lg-4 offset-lg-1 col-xl-3 offset-lg-2 align-self-center">
                             <div className="card bg-white border-0 shadow d-flex flex-column justify-content-end">
                                 <a href="https://fadak.ebgo.ir/Login" className="d-flex flex-row align-items-center justify-content-center">
                                     <i className="bi bi-link-45deg fs-4"></i>
@@ -208,15 +208,18 @@ export default function SectionKala() {
                         <div className="col-md-8">
                             <h4 className="vision-title">دریافت کد بورس کالا برای اشخاص حقوقی</h4>
                             <p className="lead mt-3 text-center">
-                                اولین و مهمترین گام جهت فعالیت در بورس کالا دریافت «کد معامالتی» است. متقاضیان باید از طریق کارگزاری فدک
+                                اولین و مهمترین گام جهت فعالیت در بورس کالا دریافت «کد معامالتی» است. متقاضیان باید از
+                                طریق کارگزاری فدک
                                 و با تحویل مدارک و فرمهای مشخص شده، اقدام به دریافت کد معامالتی کنند.
                             </p>
                         </div>
-                        <div className="row justify-content-center align-items-center text-center py-2 rounded-2 mt-5" style={{backgroundColor: "rgb(0 61 106)"}}>
+                        <div className="row justify-content-center align-items-center text-center py-2 rounded-2 mt-5"
+                             style={{backgroundColor: "rgb(0 61 106)"}}>
 
                             <div className="col-md-4">
                                 <div className="contact-item text-white">
-                                    <a href="tel:02163479500" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                    <a href="tel:02163479500"
+                                       className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
                                         <span className="number-farsi dir-ltr">02163479500-(501)</span>
                                         <i className="bi bi-telephone-fill"></i>
                                     </a>
@@ -225,7 +228,8 @@ export default function SectionKala() {
 
                             <div className="col-md-4">
                                 <div className="contact-item text-white">
-                                    <a href="mailto:Commodity@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                    <a href="mailto:Commodity@fadakbrokerage.ir"
+                                       className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
                                         <span>Commodity@fadakbrokerage.ir</span>
                                         <i className="bi bi-envelope-fill"></i>
                                     </a>
@@ -233,6 +237,43 @@ export default function SectionKala() {
                             </div>
 
                         </div>
+
+
+
+                        <div className="container mt-5" dir="rtl">
+
+                            <div className="card border-0 shadow-sm rounded-4 p-4">
+                                <div className="row align-items-center">
+
+                                    <div className="col-md-6 d-flex align-items-center">
+                                        <div className="ms-3">
+                                            <i className="bi bi-headset text-primary" ></i>
+                                        </div>
+                                        <div>
+                                            <h5 className="fw-bold mb-1">مشاوره سرمایه‌گذاری</h5>
+                                            <p className="text-secondary small mb-0">برای دریافت مشاوره رایگان، با کارشناسان آگاه در تماس باشید</p>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div className="col-md-3 offset-3 text-start">
+                                        <div className="contact-item border border-2 p-3 border-dark rounded-2">
+                                            <a href="tel:02163479500"
+                                               className="text-black text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                                <span className="number-farsi dir-ltr">02163479500-(501)</span>
+                                                <i className="bi bi-telephone-fill"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
                     </div>
                 </div>
             </section>
