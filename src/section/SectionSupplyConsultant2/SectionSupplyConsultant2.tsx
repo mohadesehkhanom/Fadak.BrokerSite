@@ -56,6 +56,7 @@ export default function SectionSupplyConsultant2() {
                                                 <a  href="mailto://marketentry@fadakbrokerage.ir"
                                                     className="fadak-color-navy text-decoration-none d-block d-flex align-items-center justify-content-center">
                                                     <span dir="ltr">marketentry@fadakbrokerage.ir</span>
+                                                    <i className="bi bi-envelope-fill"></i>
                                                 </a>
                                             </div>
                                         </div>
