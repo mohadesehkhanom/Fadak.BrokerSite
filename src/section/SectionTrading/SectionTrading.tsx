@@ -7,7 +7,7 @@ export default function SectionTrading() {
             <div className="container">
                 <div className="row flex-row-reverse gy-5 gy-xl-0 justify-content-between align-items-lg-center"
                      data-wow-duration="2s" data-wow-delay="2s">
-                    <div className="order-2 order-sm-0 order-lg-1 col-xxl-6 col-xl-7 col-lg-7 col-md-6">
+                    <div className="order-2 order-sm-0 order-lg-1 col-xxl-7 col-xl-7 col-lg-7 col-md-6">
                         <div className="section__content">
                             <h3 className="section__content-title wow fadeInUp" data-wow-duration="0.8s">دریافت کد بورسی
                                 و مشاوره سرمایه‌گذاری</h3>
@@ -41,28 +41,29 @@ export default function SectionTrading() {
 
 
 
+                            <div className="container mt-5 mx-0" dir="rtl">
 
-                                <div className="card border-0 shadow-sm rounded-4 p-4 mt-4">
+                                <div className="card border-0 shadow-sm rounded-4 p-4">
                                     <div className="row align-items-center">
 
-                                        <div className="col-md-7 d-flex align-items-center">
+                                        <div className="col-12 col-lg-8 d-flex align-items-center">
                                             <div>
                                                 <p className=" mb-1 fadak-color-navy text-center">برای دریافت مشاوره رایگان ، با کارشناسان فدک در تماس باشید</p>
                                                 <hr/>
-                                                <a  href="mailto:Reception@fadakbrokerage.ir"
-                                                    className="fadak-color-navy text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                                    <span>Reception@fadakbrokerage.ir</span>
-                                                    <i className="bi bi-envelope-fill"></i>
+                                                <a  href="https://t.me/fadakbrk"
+                                                    className="fadak-color-navy text-decoration-none d-block d-flex align-items-center justify-content-center">
+                                                    <span dir="ltr">fadakbrk</span>
+                                                    <i className="bi bi-telegram"></i>
                                                 </a>
                                             </div>
                                         </div>
 
-                                        <div className="col-lg-5 text-start mt-sm-0 mt-4">
-                                            <div className="contact-item border border-2 border-dark p-3 rounded-2">
+                                        <div className="col-12 col-lg-4 text-start mt-sm-0 mt-4">
+                                            <div className="contact-item border border-2 p-3 border-dark rounded-2">
 
-                                                <a href="tel:02163479300"
+                                                <a href="tel:02163479000"
                                                    className="text-black text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                                    <span className="number-farsi dir-ltr">02163479300-(302)</span>
+                                                    <span className="number-farsi dir-ltr">02163479000-(303)</span>
                                                     <i className="bi bi-telephone-fill"></i>
                                                 </a>
                                             </div>
@@ -70,6 +71,7 @@ export default function SectionTrading() {
 
                                     </div>
                                 </div>
+                            </div>
 
 
 
