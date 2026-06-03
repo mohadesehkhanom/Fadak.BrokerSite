@@ -16,7 +16,6 @@ export default function ServicesPage() {
     return (
         <>
             <SectionNavbarMenu/>
-
             <SectionSupplyConsultant/>
             <SectionOrganization/>
             <SectionFooter/>
