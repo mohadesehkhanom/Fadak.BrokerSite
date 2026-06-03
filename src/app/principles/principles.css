@@ -33,7 +33,7 @@
     transform: scale(1.1);
 }
 .principles-header-section {
-    background: url("https://placehold.co/2000x500");
+    background: url("/assets/images/slider/principles.webp");
     margin-bottom: 50px;
     border-bottom: none;
     position: relative;
