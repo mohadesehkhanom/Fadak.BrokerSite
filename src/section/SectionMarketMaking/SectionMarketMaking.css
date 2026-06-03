@@ -1,7 +1,10 @@
 
 
 .header-derivative {
-    background: url("https://placehold.co/2000x500");
+    background: url("/assets/images/slider/market-making.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .section-title {
