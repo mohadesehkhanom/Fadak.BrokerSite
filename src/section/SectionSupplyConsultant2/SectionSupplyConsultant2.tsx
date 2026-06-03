@@ -10,7 +10,7 @@ export default function SectionSupplyConsultant2() {
                         <div className="col-lg-6">
                             <div className="image-container">
                                 <img
-                                    src="/assets/images/background/SectionSupplyConsultant.png"
+                                    src="/assets/images/slider/Admissions-Counseling-400-600.webp"
                                     width="600" height="400"
                                     alt="مشاوره مالی و سرمایه‌گذاری"/>
                             </div>
