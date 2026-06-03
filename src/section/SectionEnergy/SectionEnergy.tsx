@@ -46,7 +46,7 @@ export default function SectionEnergy() {
 
                         </div>
                         <div className="col-12 col-lg-5 text-center order-0">
-                            <img src="https://placehold.co/600x400" className="metal-img rounded-4"/>
+                            <img src="/assets/images/slider/energy_exchange_600x400.webp" className="metal-img rounded-4"/>
                         </div>
                     </div>
                 </div>
