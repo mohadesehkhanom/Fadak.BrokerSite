@@ -1,11 +1,14 @@
 
 /* Hero Component */
 .hero-section {
-    background: url("https://placehold.co/2000x500");
+    background: url("/assets/images/slider/about.webp");
     color: white;
     position: relative;
     overflow: hidden;
     min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /*.hero-section::before {*/
