@@ -1,14 +1,13 @@
 
 .section-energy {
     /* Using a grayscale factory image similar to your screenshot */
-    background: url('https://placehold.co/2000x500');
+    background: url('/assets/images/slider/irenergy.webp');
     background-size: cover;
     background-position: center;
     height: 500px;
     position: relative;
     display: flex;
     align-items: center;
-    filter: grayscale(100%); /* Makes the image black and white */
 }
 
 .section-energy h1, .section-energy p.lead {
