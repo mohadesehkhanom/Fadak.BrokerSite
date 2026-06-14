@@ -5,7 +5,7 @@ export default function SectionOnlineTrading() {
         < >
             <section className="section-online-trading text-center">
                 <div className="container h-100 d-flex flex-column">
-                    <h4 className="mb-4 fw-bold mt-auto">سامانه های معاملات آنلاین</h4>
+                    <h4 className="mb-4 fw-bold mt-auto text-white">سامانه های معاملات آنلاین</h4>
                     <div className="row justify-content-center g-2 g-md-3">
 
                         <div className="col-6 col-sm-4 col-lg-3">
