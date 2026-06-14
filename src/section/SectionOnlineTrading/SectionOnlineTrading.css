@@ -19,11 +19,14 @@
 
 .section-online-trading {
     background-color: var(--fadak-navy);
-    background-image: url("https://placehold.co/2000x500");
+    background-image: url("/assets/images/slider/online-Trading.webp");
     color: white;
     padding: 3rem 0;
     height: 500px;
     border-bottom: 5px solid var(--fadak-gold);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 

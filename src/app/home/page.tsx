@@ -1,11 +1,12 @@
 import SectionNavbarMenu from "@/section/SectionHeader/SectionNavbarMenu";
-import SectionBeginInvestment from "@/section/SectionBeginInvestment/SectionBeginInvestment";
+// import SectionBeginInvestment from "@/section/SectionBeginInvestment/SectionBeginInvestment";
 import SectionServiceOfferings from "@/section/SectionServiceOfferings/SectionServiceOfferings";
 import SectionCapitalMarketServices from "@/section/SectionCapitalMarketServices/SectionCapitalMarketServices";
 import SectionTrading from "@/section/SectionTrading/SectionTrading";
 import SectionOrganization from "@/section/SectionOrganization/SectionOrganization";
 import SectionFooter from "@/section/SectionFooter/SectionFooter";
 import {Metadata} from "next";
+import SectionBeginInvestment2 from "@/section/SectionBeginInvestment2/SectionBeginInvestment2";
 
 
 export const metadata: Metadata = {
@@ -26,7 +27,7 @@ export default function Page() {
     return (
         <>
             <SectionNavbarMenu/>
-            <SectionBeginInvestment/>
+            <SectionBeginInvestment2/>
             <SectionServiceOfferings/>
             <SectionCapitalMarketServices/>
             <SectionTrading/>

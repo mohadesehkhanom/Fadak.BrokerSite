@@ -15,7 +15,7 @@ export default function SectionNavbarMenu() {
                 <Container>
                     <Navbar.Brand className="navbar-brand" href="/">
                         <Image
-                            src="./assets/images/icon/fadak2.svg"
+                            src="/assets/images/icon/fadak2.svg"
                             alt="Slide 1"
                             className="d-inline-block align-top"
                             width={180}
@@ -37,7 +37,7 @@ export default function SectionNavbarMenu() {
                                 <NavDropdown.Item className="custom-nav-item" href="https://fadak.ebgo.ir/Login">بورس کالا</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link className="nav-item" href="/derivative">مشتقه</Nav.Link>
-                            <Nav.Link className="nav-item" href="/Services">اعتبار</Nav.Link>
+                            <Nav.Link className="nav-item" href="/Credit">اعتبار</Nav.Link>
                             <NavDropdown title="درباره فدک">
                                 <NavDropdown.Item className="custom-nav-item" href="/Brokerage-branch">شعب و دفاتر</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/bank-accounts">شماره حساب‌ها</NavDropdown.Item>

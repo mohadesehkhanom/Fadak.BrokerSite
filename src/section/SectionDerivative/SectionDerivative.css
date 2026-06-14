@@ -2,6 +2,13 @@
 
 .header-derivative {
     background: url("/assets/images/slider/derivative.webp");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
 }
 
 .section-title {
@@ -50,17 +57,17 @@
     margin-bottom: 15px;
 }
 
-/* ریسپانسیو */
-@media (max-width: 768px) {
-    .header-derivative h1 {
-        font-size: 2rem;
-    }
+/*!* ریسپانسیو *!*/
+/*@media (max-width: 768px) {*/
+/*    .header-derivative h1 {*/
+/*        font-size: 2rem;*/
+/*    }*/
 
-    .header-derivative {
-        padding: 80px 0 50px;
-        background: url("https://placehold.co/2000x500");
-    }
-}
+/*    .header-derivative {*/
+/*        padding: 80px 0 50px;*/
+/*        background: url("https://placehold.co/2000x500");*/
+/*    }*/
+/*}*/
 
 /* Remove default slick arrow icon */
 .slick-prev::before,

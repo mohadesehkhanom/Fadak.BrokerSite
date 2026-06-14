@@ -86,7 +86,7 @@ export default function SectionTrading() {
                     <div className="order-1 order-sm-0 order-lg-2 col-xxl-5 col-xl-5 col-lg-5 col-md-6">
                         <div className="traning-plan-thumb w-100">
                             <Image
-                                src="/assets/images/app/apps-thumb2.png"
+                                src="/assets/images/slider/Free_consultation.webp"
                                 alt=""
                                 width={600}
                                 height={500}

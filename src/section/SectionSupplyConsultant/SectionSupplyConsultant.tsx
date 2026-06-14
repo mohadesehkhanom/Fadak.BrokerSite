@@ -11,7 +11,7 @@ export default function SectionSupplyConsultant() {
                         <div className="col-lg-5">
                             <div className="image-container">
                                 <Image
-                                    src="/assets/images/background/SectionSupplyConsultant.png"
+                                    src="/assets/images/slider/supply-consultant_600x400.webp"
                                     width="600" height="400"
                                     alt="مشاوره مالی و سرمایه‌گذاری"/>
                             </div>
@@ -25,27 +25,39 @@ export default function SectionSupplyConsultant() {
                                 انتخاب مناسب‌ترین مسیر تأمین مالی برای شرکت‌هاست.
                             </p>
 
-                            <div className="row justify-content-center align-items-center text-center my-3 py-2 rounded-2 fadak-bg-navy">
 
-                                <div className="col-md-6">
-                                    <div className="contact-item text-white">
-                                        <a href="tel:02163479410" title="مشاوره رایگان" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                            <span className="number-farsi">02163479410</span>
-                                            <i className="bi bi-telephone-fill"></i>
-                                        </a>
+                            <div className="container mt-5 px-0" dir="rtl">
+
+                                <div className="card border-0 shadow-sm rounded-4 p-4">
+                                    <div className="row align-items-center">
+
+                                        <div className="col-12 col-md-6 d-flex align-items-center">
+                                            <div>
+                                                <a  href="mailto://Consulting@fadakbrokerage.ir"
+                                                    className="fadak-color-navy text-decoration-none d-block d-flex align-items-center justify-content-center">
+                                                    <span dir="ltr">Consulting@fadakbrokerage.ir</span>
+                                                    <i className="bi bi-envelope-fill"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-12 col-md-6 text-start mt-sm-0 mt-4">
+                                            <div className="contact-item border border-2 p-3 border-dark rounded-2">
+
+                                                <a href="tel:02163479410"
+                                                   className="text-black text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                                    <span className="number-farsi dir-ltr">02163479410</span>
+                                                    <i className="bi bi-telephone-fill"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
-
-                                <div className="col-md-6">
-                                    <div className="contact-item text-white">
-                                        <a href="mailto:Consulting@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                            <span>Consulting@fadakbrokerage.ir</span>
-                                            <i className="bi bi-envelope-fill"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
                             </div>
+
+
+
 
                         </div>
 

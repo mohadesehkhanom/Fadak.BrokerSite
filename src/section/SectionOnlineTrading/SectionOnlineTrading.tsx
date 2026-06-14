@@ -39,7 +39,7 @@ export default function SectionOnlineTrading() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 text-center">
                                 <img
-                                    src="https://placehold.co/500x300"
+                                    src="/assets/images/slider/online_trading_600x400.webp"
                                     className="metal-img rounded-4"/>
                             </div>
                             <div className="col-lg-6 mb-4 mb-lg-0 mt-5 mt-md-5 mt-lg-0">

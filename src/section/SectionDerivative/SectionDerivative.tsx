@@ -8,9 +8,9 @@ export default function SectionDerivative() {
             <section className="header-derivative">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8 d-flex flex-column align-items-center justify-content-end" style={{minHeight: "500px"}}>
-                            <h4>مدیریت ریسک، خلق فرصت</h4>
-                            <p className="mt-2">
+                        <div className="col-lg-8 d-flex flex-column align-items-center justify-content-end py-5" style={{minHeight: "500px"}}>
+                            <h4 className="text-white">مدیریت ریسک، خلق فرصت</h4>
+                            <p className="mt-2 text-white">
                                 با ابزارهای مشتقه، ریسک را کنترل و فرصت‌های جدید بازار را شکار کنید.
                                 فدک همراه شما در مسیر حرفه‌ای معامله‌گری.
                             </p>
@@ -200,7 +200,7 @@ export default function SectionDerivative() {
 
                     <div className="row">
                         <div className="col-lg-4 d-flex align-items-center justify-content-center">
-                            <img className="d-sm-none d-md-flex mb-sm-2 mb-lg-0 rounded" src="https://picsum.photos/420/320"/>
+                            <img className="d-sm-none d-md-flex mb-sm-2 mb-lg-0 rounded" src="/assets/images/slider/derivative_600x400.webp"/>
                         </div>
                         <div className="col-lg-8 mt-0 mx-auto">
                             <div className="card p-4" dir="rtl">

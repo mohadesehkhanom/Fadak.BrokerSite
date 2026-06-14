@@ -36,8 +36,10 @@
     background: url("/assets/images/slider/principles.webp");
     margin-bottom: 50px;
     border-bottom: none;
-    position: relative;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 /*.principles-header-section::before {*/
 /*    content: '';*/

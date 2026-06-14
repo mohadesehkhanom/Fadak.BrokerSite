@@ -11,7 +11,7 @@ export default function SectionMarketMaking() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 d-flex flex-column align-items-center justify-content-center" style={{minHeight: "500px"}}>
-                            <h4>صندوق بازارگردانی فدک</h4>
+                            <h4 className="text-white">صندوق بازارگردانی فدک</h4>
                             <div className="mt-4">
                                 <a href=""  className="btn fadak-button me-3">سایت صندوق</a>
                             </div>
@@ -47,7 +47,7 @@ export default function SectionMarketMaking() {
                         </div>
 
                         <div className="col-lg-4 d-flex align-items-center justify-content-center order-1 order-lg-0">
-                            <img className="d-sm-none d-md-flex mb-sm-2 mb-lg-0 rounded" src="https://picsum.photos/420/320"/>
+                            <img className="d-sm-none d-md-flex mb-sm-2 mb-lg-0 rounded" src="/assets/images/slider/market-making-600-400-N1.webp"/>
                         </div>
 
                     </div>
@@ -63,27 +63,71 @@ export default function SectionMarketMaking() {
                     {/*    بیشتر در بازار اختیار معامله و آتی فعالیت کنند.*/}
                     {/*</p>*/}
 
-                    <div className="row justify-content-center align-items-center text-center py-2 rounded-2" style={{backgroundColor: "rgb(0 61 106)"}}>
+                    {/*<div className="row justify-content-center align-items-center text-center py-2 rounded-2" style={{backgroundColor: "rgb(0 61 106)"}}>*/}
 
-                        <div className="col-md-4">
-                            <div className="contact-item text-white">
-                                <a href="tel:02163479410" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                    <span className="number-farsi">02163479410</span>
-                                    <i className="bi bi-telephone-fill"></i>
-                                </a>
+                    {/*    <div className="col-md-4">*/}
+                    {/*        <div className="contact-item text-white">*/}
+                    {/*            <a href="tel:02163479410" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">*/}
+                    {/*                <span className="number-farsi">02163479410</span>*/}
+                    {/*                <i className="bi bi-telephone-fill"></i>*/}
+                    {/*            </a>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+
+                    {/*    <div className="col-md-4">*/}
+                    {/*        <div className="contact-item text-white">*/}
+                    {/*            <a href="mailto:Fund@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">*/}
+                    {/*                <span>Fund@fadakbrokerage.ir</span>*/}
+                    {/*                <i className="bi bi-envelope-fill"></i>*/}
+                    {/*            </a>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+
+                    {/*</div>*/}
+
+
+
+
+
+
+                    <div className="container mt-5 px-0" dir="rtl">
+
+                        <div className="card border-0 shadow-sm rounded-4 p-4">
+                            <div className="row align-items-center">
+
+                                <div className="col-md-6 d-flex align-items-center">
+                                    <div>
+                                        <h5 className="fw-bold mb-1 fadak-color-navy">برای دریافت مشاوره رایگان ، با کارشناسان فدک در تماس باشید</h5>
+                                        <hr/>
+                                        <a href="mailto:Fund@fadakbrokerage.ir"
+                                           className="fadak-color-navy text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                            <span>Fund@fadakbrokerage.ir</span>
+                                            <i className="bi bi-envelope-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-3 offset-lg-3 col-md-4 offset-md-2 text-start mt-sm-0 mt-4">
+                                    <div className="contact-item border border-2 p-3 border-dark rounded-2">
+
+                                        <a href="tel:02163479410"
+                                           className="text-black text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
+                                            <span className="number-farsi dir-ltr">02163479410</span>
+                                            <i className="bi bi-telephone-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-
-                        <div className="col-md-4">
-                            <div className="contact-item text-white">
-                                <a href="mailto:Fund@fadakbrokerage.ir" className="text-white text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                    <span>Fund@fadakbrokerage.ir</span>
-                                    <i className="bi bi-envelope-fill"></i>
-                                </a>
-                            </div>
-                        </div>
-
                     </div>
+
+
+
+
+
+
+
 
                 </div>
             </section>
@@ -94,7 +138,7 @@ export default function SectionMarketMaking() {
 
                     <div className="row">
                         <div className="col-lg-4 d-flex align-items-center justify-content-center">
-                            <img className="d-sm-none d-md-flex mb-sm-2 mb-lg-0 rounded" src="https://picsum.photos/420/320"/>
+                            <img className="d-sm-none d-md-flex mb-sm-2 mb-lg-0 rounded" src="/assets/images/slider/market-making-600-400-N2.webp"/>
                         </div>
                         <div className="col-lg-8 mt-0 mx-auto">
                             <div className="card p-4" dir="rtl">

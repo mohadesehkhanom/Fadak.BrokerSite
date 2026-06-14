@@ -1,6 +1,10 @@
 "use client";
+
 import React from 'react';
+import toast from 'react-hot-toast';
 import './BankAccount2.css'
+
+
 const EnergyBankAccounts = [
     {
         name: "بانک ملت",
@@ -250,6 +254,9 @@ export default function BankAccount2() {
 
     const copyToClipboard = (text: string) => {
         if (!text?.trim()) return;
+
+        toast.success('کپی صورت گرفت.');
+
         navigator.clipboard.writeText(text.trim()).catch((err) => {
             console.warn('کپی ناموفق:', err);
             alert('کپی متن با خطا مواجه شد.');
