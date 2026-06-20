@@ -1,6 +1,6 @@
 .cta-section {
     position: relative;
-    min-height: 720px;
+    /*min-height: 720px;*/
     width: 100% !important;
     overflow: hidden;
 }
@@ -23,7 +23,7 @@
     position: absolute;
     inset: 0;
     background-size: cover;
-    background-position: center;
+    background-position: right top;
     background-repeat: no-repeat;
     transform: scale(1);
     transition: transform 6s ease-in-out;
@@ -112,41 +112,42 @@
     transform: scale(1.35);
 }
 
-@media (max-width: 768px) {
-    .cta-section {
-        /*min-height: unset;*/
-    }
 
-    .cta-swiper,
-    .cta-slide {
-        height: 100svh;
-        max-height: 700px;
-    }
+/*@media (max-width: 768px) {*/
+/*    .cta-section {*/
+/*        !*min-height: unset;*!*/
+/*    }*/
 
-    .cta-slide-bg {
-        background-size: contain;
-        background-position: center top;
-        background-color: #000;
-    }
+/*    .cta-swiper,*/
+/*    .cta-slide {*/
+/*        height: 100svh;*/
+/*        max-height: 700px;*/
+/*    }*/
 
-    .cta-slide-overlay {
-        background: linear-gradient(
-                to top,
-                rgba(0, 0, 0, 0.8) 0%,
-                rgba(0, 0, 0, 0.15) 50%,
-                rgba(0, 0, 0, 0) 100%
-        );
-    }
+/*    .cta-slide-bg {*/
+/*        background-size: contain;*/
+/*        background-position: center top;*/
+/*        background-color: #000;*/
+/*    }*/
 
-    .cta-section-title {
-        font-size: 1.4rem;
-    }
+/*    .cta-slide-overlay {*/
+/*        background: linear-gradient(*/
+/*                to top,*/
+/*                rgba(0, 0, 0, 0.8) 0%,*/
+/*                rgba(0, 0, 0, 0.15) 50%,*/
+/*                rgba(0, 0, 0, 0) 100%*/
+/*        );*/
+/*    }*/
 
-    .cta-section-subtitle {
-        font-size: 0.95rem;
-    }
+/*    .cta-section-title {*/
+/*        font-size: 1.4rem;*/
+/*    }*/
 
-    .cta-slide-content {
-        padding-bottom: 70px;
-    }
-}
+/*    .cta-section-subtitle {*/
+/*        font-size: 0.95rem;*/
+/*    }*/
+
+/*    .cta-slide-content {*/
+/*        padding-bottom: 70px;*/
+/*    }*/
+/*}*/
