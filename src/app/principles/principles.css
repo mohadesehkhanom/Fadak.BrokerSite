@@ -38,7 +38,7 @@
     border-bottom: none;
     overflow: hidden;
     background-size: cover;
-    background-position: center;
+    background-position: right top;
     background-repeat: no-repeat;
 }
 /*.principles-header-section::before {*/
