@@ -3,7 +3,7 @@
 .header-derivative {
     background: url("/assets/images/slider/derivative.webp");
     background-size: cover;
-    background-position: center;
+    background-position: right top;
     height: 500px;
     position: relative;
     display: flex;
