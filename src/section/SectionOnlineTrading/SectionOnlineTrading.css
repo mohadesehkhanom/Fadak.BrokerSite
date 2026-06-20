@@ -25,7 +25,7 @@
     height: 500px;
     border-bottom: 5px solid var(--fadak-gold);
     background-size: cover;
-    background-position: center;
+    background-position: right top;
     background-repeat: no-repeat;
 }
 

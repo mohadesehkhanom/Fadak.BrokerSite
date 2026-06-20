@@ -61,22 +61,37 @@ export default function SectionFooter() {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className=" mb-md-0 mb-3">
-                                <a href="https://trustseal.enamad.ir/?id=576835&Code=3kNB3rg8dKlDvvd7RJuKzQdCvDUaNyai" className="flogo mb-md-4 mb-3">
-                                    <Image
-                                        src="/assets/images/certificate/enamad.png"
-                                        alt=""
-                                        width="120"
-                                        height="130"
-                                    />
+                                {/*<a href="https://trustseal.enamad.ir/?id=576835&Code=3kNB3rg8dKlDvvd7RJuKzQdCvDUaNyai"*/}
+                                {/*   className="flogo mb-md-4 mb-3">*/}
+                                {/*    <Image*/}
+                                {/*        src="/assets/images/certificate/enamad.png"*/}
+                                {/*        alt=""*/}
+                                {/*        width="120"*/}
+                                {/*        height="130"*/}
+                                {/*    />*/}
 
+                                {/*</a>*/}
+
+
+                                <a referrerPolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=744706&Code=Ffu6SqhjAjWSubrUMLprZqXg2xisNo3L'  className="flogo mb-md-4 mb-3">
+                                    <img
+                                    referrerPolicy='origin'
+                                    width="120"
+                                    height="130"
+                                    src='https://trustseal.enamad.ir/logo.aspx?id=744706&Code=Ffu6SqhjAjWSubrUMLprZqXg2xisNo3L'
+                                    alt='' style={{ cursor: 'pointer' }}/>
                                 </a>
+
+
                                 <p className="text-white">از طریق شبکه های اجتماعی با ما در ارتباط باشید.</p>
                                 <div className="social-area mt_20">
                                     <div className="social flex-wrap">
-                                        <a href="https://www.instagram.com/fadakwealthmanagement/" className="btn_theme social_box">
+                                        <a href="https://www.instagram.com/fadakwealthmanagement/"
+                                           className="btn_theme social_box">
                                             <i className="bi bi-instagram"></i>
                                         </a>
-                                        <a href="https://www.linkedin.com/company/fadak-wealth-management" className="btn_theme social_box">
+                                        <a href="https://www.linkedin.com/company/fadak-wealth-management"
+                                           className="btn_theme social_box">
                                             <i className="bi bi-linkedin"></i>
                                         </a>
                                         {/*<a href="http://telegram.me/rahnamabroker" className="btn_theme social_box">*/}

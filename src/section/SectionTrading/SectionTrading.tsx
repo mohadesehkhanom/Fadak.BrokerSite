@@ -63,7 +63,7 @@ export default function SectionTrading() {
 
                                                 <a href="tel:02163479000"
                                                    className="text-black text-decoration-none d-block gap-2 d-flex align-items-center justify-content-center">
-                                                    <span className="number-farsi dir-ltr">02163479000-(303)</span>
+                                                    <span className="number-farsi dir-ltr ">02163479000-(303)</span>
                                                     <i className="bi bi-telephone-fill"></i>
                                                 </a>
                                             </div>
