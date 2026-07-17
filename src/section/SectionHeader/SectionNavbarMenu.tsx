@@ -25,8 +25,8 @@ export default function SectionNavbarMenu() {
                     <Navbar.Collapse  className="collapse navbar-collapse ms-auto " id="basic-navbar-nav">
                         <Nav className="me-auto  mb-lg-0 navbar-nav">
                             <NavDropdown title="بورس ها">
-                                <NavDropdown.Item className="custom-nav-item" href="/Bourse">بورس</NavDropdown.Item>
-                                <NavDropdown.Item className="custom-nav-item" href="/Fara-Bourse">فرابورس</NavDropdown.Item>
+                                <NavDropdown.Item className="custom-nav-item" href="/bourse">بورس</NavDropdown.Item>
+                                <NavDropdown.Item className="custom-nav-item" href="/fara-bourse">فرابورس</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/kala">بورس کالا</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/energy">بورس انرژی</NavDropdown.Item>
                             </NavDropdown>
@@ -39,7 +39,7 @@ export default function SectionNavbarMenu() {
                             <Nav.Link className="nav-item" href="/derivative">مشتقه</Nav.Link>
                             <Nav.Link className="nav-item" href="/Credit">اعتبار</Nav.Link>
                             <NavDropdown title="درباره فدک">
-                                <NavDropdown.Item className="custom-nav-item" href="/Brokerage-branch">شعب و دفاتر</NavDropdown.Item>
+                                <NavDropdown.Item className="custom-nav-item" href="/brokerage-branch">شعب و دفاتر</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/bank-accounts">شماره حساب‌ها</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/principles">اصول و اعتقادات حرفه‌ای</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/about">درباره ما </NavDropdown.Item>
