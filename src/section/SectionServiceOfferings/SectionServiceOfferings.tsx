@@ -46,7 +46,7 @@ export default function SectionServiceOfferings (){
                     </div>
                     <div className="col-12 col-sm-6 col-lg-4">
                         <div className="service-ServiceOfferings-card color-animate-border">
-                            <a className="d-flex flex-column justify-content-end" href="/Admissions-Counseling">
+                            <a className="d-flex flex-column justify-content-end" href="/admissions-counseling">
                                 <div className="service-ServiceOfferings-icon">
                                     <i className="bi bi-Admissions-Advisor cold-hover"></i>
                                 </div>
