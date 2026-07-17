@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     //     // your project has ESLint errors.
     //     ignoreDuringBuilds: true,
     // }
-    trailingSlash: true,
+    trailingSlash: false,
     output: 'export', // این خط بسیار مهم است
     // اگر از تصاویر Next.js (next/image) استفاده می‌کنید، باید غیرفعال شود
     // چون در حالت استاتیک بهینه ساز تصویر سمت سرور نداریم
