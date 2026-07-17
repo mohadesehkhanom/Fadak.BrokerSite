@@ -37,6 +37,11 @@ import {ModamFont, ModamNumber} from "@/lib/fonts";
 import {ImportWowJs} from "@/components/ui/ImportWowJs/ImportWowJs";
 import { Toaster } from "react-hot-toast";
 
+
+export const metadata: Metadata = {
+    metadataBase: new URL("https://ffg.ir"),
+};
+
 export default function RootLayout({
                                        children,
                                    }: Readonly<{
