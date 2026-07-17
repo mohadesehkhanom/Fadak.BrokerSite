@@ -12,7 +12,7 @@ export default function SectionServiceOfferings (){
                 <div className="row g-4">
                     <div className="col-12 col-sm-6 col-lg-4">
                         <div className="service-ServiceOfferings-card color-animate-border">
-                            <a className="d-flex flex-column justify-content-end" href="/online-Trading">
+                            <a className="d-flex flex-column justify-content-end" href="/online-trading">
                                 <div className="service-ServiceOfferings-icon">
                                     <i className="bi bi-Online-Transactions cold-hover"></i>
                                 </div>
