@@ -1,5 +1,4 @@
-# HTTP -> HTTPS + حذف www
-server {
+  server {
     listen 80;
     listen [::]:80;
 
@@ -9,8 +8,7 @@ server {
 }
 
 
-# HTTPS www -> HTTPS بدون www
-server {
+    server {
     listen 443 ssl;
     listen [::]:443 ssl;
 
@@ -25,8 +23,7 @@ server {
 }
 
 
-# دامنه اصلی
-server {
+    server {
 
     listen 443 ssl;
     listen [::]:443 ssl;
@@ -43,31 +40,26 @@ server {
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
 
-    # حذف /home
     location = /home {
-        return 301 https://ffg.ir/;
+    return 301 https://ffg.ir/;
     }
 
     location = /home/ {
-        return 301 https://ffg.ir/;
+    return 301 https://ffg.ir/;
     }
 
 
-    # حذف اسلش انتهای همه URL ها
-    # مثال: /derivative/ -> /derivative
-    # مثال: /about/team/ -> /about/team
     rewrite ^/(.*)/$ /$1 permanent;
 
 
-    # فایل های استاتیک
     location ~* \.(css|js|jpg|jpeg|png|gif|ico|svg|woff|woff2)$ {
-        expires 30d;
-        access_log off;
+    expires 30d;
+    access_log off;
     }
 
 
     location / {
-        try_files $uri $uri.html $uri/ /index.html;
+    try_files $uri $uri.html $uri/ /index.html;
     }
 
 }
