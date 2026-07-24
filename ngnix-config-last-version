@@ -1,65 +1,109 @@
-  server {
-    listen 80;
-    listen [::]:80;
+server {
 
-    server_name ffg.ir www.ffg.ir;
+listen 80;
+listen [::]:80;
 
-    return 301 https://ffg.ir$request_uri;
+server_name ffg.ir www.ffg.ir;
+
+return 301 https://ffg.ir$request_uri;
 }
 
 
-    server {
-    listen 443 ssl;
-    listen [::]:443 ssl;
+server {
 
-    server_name www.ffg.ir;
+listen 443 ssl;
+listen [::]:443 ssl;
 
-    ssl_certificate /etc/letsencrypt/live/ffg.ir/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/ffg.ir/privkey.pem;
-    include /etc/letsencrypt/options-ssl-nginx.conf;
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+server_name www.ffg.ir;
 
-    return 301 https://ffg.ir$request_uri;
+ssl_certificate /etc/letsencrypt/live/ffg.ir/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/ffg.ir/privkey.pem;
+include /etc/letsencrypt/options-ssl-nginx.conf;
+ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+return 301 https://ffg.ir$request_uri;
 }
 
 
-    server {
+server {
 
-    listen 443 ssl;
-    listen [::]:443 ssl;
+listen 443 ssl;
+listen [::]:443 ssl;
 
-    server_name ffg.ir;
+server_name ffg.ir;
 
-    root /var/www/fadak;
-    index index.html;
-
-
-    ssl_certificate /etc/letsencrypt/live/ffg.ir/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/ffg.ir/privkey.pem;
-    include /etc/letsencrypt/options-ssl-nginx.conf;
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+root /var/www/fadak;
+index index.html;
 
 
-    location = /home {
-    return 301 https://ffg.ir/;
-    }
+ssl_certificate /etc/letsencrypt/live/ffg.ir/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/ffg.ir/privkey.pem;
+include /etc/letsencrypt/options-ssl-nginx.conf;
+ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+  
+  
+location = /home {
+return 301 https://ffg.ir/;
+}
 
-    location = /home/ {
-    return 301 https://ffg.ir/;
-    }
-
-
-    rewrite ^/(.*)/$ /$1 permanent;
-
-
-    location ~* \.(css|js|jpg|jpeg|png|gif|ico|svg|woff|woff2)$ {
-    expires 30d;
-    access_log off;
-    }
+location = /home/ {
+return 301 https://ffg.ir/;
+}
 
 
-    location / {
-    try_files $uri $uri.html $uri/ /index.html;
-    }
+rewrite ^/(.+)/$ /$1 permanent;
+  
+  
+location ~* \.(css|js|jpg|jpeg|png|gif|ico|svg|woff|woff2|webp|avif|ttf|otf)$ {
+
+expires 30d;
+
+add_header Cache-Control "public, max-age=2592000, immutable";
+
+access_log off;
+}
+
+
+gzip on;
+
+gzip_vary on;
+
+gzip_proxied any;
+
+gzip_comp_level 6;
+
+gzip_min_length 1024;
+
+gzip_types
+text/plain
+text/css
+text/xml
+text/javascript
+application/javascript
+application/x-javascript
+application/json
+application/xml
+application/rss+xml
+application/atom+xml
+image/svg+xml
+font/ttf
+font/otf
+application/font-woff
+application/font-woff2;
+
+
+location ~* \.html$ {
+
+add_header Cache-Control "no-cache, no-store, must-revalidate";
+
+expires 0;
+}
+
+
+location / {
+
+try_files $uri $uri.html /index.html;
+
+}
 
 }
