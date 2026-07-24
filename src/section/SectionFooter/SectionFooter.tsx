@@ -52,7 +52,7 @@ export default function SectionFooter() {
                                 <h4 className="footer__title text-white mb-xl-4 mb-3">دسترسی سریع</h4>
                                 <ul className="page-linking d-grid gap-xxl-3 gap-2">
                                     <li><a href="/faq" className="text-white fs-seven">سوالات متداول</a></li>
-                                    <li><a href="/Brokerage-branch" className="text-white fs-seven">شعب و دفاتر</a></li>
+                                    <li><a href="/branches" className="text-white fs-seven">شعب و دفاتر</a></li>
                                     <li><a href="/contact" className="text-white fs-seven">ارتباط با ما</a></li>
                                     <li><a href="/about" className="text-white fs-seven">درباره فدک</a></li>
                                     <li><a href="/bank-accounts" className="text-white fs-seven">شماره حساب</a></li>
