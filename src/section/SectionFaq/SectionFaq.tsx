@@ -20,7 +20,7 @@ export default function SectionFaq() {
             },
             {
                 q: "کارگزاری فدک پذیرش غیرحضوری دارد؟",
-                a: "شما می‌توانید به صورت کاملا غیرحضوری از طریق سایت https://fadakregister.irbrokersite.ir درکارگزاری فدک ثبت نام کنید."
+                a: "شما می‌توانید به صورت کاملا غیرحضوری از طریق سایت https://fadakregister.irbrokersite.ir در کارگزاری فدک ثبت نام کنید."
             }
 
         ],
