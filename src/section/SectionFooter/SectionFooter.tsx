@@ -43,7 +43,7 @@ export default function SectionFooter() {
                                     <li><a href="https://fadak.tsetab.ir/" className="text-white">آنلاین مشتقه </a></li>
                                     <li><a href="https://fadak.irbrokersite.ir/" className="text-white">آفلاین سهام </a></li>
                                     <li><a href="https://fadak.ebgo.ir/Login" className="text-white">بورس کالا</a></li>
-                                    <li><a href="https://fadakregister.irbrokersite.ir/" className="text-white">ثبت نام غیر حضوری</a></li>
+                                    <li><a href="https://fadakregister.irbrokersite.ir/" className="text-white">ثبت‌نام غیر حضوری</a></li>
                                 </ul>
                             </div>
                         </div>

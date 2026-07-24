@@ -16,7 +16,7 @@ export default function SectionDerivative() {
                             </p>
                             <div className="mt-4">
                                 <a href="https://fadak.tsetab.ir/" target="_blank" className="btn fadak-button me-3">شروع معاملات مشتقه</a>
-                                <a href="https://fadakregister.irbrokersite.ir/" target="_blank" className="btn fadak-button mt-2 mt-sm-0">ثبت نام در کارگزاری فدک</a>
+                                <a href="https://fadakregister.irbrokersite.ir/" target="_blank" className="btn fadak-button mt-2 mt-sm-0">ثبت‌نام در کارگزاری فدک</a>
                             </div>
                         </div>
                     </div>
@@ -239,7 +239,7 @@ export default function SectionDerivative() {
 
             <section id="onboarding" className="onboarding-section fadak-bg-cream p-5">
                 <div className="container my-5">
-                    <h4 className="section-title w-100 text-center">مراحل ثبت نام تا معامله</h4>
+                    <h4 className="section-title w-100 text-center">مراحل ثبت‌نام تا معامله</h4>
 
                     <div className="row mt-4 gy-3">
                         <div className="col-12 col-md-6 col-lg-3">
@@ -255,7 +255,7 @@ export default function SectionDerivative() {
                             <div className="step-card">
                                 <div className="step-number">۲</div>
                                 <h5 className="step-title">فعال‌سازی دسترسی بازار مشتقه</h5>
-                                <p>پس از ثبت نام برای فعالسازی سامانه امکس و معاملات اختیار با واحد مشتقه تماس بگیرید یا
+                                <p>پس از ثبت‌نام برای فعال‌سازی سامانه امکس و معاملات اختیار با واحد مشتقه تماس بگیرید یا
                                     در صفحه سامانه امکس درخواست تغییر سامانه خود را ثبت کنید.</p>
                             </div>
                         </div>
@@ -263,8 +263,8 @@ export default function SectionDerivative() {
                         <div className="col-12 col-md-6 col-lg-3">
                             <div className="step-card">
                                 <div className="step-number">۳</div>
-                                <h5 className="step-title">شارژ حساب و فعالسازی</h5>
-                                <p>حساب معاملاتی خود را شارژ کنید و برای فعالسازی دسترسی فروش اختیار و استراتژی ها
+                                <h5 className="step-title">شارژ حساب و فعال‌سازی</h5>
+                                <p>حساب معاملاتی خود را شارژ کنید و برای فعال‌سازی دسترسی فروش اختیار و استراتژی ها
                                     پیشرفته با ما تماس بگیرید.</p>
                             </div>
                         </div>

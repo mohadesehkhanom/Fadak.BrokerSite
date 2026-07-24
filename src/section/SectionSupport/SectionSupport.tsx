@@ -13,7 +13,7 @@ export default function SectionSupport() {
                                 پنل معاملاتی به همراه مشاوران با تجربه
                             </h2>
                             <a href="contact.html" className="btn_theme btn_theme_active mt-3 wow fadeInDown"
-                               data-wow-duration="0.8s">ثبت نام<i className="bi bi-arrow-up-right"></i><span></span></a>
+                               data-wow-duration="0.8s">ثبت‌نام<i className="bi bi-arrow-up-right"></i><span></span></a>
                         </div>
                     </div>
                     <div className="col-12 col-sm-8 col-md-6 col-xxl-5">
