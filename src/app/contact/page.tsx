@@ -7,7 +7,7 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: "تماس با ما",
+    title: "تماس با کارگزاری فدک",
     description: '',
     alternates: {
         canonical: "/contact",

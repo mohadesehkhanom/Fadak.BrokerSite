@@ -5,8 +5,8 @@ import SectionServices from "@/section/SectionServices/SectionServices";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: "اعتبار",
-    description: '',
+    title: "دریافت اعتبار معاملاتی بورس | کارگزاری فدک",
+    description: 'شرایط دریافت اعتبار معاملاتی از کارگزاری فدک، مدارک موردنیاز و نحوه افزایش قدرت خرید در بازار سرمایه را بررسی کنید.',
     alternates: {
         canonical: "/credit",
     }

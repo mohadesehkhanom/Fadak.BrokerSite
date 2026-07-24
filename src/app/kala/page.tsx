@@ -6,8 +6,8 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: "بورس کالا",
-    description: '',
+    title: "کارگزاری بورس کالا و دریافت کد بورس کالا | کارگزاری فدک",
+    description: 'برای دریافت کد بورس کالا، افتتاح حساب وکالتی و انجام معاملات محصولات صنعتی، معدنی، پتروشیمی و سیمان با فدک همراه شوید.',
     alternates: {
         canonical: "/kala",
     }

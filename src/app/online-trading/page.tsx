@@ -6,8 +6,8 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: "معاملات آنلاین",
-    description: '',
+    title: "سامانه معاملات آنلاین بورس | کارگزاری فدک",
+    description: 'با سامانه‌های معاملات آنلاین کارگزاری فدک، سفارش‌های بورسی، پرتفوی و وضعیت بازار را سریع و آنلاین مدیریت کنید.',
     alternates: {
         canonical: "/online-trading",
     }

@@ -7,7 +7,7 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: 'سوالات متداول',
+    title: 'سوالات متداول | کارگزاری فدک',
     description: '',
     alternates: {
         canonical: "/faq",

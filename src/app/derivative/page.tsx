@@ -6,8 +6,8 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: 'مشتقه',
-    description: '',
+    title: 'معاملات اختیار و بازار مشتقه | کارگزاری فدک',
+    description: 'معاملات اختیار و ابزارهای مشتقه را با سامانه امکس، پرتفوی پیشرفته و پشتیبانی تخصصی کارگزاری فدک انجام دهید.',
     alternates: {
         canonical: "/derivative",
     }

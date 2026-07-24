@@ -8,8 +8,8 @@ import SectionOrganization from "@/section/SectionOrganization/SectionOrganizati
 import SectionFooter from "@/section/SectionFooter/SectionFooter";
 
 export const metadata: Metadata = {
-    title: "کارگزاری فدک | معاملات آنلاین بورس، مشتقه و بورس کالا",
-    description: '',
+    title: "معاملات آنلاین بورس، مشتقه و بورس کالا | کارگزاری فدک",
+    description: 'کارگزاری فدک ارائه‌دهنده خدمات معاملات آنلاین سهام، اختیار معامله، بورس کالا، اعتبار معاملاتی، بازارگردانی و مشاوره تأمین مالی است.',
     alternates: {
         canonical: "",
     }

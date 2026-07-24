@@ -6,8 +6,8 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: 'مشاوره پذیرش',
-    description: '',
+    title: 'مشاوره پذیرش شرکت در بورس و فرابورس | کارگزاری فدک',
+    description: 'خدمات تخصصی پذیرش شرکت‌ها در بورس و فرابورس، تدوین امیدنامه، اصلاح ساختار مالی و پیگیری فرآیند پذیرش توسط کارگزاری فدک.',
     alternates: {
         canonical: "/admissions-counseling",
     }

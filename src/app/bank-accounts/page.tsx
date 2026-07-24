@@ -5,7 +5,7 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: 'شماره حساب ها',
+    title: 'شماره حساب ها کارگزاری فدک',
     description: '',
     alternates: {
         canonical: "/bank-accounts",
