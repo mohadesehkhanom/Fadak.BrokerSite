@@ -37,9 +37,9 @@ export default function SectionNavbarMenu() {
                                 <NavDropdown.Item className="custom-nav-item" href="https://fadak.ebgo.ir/Login">بورس کالا</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link className="nav-item" href="/derivative">مشتقه</Nav.Link>
-                            <Nav.Link className="nav-item" href="/Credit">اعتبار</Nav.Link>
+                            <Nav.Link className="nav-item" href="/trading-credit">اعتبار</Nav.Link>
                             <NavDropdown title="درباره فدک">
-                                <NavDropdown.Item className="custom-nav-item" href="/brokerage-branch">شعب و دفاتر</NavDropdown.Item>
+                                <NavDropdown.Item className="custom-nav-item" href="/branches">شعب و دفاتر</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/bank-accounts">شماره حساب‌ها</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/principles">اصول و اعتقادات حرفه‌ای</NavDropdown.Item>
                                 <NavDropdown.Item className="custom-nav-item" href="/about">درباره ما </NavDropdown.Item>
