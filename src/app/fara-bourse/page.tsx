@@ -1,20 +1,17 @@
 import SectionNavbarMenu from "@/section/SectionHeader/SectionNavbarMenu";
 import SectionOrganization from "@/section/SectionOrganization/SectionOrganization";
 import SectionFooter from "@/section/SectionFooter/SectionFooter";
-import SectionServices from "@/section/SectionServices/SectionServices";
 import {Metadata} from "next";
+import SectionFaraBourse from "@/section/SectionFaraBourse/SectionFaraBourse";
+import SectionFaraBourseTimeLine from "@/section/SectionFaraBourseTimeLine/SectionFaraBourseTimeLine";
+
 
 export const metadata: Metadata = {
-    title: "اعتبار",
+    title: "فرابورس",
     description: '',
-    icons: {
-        icon: [
-            { url: "/fav96.png", sizes: "96x96", type: "image/png" },
-        ],
-        apple: [
-            { url: "/fav192.png", sizes: "192x192", type: "image/png" },
-        ],
-    },
+    alternates: {
+        canonical: "/fara-bourse",
+    }
 };
 
 export default function ServicesPage() {
@@ -22,8 +19,8 @@ export default function ServicesPage() {
     return (
         <>
             <SectionNavbarMenu/>
-
-            <SectionServices/>
+            <SectionFaraBourse/>
+            <SectionFaraBourseTimeLine/>
             <SectionOrganization/>
             <SectionFooter/>
         </>

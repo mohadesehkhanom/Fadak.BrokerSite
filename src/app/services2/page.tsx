@@ -4,7 +4,7 @@ import SectionFooter from "@/section/SectionFooter/SectionFooter";
 import {redirect} from "next/navigation";
 
 export default function ServicesPage() {
-    redirect("/Services");
+    redirect("/services");
 
 
     return (

@@ -1,30 +1,31 @@
 import SectionNavbarMenu from "@/section/SectionHeader/SectionNavbarMenu";
-// import SectionBeginInvestment from "@/section/SectionBeginInvestment/SectionBeginInvestment";
-// import SectionCapitalMarketServices from "@/section/SectionCapitalMarketServices/SectionCapitalMarketServices";
-// import SectionFooter from "@/section/SectionFooter/SectionFooter";
-// import SectionOrganization from "@/section/SectionOrganization/SectionOrganization";
-// import SectionServiceOfferings from "@/section/SectionServiceOfferings/SectionServiceOfferings";
-// import SectionTrading from "@/section/SectionTrading/SectionTrading";
 import {Metadata} from "next";
-import {redirect} from "next/navigation";
+import SectionBeginInvestment2 from "@/section/SectionBeginInvestment2/SectionBeginInvestment2";
+import SectionServiceOfferings from "@/section/SectionServiceOfferings/SectionServiceOfferings";
+import SectionCapitalMarketServices from "@/section/SectionCapitalMarketServices/SectionCapitalMarketServices";
+import SectionTrading from "@/section/SectionTrading/SectionTrading";
+import SectionOrganization from "@/section/SectionOrganization/SectionOrganization";
+import SectionFooter from "@/section/SectionFooter/SectionFooter";
 
 export const metadata: Metadata = {
-    title: 'کارگزاری فدک',
-    description: 'Learn more about our company',
+    title: "کارگزاری فدک | معاملات آنلاین بورس، مشتقه و بورس کالا",
+    description: '',
+    alternates: {
+        canonical: "",
+    }
 };
 
-export default function Home() {
-    redirect("/home");
 
+export default function Home() {
     return (
         <>
             <SectionNavbarMenu/>
-            {/*<SectionBeginInvestment/>*/}
-            {/*<SectionServiceOfferings/>*/}
-            {/*<SectionCapitalMarketServices/>*/}
-            {/*<SectionTrading/>*/}
-            {/*<SectionOrganization/>*/}
-            {/*<SectionFooter/>*/}
+            <SectionBeginInvestment2/>
+            <SectionServiceOfferings/>
+            <SectionCapitalMarketServices/>
+            <SectionTrading/>
+            <SectionOrganization/>
+            <SectionFooter/>
         </>
     );
 }

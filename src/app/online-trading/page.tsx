@@ -1,15 +1,15 @@
-import SectionFooter from "@/section/SectionFooter/SectionFooter";
-import SectionOrganization from "@/section/SectionOrganization/SectionOrganization";
 import SectionNavbarMenu from "@/section/SectionHeader/SectionNavbarMenu";
-import SectionMarketMaking from "@/section/SectionMarketMaking/SectionMarketMaking";
+import SectionOrganization from "@/section/SectionOrganization/SectionOrganization";
+import SectionFooter from "@/section/SectionFooter/SectionFooter";
+import SectionOnlineTrading from "@/section/SectionOnlineTrading/SectionOnlineTrading";
 import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: "بازار گردانی",
+    title: "معاملات آنلاین",
     description: '',
     alternates: {
-        canonical: "/market-making",
+        canonical: "/online-trading",
     }
 };
 
@@ -18,10 +18,9 @@ export default function Page() {
     return (
         <>
             <SectionNavbarMenu/>
-            <SectionMarketMaking/>
+            <SectionOnlineTrading/>
             <SectionOrganization/>
             <SectionFooter/>
         </>
-
     );
 }

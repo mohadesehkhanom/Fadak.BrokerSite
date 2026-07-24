@@ -8,6 +8,9 @@ import {Metadata} from "next";
 export const metadata: Metadata = {
     title: 'مشتقه',
     description: '',
+    alternates: {
+        canonical: "/derivative",
+    }
 };
 
 export default function Page() {
