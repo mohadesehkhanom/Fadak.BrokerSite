@@ -142,7 +142,7 @@ export default function SectionFaq() {
                                 className="mb-0"
                                 justify>
                                 <Tab eventKey="energy" title="پذیرش و ثبت نام "/>
-                                <Tab eventKey="registration" title="اواراق بهادر"/>
+                                <Tab eventKey="registration" title="اوراق بهادار"/>
                                 <Tab eventKey="goods" title="مشتقه (اختیار معامله)"/>
                                 <Tab eventKey="funds" title="بورس کالا و انرژی"/>
                             </Tabs>
